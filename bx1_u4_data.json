@@ -1,0 +1,954 @@
+[
+  {
+    "word": "skip",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/skɪp/",
+    "partOfSpeech": "vt. & vi.",
+    "translation": "跳过；略过；不做（应做的事）",
+    "source": "Welcome to the unit",
+    "sub_section": "Welcome to the unit",
+    "original_sentence": "Carol often skips breakfast.",
+    "readingExamples": [
+      "Carol often skips breakfast."
+    ]
+  },
+  {
+    "word": "yogurt",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈjɒɡət/",
+    "partOfSpeech": "n.",
+    "translation": "酸奶",
+    "source": "Welcome to the unit",
+    "sub_section": "Welcome to the unit",
+    "original_sentence": "Tom likes drinking fresh juice and yogurt.",
+    "readingExamples": [
+      "Tom likes drinking fresh juice and yogurt."
+    ]
+  },
+  {
+    "word": "faint",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/feɪnt/",
+    "partOfSpeech": "vi.",
+    "translation": "昏厥，晕倒",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "A teenage girl fainted yesterday at Stonechester High School after skipping meals.",
+    "readingExamples": [
+      "A teenage girl fainted yesterday at Stonechester High School after skipping meals."
+    ]
+  },
+  {
+    "word": "pass out",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "昏迷，晕倒",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "She then passed out in her morning PE lesson and was rushed to hospital.",
+    "readingExamples": [
+      "She then passed out in her morning PE lesson and was rushed to hospital."
+    ]
+  },
+  {
+    "word": "immediately",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ɪˈmiːdiətli/",
+    "partOfSpeech": "adv.",
+    "translation": "立即，马上",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "Jennifer was found to have dangerously low blood sugar levels and was treated immediately.",
+    "readingExamples": [
+      "Jennifer was found to have dangerously low blood sugar levels and was treated immediately."
+    ]
+  },
+  {
+    "word": "concentrate",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈkɒnsntreɪt/",
+    "partOfSpeech": "vi. & vt.",
+    "translation": "集中（注意力）；专心",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "She told me she had trouble concentrating in class.",
+    "readingExamples": [
+      "She told me she had trouble concentrating in class."
+    ]
+  },
+  {
+    "word": "sex",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/seks/",
+    "partOfSpeech": "n.",
+    "translation": "性别",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "Jennifer's case is a reminder of the dangers of the unhealthy weight-loss habits that have become common among teenagers of both sexes.",
+    "readingExamples": [
+      "Jennifer's case is a reminder of the dangers of the unhealthy weight-loss habits that have become common among teenagers of both sexes."
+    ]
+  },
+  {
+    "word": "extreme",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ɪkˈstriːm/",
+    "partOfSpeech": "adj.",
+    "translation": "极端的；极度的",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "In a society where being thin is often seen as being beautiful, teenagers sometimes turn to extreme methods to slim down quickly.",
+    "readingExamples": [
+      "In a society where being thin is often seen as being beautiful, teenagers sometimes turn to extreme methods to slim down quickly."
+    ]
+  },
+  {
+    "word": "slim",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/slɪm/",
+    "partOfSpeech": "adj. & vi.",
+    "translation": "苗条的；微薄的 | vi. 减肥，变苗条",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "Now I know this extreme weight-loss method has serious side effects. I also understand that being healthy and energetic is more important than being slim.",
+    "readingExamples": [
+      "Now I know this extreme weight-loss method has serious side effects. I also understand that being healthy and energetic is more important than being slim."
+    ]
+  },
+  {
+    "word": "slim down",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "变苗条，减肥",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "In a society where being thin is often seen as being beautiful, teenagers sometimes turn to extreme methods to slim down quickly.",
+    "readingExamples": [
+      "In a society where being thin is often seen as being beautiful, teenagers sometimes turn to extreme methods to slim down quickly."
+    ]
+  },
+  {
+    "word": "per cent",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/pə ˈsent/",
+    "partOfSpeech": "n.",
+    "translation": "百分之…",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "Almost one fifth of teenagers regularly skip meals, one in ten over-exercise and four per cent even take weight-loss medicine.",
+    "readingExamples": [
+      "Almost one fifth of teenagers regularly skip meals, one in ten over-exercise and four per cent even take weight-loss medicine."
+    ]
+  },
+  {
+    "word": "concerned",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/kənˈsɜːnd/",
+    "partOfSpeech": "adj.",
+    "translation": "担心的，忧虑的；关注的",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "Health experts are concerned about these figures.",
+    "readingExamples": [
+      "Health experts are concerned about these figures."
+    ]
+  },
+  {
+    "word": "effect",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ɪˈfekt/",
+    "partOfSpeech": "n.",
+    "translation": "影响，作用；效果",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "They are increasing their efforts to educate teenagers about the side effects of losing weight too quickly.",
+    "readingExamples": [
+      "They are increasing their efforts to educate teenagers about the side effects of losing weight too quickly."
+    ]
+  },
+  {
+    "word": "side effect",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "副作用",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "They are increasing their efforts to educate teenagers about the side effects of losing weight too quickly.",
+    "readingExamples": [
+      "They are increasing their efforts to educate teenagers about the side effects of losing weight too quickly."
+    ]
+  },
+  {
+    "word": "prove",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/pruːv/",
+    "partOfSpeech": "vt. & vi.",
+    "translation": "证明，证实；后来被发现是",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "These so-called 'quick-fix methods' prove to be harmful to teenagers.",
+    "readingExamples": [
+      "These so-called 'quick-fix methods' prove to be harmful to teenagers."
+    ]
+  },
+  {
+    "word": "slightly",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈslaɪtli/",
+    "partOfSpeech": "adv.",
+    "translation": "略微，稍微",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "It is normal for teenagers to be slightly overweight and there is no reason why they should be worried.",
+    "readingExamples": [
+      "It is normal for teenagers to be slightly overweight and there is no reason why they should be worried."
+    ]
+  },
+  {
+    "word": "diet",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈdaɪət/",
+    "partOfSpeech": "n.",
+    "translation": "日常饮食；节食",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "She pointed out that it is important to have a healthy balanced diet since teenagers are still growing and their bodies need a lot of nutrition to function well.",
+    "readingExamples": [
+      "She pointed out that it is important to have a healthy balanced diet since teenagers are still growing and their bodies need a lot of nutrition to function well."
+    ]
+  },
+  {
+    "word": "nutrition",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/njuˈtrɪʃn/",
+    "partOfSpeech": "n.",
+    "translation": "营养",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "She pointed out that it is important to have a healthy balanced diet since teenagers are still growing and their bodies need a lot of nutrition to function well.",
+    "readingExamples": [
+      "She pointed out that it is important to have a healthy balanced diet since teenagers are still growing and their bodies need a lot of nutrition to function well."
+    ]
+  },
+  {
+    "word": "function",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈfʌŋkʃn/",
+    "partOfSpeech": "vi. & n.",
+    "translation": "起作用，正常工作；功能",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "She pointed out that it is important to have a healthy balanced diet since teenagers are still growing and their bodies need a lot of nutrition to function well.",
+    "readingExamples": [
+      "She pointed out that it is important to have a healthy balanced diet since teenagers are still growing and their bodies need a lot of nutrition to function well."
+    ]
+  },
+  {
+    "word": "take in",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "摄入，吸收；理解",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "If they do not take in enough food, they may feel weak and get ill easily.",
+    "readingExamples": [
+      "If they do not take in enough food, they may feel weak and get ill easily."
+    ]
+  },
+  {
+    "word": "energetic",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˌenəˈdʒetɪk/",
+    "partOfSpeech": "adj.",
+    "translation": "精力充沛的，充满活力的",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "She added, 'What's more, they should keep regular hours and get plenty of exercise to stay energetic and fit.'",
+    "readingExamples": [
+      "She added, 'What's more, they should keep regular hours and get plenty of exercise to stay energetic and fit.'"
+    ]
+  },
+  {
+    "word": "effective",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ɪˈfektɪv/",
+    "partOfSpeech": "adj.",
+    "translation": "有效的，起作用的",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "We strongly encourage all teenagers to follow these lifestyle tips, because living well is the safest and most effective way to get into shape.",
+    "readingExamples": [
+      "We strongly encourage all teenagers to follow these lifestyle tips, because living well is the safest and most effective way to get into shape."
+    ]
+  },
+  {
+    "word": "get into shape",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "强身健体",
+    "source": "Reading",
+    "sub_section": "Article: Teen faints after skipping meals",
+    "original_sentence": "We strongly encourage all teenagers to follow these lifestyle tips, because living well is the safest and most effective way to get into shape.",
+    "readingExamples": [
+      "We strongly encourage all teenagers to follow these lifestyle tips, because living well is the safest and most effective way to get into shape."
+    ]
+  },
+  {
+    "word": "frightened",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈfraɪtnd/",
+    "partOfSpeech": "adj.",
+    "translation": "害怕的，惊吓的",
+    "source": "Reading",
+    "sub_section": "B1 Building your language",
+    "original_sentence": "I was very frightened when I woke up in hospital last Thursday.",
+    "readingExamples": [
+      "I was very frightened when I woke up in hospital last Thursday."
+    ]
+  },
+  {
+    "word": "within",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/wɪˈðɪn/",
+    "partOfSpeech": "prep.",
+    "translation": "在…之内；不超过",
+    "source": "Reading",
+    "sub_section": "B1 Building your language",
+    "original_sentence": "Fortunately, I was rushed to hospital immediately. The doctor helped me and I made a full recovery within two days.",
+    "readingExamples": [
+      "Fortunately, I was rushed to hospital immediately. The doctor helped me and I made a full recovery within two days."
+    ]
+  },
+  {
+    "word": "rather",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈrɑːðə(r)/",
+    "partOfSpeech": "adv.",
+    "translation": "而是；相当；更确切地说",
+    "source": "Reading",
+    "sub_section": "B1 Building your language",
+    "original_sentence": "From now on, I'll pay more attention to my health rather than my weight.",
+    "readingExamples": [
+      "From now on, I'll pay more attention to my health rather than my weight."
+    ]
+  },
+  {
+    "word": "aspect",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈæspekt/",
+    "partOfSpeech": "n.",
+    "translation": "方面，层面",
+    "source": "Reading",
+    "sub_section": "B1 Building your language",
+    "original_sentence": "Exercising regularly is also an important aspect of a healthy lifestyle.",
+    "readingExamples": [
+      "Exercising regularly is also an important aspect of a healthy lifestyle."
+    ]
+  },
+  {
+    "word": "pressure",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈpreʃə(r)/",
+    "partOfSpeech": "n.",
+    "translation": "压力",
+    "source": "Grammar",
+    "sub_section": "Restrictive relative clauses with relative adverbs",
+    "original_sentence": "One of the reasons why people fail to get a good night's sleep is pressure from school or work.",
+    "readingExamples": [
+      "One of the reasons why people fail to get a good night's sleep is pressure from school or work."
+    ]
+  },
+  {
+    "word": "contribute",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/kənˈtrɪbjuːt/",
+    "partOfSpeech": "vi. & vt.",
+    "translation": "导致；贡献；投稿",
+    "source": "Grammar",
+    "sub_section": "Restrictive relative clauses with relative adverbs",
+    "original_sentence": "Noise pollution and light pollution in big cities may also contribute to sleep problems.",
+    "readingExamples": [
+      "Noise pollution and light pollution in big cities may also contribute to sleep problems."
+    ]
+  },
+  {
+    "word": "contribute to",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "导致；有助于；投稿",
+    "source": "Grammar",
+    "sub_section": "Restrictive relative clauses with relative adverbs",
+    "original_sentence": "Noise pollution and light pollution in big cities may also contribute to sleep problems.",
+    "readingExamples": [
+      "Noise pollution and light pollution in big cities may also contribute to sleep problems."
+    ]
+  },
+  {
+    "word": "in the short/long term",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "从短期/长期来看",
+    "source": "Grammar",
+    "sub_section": "Restrictive relative clauses with relative adverbs",
+    "original_sentence": "In the short term, people with sleep problems often feel tired and have trouble concentrating. In the long term, they may be at increased risk of having a poor memory, being overweight and suffering a heart attack.",
+    "readingExamples": [
+      "In the short term, people with sleep problems often feel tired and have trouble concentrating. In the long term, they may be at increased risk of having a poor memory, being overweight and suffering a heart attack."
+    ]
+  },
+  {
+    "word": "memory",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈmeməri/",
+    "partOfSpeech": "n.",
+    "translation": "记忆力，记性；记忆",
+    "source": "Grammar",
+    "sub_section": "Restrictive relative clauses with relative adverbs",
+    "original_sentence": "In the long term, they may be at increased risk of having a poor memory, being overweight and suffering a heart attack.",
+    "readingExamples": [
+      "In the long term, they may be at increased risk of having a poor memory, being overweight and suffering a heart attack."
+    ]
+  },
+  {
+    "word": "attack",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/əˈtæk/",
+    "partOfSpeech": "n. & vt. & vi.",
+    "translation": "攻击，袭击；(疾病)发作",
+    "source": "Grammar",
+    "sub_section": "Restrictive relative clauses with relative adverbs",
+    "original_sentence": "In the long term, they may be at increased risk of having a poor memory, being overweight and suffering a heart attack.",
+    "readingExamples": [
+      "In the long term, they may be at increased risk of having a poor memory, being overweight and suffering a heart attack."
+    ]
+  },
+  {
+    "word": "amount",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/əˈmaʊnt/",
+    "partOfSpeech": "n.",
+    "translation": "数量",
+    "source": "Grammar",
+    "sub_section": "Restrictive relative clauses with relative adverbs",
+    "original_sentence": "Everyone knows that the amount of quality sleep we get is important to us.",
+    "readingExamples": [
+      "Everyone knows that the amount of quality sleep we get is important to us."
+    ]
+  },
+  {
+    "word": "schedule",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈʃedjuːl/",
+    "partOfSpeech": "n.",
+    "translation": "日程安排，时间表",
+    "source": "Grammar",
+    "sub_section": "Restrictive relative clauses with relative adverbs",
+    "original_sentence": "Try to stick to your sleep schedule at the weekend too, even though weekends are probably the time when you feel like a lie-in.",
+    "readingExamples": [
+      "Try to stick to your sleep schedule at the weekend too, even though weekends are probably the time when you feel like a lie-in."
+    ]
+  },
+  {
+    "word": "negative",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈneɡətɪv/",
+    "partOfSpeech": "adj.",
+    "translation": "消极的，负面的；否定的",
+    "source": "Grammar",
+    "sub_section": "Restrictive relative clauses with relative adverbs",
+    "original_sentence": "These negative thoughts are one reason why you stay awake after the light goes off.",
+    "readingExamples": [
+      "These negative thoughts are one reason why you stay awake after the light goes off."
+    ]
+  },
+  {
+    "word": "plastic",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈplæstɪk/",
+    "partOfSpeech": "n. & adj.",
+    "translation": "塑料 | adj. 塑料制的",
+    "source": "Integrated skills",
+    "sub_section": "Expressing your opinion about plastic surgery",
+    "original_sentence": "A man received plastic surgery at King's Hospital last month to treat burn marks he got one year ago.",
+    "readingExamples": [
+      "A man received plastic surgery at King's Hospital last month to treat burn marks he got one year ago."
+    ]
+  },
+  {
+    "word": "surgery",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈsɜːdʒəri/",
+    "partOfSpeech": "n.",
+    "translation": "外科手术",
+    "source": "Integrated skills",
+    "sub_section": "Expressing your opinion about plastic surgery",
+    "original_sentence": "A woman who has recently had plastic surgery on her face now regrets the decision.",
+    "readingExamples": [
+      "A woman who has recently had plastic surgery on her face now regrets the decision."
+    ]
+  },
+  {
+    "word": "plastic surgery",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "整形手术",
+    "source": "Integrated skills",
+    "sub_section": "Expressing your opinion about plastic surgery",
+    "original_sentence": "A man received plastic surgery at King's Hospital last month to treat burn marks he got one year ago.",
+    "readingExamples": [
+      "A man received plastic surgery at King's Hospital last month to treat burn marks he got one year ago."
+    ]
+  },
+  {
+    "word": "campus",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈkæmpəs/",
+    "partOfSpeech": "n.",
+    "translation": "校园",
+    "source": "Integrated skills",
+    "sub_section": "Expressing your opinion about plastic surgery",
+    "original_sentence": "Last January, Mr Wilson was caught in a horrible campus fire, and his skin was badly burnt.",
+    "readingExamples": [
+      "Last January, Mr Wilson was caught in a horrible campus fire, and his skin was badly burnt."
+    ]
+  },
+  {
+    "word": "treatment",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈtriːtmənt/",
+    "partOfSpeech": "n.",
+    "translation": "治疗；对待；处理",
+    "source": "Integrated skills",
+    "sub_section": "Expressing your opinion about plastic surgery",
+    "original_sentence": "Mr Wilson is very happy with the treatment.",
+    "readingExamples": [
+      "Mr Wilson is very happy with the treatment."
+    ]
+  },
+  {
+    "word": "guy",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ɡaɪ/",
+    "partOfSpeech": "n.",
+    "translation": "家伙，小伙子",
+    "source": "Integrated skills",
+    "sub_section": "Expressing your opinion about plastic surgery",
+    "original_sentence": "\"Now I can go out just like a normal guy!\" he said.",
+    "readingExamples": [
+      "\"Now I can go out just like a normal guy!\" he said."
+    ]
+  },
+  {
+    "word": "addition",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/əˈdɪʃn/",
+    "partOfSpeech": "n.",
+    "translation": "增加，添加；加法",
+    "source": "Integrated skills",
+    "sub_section": "Expressing your opinion about plastic surgery",
+    "original_sentence": "In addition, Miss Edwards says the surgery makes her look unnatural and that she is unable to make certain facial expressions.",
+    "readingExamples": [
+      "In addition, Miss Edwards says the surgery makes her look unnatural and that she is unable to make certain facial expressions."
+    ]
+  },
+  {
+    "word": "in addition",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "此外，另外",
+    "source": "Integrated skills",
+    "sub_section": "Expressing your opinion about plastic surgery",
+    "original_sentence": "In addition, Miss Edwards says the surgery makes her look unnatural and that she is unable to make certain facial expressions.",
+    "readingExamples": [
+      "In addition, Miss Edwards says the surgery makes her look unnatural and that she is unable to make certain facial expressions."
+    ]
+  },
+  {
+    "word": "saying",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈseɪɪŋ/",
+    "partOfSpeech": "n.",
+    "translation": "谚语，格言；说法",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "\"Don't judge a book by its cover,\" the old saying goes.",
+    "readingExamples": [
+      "\"Don't judge a book by its cover,\" the old saying goes."
+    ]
+  },
+  {
+    "word": "hang over",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "笼罩，使忧心忡忡",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "Dark thoughts about your physical appearance can hang over you all the time like a rain cloud.",
+    "readingExamples": [
+      "Dark thoughts about your physical appearance can hang over you all the time like a rain cloud."
+    ]
+  },
+  {
+    "word": "jeans",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/dʒiːnz/",
+    "partOfSpeech": "n.",
+    "translation": "牛仔裤",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "Do I look fat in these jeans?",
+    "readingExamples": [
+      "Do I look fat in these jeans?"
+    ]
+  },
+  {
+    "word": "male",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/meɪl/",
+    "partOfSpeech": "adj. & n.",
+    "translation": "男性的 | n. 男性",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "These thoughts can have a negative effect on people of any shape or size, both male and female.",
+    "readingExamples": [
+      "These thoughts can have a negative effect on people of any shape or size, both male and female."
+    ]
+  },
+  {
+    "word": "female",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈfiːmeɪl/",
+    "partOfSpeech": "adj. & n.",
+    "translation": "女性的 | n. 女性",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "These thoughts can have a negative effect on people of any shape or size, both male and female.",
+    "readingExamples": [
+      "These thoughts can have a negative effect on people of any shape or size, both male and female."
+    ]
+  },
+  {
+    "word": "guard against",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "防范，提防",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "It is important to guard against the causes behind them.",
+    "readingExamples": [
+      "It is important to guard against the causes behind them."
+    ]
+  },
+  {
+    "word": "beauty",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈbjuːti/",
+    "partOfSpeech": "n.",
+    "translation": "美，美丽；美人",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "Standards of beauty in the media can have a big influence on what you think of your physical appearance.",
+    "readingExamples": [
+      "Standards of beauty in the media can have a big influence on what you think of your physical appearance."
+    ]
+  },
+  {
+    "word": "fight a losing battle",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "打一场无望取胜的仗",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "Teens who try to copy the looks of their favourite stars are fighting a losing battle—these standards are simply impossible for most of the population to live up to.",
+    "readingExamples": [
+      "Teens who try to copy the looks of their favourite stars are fighting a losing battle—these standards are simply impossible for most of the population to live up to."
+    ]
+  },
+  {
+    "word": "live up to",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "达到，符合，不辜负",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "Teens who try to copy the looks of their favourite stars are fighting a losing battle—these standards are simply impossible for most of the population to live up to.",
+    "readingExamples": [
+      "Teens who try to copy the looks of their favourite stars are fighting a losing battle—these standards are simply impossible for most of the population to live up to."
+    ]
+  },
+  {
+    "word": "end up",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "最终成为，最终处于",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "They will only end up feeling worse about themselves.",
+    "readingExamples": [
+      "They will only end up feeling worse about themselves."
+    ]
+  },
+  {
+    "word": "fashion",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈfæʃn/",
+    "partOfSpeech": "n.",
+    "translation": "时尚，时装；流行款式",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "If you have friends who are good-looking or have a great fashion sense, it can feel like you are living in their shadow.",
+    "readingExamples": [
+      "If you have friends who are good-looking or have a great fashion sense, it can feel like you are living in their shadow."
+    ]
+  },
+  {
+    "word": "shadow",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈʃædəʊ/",
+    "partOfSpeech": "n.",
+    "translation": "阴影，影子",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "If you have friends who are good-looking or have a great fashion sense, it can feel like you are living in their shadow.",
+    "readingExamples": [
+      "If you have friends who are good-looking or have a great fashion sense, it can feel like you are living in their shadow."
+    ]
+  },
+  {
+    "word": "digital",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈdɪdʒɪtl/",
+    "partOfSpeech": "adj.",
+    "translation": "数字的；数码的",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "For children of the digital age, social media makes this problem even worse.",
+    "readingExamples": [
+      "For children of the digital age, social media makes this problem even worse."
+    ]
+  },
+  {
+    "word": "series",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈsɪəriːz/",
+    "partOfSpeech": "n.",
+    "translation": "一系列，连续",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "Your friends may post a never-ending series of photos online to show off their beautiful dresses or strong bodies.",
+    "readingExamples": [
+      "Your friends may post a never-ending series of photos online to show off their beautiful dresses or strong bodies."
+    ]
+  },
+  {
+    "word": "show off",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "炫耀，卖弄",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "Your friends may post a never-ending series of photos online to show off their beautiful dresses or strong bodies.",
+    "readingExamples": [
+      "Your friends may post a never-ending series of photos online to show off their beautiful dresses or strong bodies."
+    ]
+  },
+  {
+    "word": "external",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ɪkˈstɜːnl/",
+    "partOfSpeech": "adj.",
+    "translation": "外部的，外面的",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "These external influences are always present, but there are certainly ways to deal with them.",
+    "readingExamples": [
+      "These external influences are always present, but there are certainly ways to deal with them."
+    ]
+  },
+  {
+    "word": "strength",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/streŋθ/",
+    "partOfSpeech": "n.",
+    "translation": "优势，长处；力量，力气",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "Focusing on your strengths also helps you build your confidence.",
+    "readingExamples": [
+      "Focusing on your strengths also helps you build your confidence."
+    ]
+  },
+  {
+    "word": "talent",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈtælənt/",
+    "partOfSpeech": "n.",
+    "translation": "天资，天赋；人才",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "Everyone has their own talents—you may be good at painting or playing the piano.",
+    "readingExamples": [
+      "Everyone has their own talents—you may be good at painting or playing the piano."
+    ]
+  },
+  {
+    "word": "piano",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/piˈænəʊ/",
+    "partOfSpeech": "n.",
+    "translation": "钢琴",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "Everyone has their own talents—you may be good at painting or playing the piano.",
+    "readingExamples": [
+      "Everyone has their own talents—you may be good at painting or playing the piano."
+    ]
+  },
+  {
+    "word": "take pride in",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "为…自豪，对…感到骄傲",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "Take pride in things you do well instead of worrying about things you cannot change.",
+    "readingExamples": [
+      "Take pride in things you do well instead of worrying about things you cannot change."
+    ]
+  },
+  {
+    "word": "content",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˈkɒntent/",
+    "partOfSpeech": "n.",
+    "translation": "内容；含量",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "However, like a book, your contents are much more important than your cover.",
+    "readingExamples": [
+      "However, like a book, your contents are much more important than your cover."
+    ]
+  },
+  {
+    "word": "individuality",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/ˌɪndɪˌvɪdʒuˈæləti/",
+    "partOfSpeech": "n.",
+    "translation": "个性，个人特征",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "If you can learn to see the good things about yourself—your individuality, your value to others, your achievements—you will soon begin to love yourself just the way you are.",
+    "readingExamples": [
+      "If you can learn to see the good things about yourself—your individuality, your value to others, your achievements—you will soon begin to love yourself just the way you are."
+    ]
+  },
+  {
+    "word": "achievement",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/əˈtʃiːvmənt/",
+    "partOfSpeech": "n.",
+    "translation": "成就，成绩；达到",
+    "source": "Extended reading",
+    "sub_section": "Article: Don't judge a book by its cover",
+    "original_sentence": "If you can learn to see the good things about yourself—your individuality, your value to others, your achievements—you will soon begin to love yourself just the way you are.",
+    "readingExamples": [
+      "If you can learn to see the good things about yourself—your individuality, your value to others, your achievements—you will soon begin to love yourself just the way you are."
+    ]
+  },
+  {
+    "word": "app",
+    "textbook": "必修一",
+    "unit": "Unit 4",
+    "pronunciation": "/æp/",
+    "partOfSpeech": "n.",
+    "translation": "应用程序",
+    "source": "Project",
+    "sub_section": "Designing an app about a healthy lifestyle",
+    "original_sentence": "Our app is called 'Easy Healthy Eating'. Its purpose is to help people eat healthily by making all aspects of planning meals easier.",
+    "readingExamples": [
+      "Our app is called 'Easy Healthy Eating'. Its purpose is to help people eat healthily by making all aspects of planning meals easier."
+    ]
+  }
+]

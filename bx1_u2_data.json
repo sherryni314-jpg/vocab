@@ -1,0 +1,926 @@
+[
+  {
+    "word": "nest",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/nest/",
+    "partOfSpeech": "n.",
+    "translation": "鸟窝；巢穴，窝",
+    "source": "Welcome to the unit",
+    "sub_section": "Welcome to the unit",
+    "original_sentence": "Until her baby's old enough to leave the nest.",
+    "readingExamples": [
+      "Until her baby's old enough to leave the nest."
+    ]
+  },
+  {
+    "word": "roof",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ruːf/",
+    "partOfSpeech": "n.",
+    "translation": "屋顶，顶部",
+    "source": "Reading",
+    "sub_section": "Pre-reading",
+    "original_sentence": "What do you think \"strangers under the same roof\" means?",
+    "readingExamples": [
+      "What do you think \"strangers under the same roof\" means?"
+    ]
+  },
+  {
+    "word": "battle",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈbætl/",
+    "partOfSpeech": "n. & vt. & vi.",
+    "translation": "争论；战斗，搏斗；斗争",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "Does every dinner with your parents seem to turn into a battle?",
+    "readingExamples": [
+      "Does every dinner with your parents seem to turn into a battle?"
+    ]
+  },
+  {
+    "word": "see eye to eye with sb (on sth)",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "在某事上与人看法一致",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "Do you feel that you just cannot see eye to eye with them on anything?",
+    "readingExamples": [
+      "Do you feel that you just cannot see eye to eye with them on anything?"
+    ]
+  },
+  {
+    "word": "argument",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈɑːɡjumənt/",
+    "partOfSpeech": "n.",
+    "translation": "争吵，争论；论点",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "Heated arguments and cold silences are common between teenagers and their parents.",
+    "readingExamples": [
+      "Heated arguments and cold silences are common between teenagers and their parents."
+    ]
+  },
+  {
+    "word": "teenager",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈtiːneɪdʒə(r)/",
+    "partOfSpeech": "n.",
+    "translation": "青少年",
+    "source": "Reading",
+    "sub_section": "Pre-reading",
+    "original_sentence": "What physical and mental changes do you experience as you become a teenager?",
+    "readingExamples": [
+      "What physical and mental changes do you experience as you become a teenager?"
+    ]
+  },
+  {
+    "word": "tension",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈtenʃn/",
+    "partOfSpeech": "n.",
+    "translation": "紧张关系；紧张；拉伸",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "Teenagers' physical changes may result in such family tensions.",
+    "readingExamples": [
+      "Teenagers' physical changes may result in such family tensions."
+    ]
+  },
+  {
+    "word": "anxious",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈæŋkʃəs/",
+    "partOfSpeech": "adj.",
+    "translation": "忧虑的，担心的；令人焦虑的；渴望的",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "You may feel anxious that you are developing at a different rate to your friends, shooting up in height or getting left far behind.",
+    "readingExamples": [
+      "You may feel anxious that you are developing at a different rate to your friends, shooting up in height or getting left far behind."
+    ]
+  },
+  {
+    "word": "rate",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/reɪt/",
+    "partOfSpeech": "n. & vi. & vt.",
+    "translation": "速度；率；(评价，评估)",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "You may feel anxious that you are developing at a different rate to your friends, shooting up in height or getting left far behind.",
+    "readingExamples": [
+      "You may feel anxious that you are developing at a different rate to your friends, shooting up in height or getting left far behind."
+    ]
+  },
+  {
+    "word": "shoot",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ʃuːt/",
+    "partOfSpeech": "vi. & vt.",
+    "translation": "(使朝某方向)冲，奔；射击；射杀；摄影",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "You may feel anxious that you are developing at a different rate to your friends, shooting up in height or getting left far behind.",
+    "readingExamples": [
+      "You may feel anxious that you are developing at a different rate to your friends, shooting up in height or getting left far behind."
+    ]
+  },
+  {
+    "word": "shoot up",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "快速长高，蹿个儿",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "You may feel anxious that you are developing at a different rate to your friends, shooting up in height or getting left far behind.",
+    "readingExamples": [
+      "You may feel anxious that you are developing at a different rate to your friends, shooting up in height or getting left far behind."
+    ]
+  },
+  {
+    "word": "spot",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/spɒt/",
+    "partOfSpeech": "n.",
+    "translation": "粉刺；斑点；污渍；地点，场所",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "You might worry about your changing voice, weight problems or spots.",
+    "readingExamples": [
+      "You might worry about your changing voice, weight problems or spots."
+    ]
+  },
+  {
+    "word": "target",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈtɑːɡɪt/",
+    "partOfSpeech": "n. & vt.",
+    "translation": "(攻击的)目标，对象；靶子；把…作为攻击目标；面向",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "When it all gets too much, your parents are often the first targets of your anger.",
+    "readingExamples": [
+      "When it all gets too much, your parents are often the first targets of your anger."
+    ]
+  },
+  {
+    "word": "anger",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈæŋɡə(r)/",
+    "partOfSpeech": "n.",
+    "translation": "怒气，怒火",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "When it all gets too much, your parents are often the first targets of your anger.",
+    "readingExamples": [
+      "When it all gets too much, your parents are often the first targets of your anger."
+    ]
+  },
+  {
+    "word": "mental",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈmentl/",
+    "partOfSpeech": "adj.",
+    "translation": "思想的，精神的，智力的",
+    "source": "Reading",
+    "sub_section": "Pre-reading",
+    "original_sentence": "What physical and mental changes do you experience as you become a teenager?",
+    "readingExamples": [
+      "What physical and mental changes do you experience as you become a teenager?"
+    ]
+  },
+  {
+    "word": "adult",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈædʌlt/",
+    "partOfSpeech": "n.",
+    "translation": "成年人",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "You enter a strange middle ground – you are no longer a small child but not quite an adult.",
+    "readingExamples": [
+      "You enter a strange middle ground – you are no longer a small child but not quite an adult."
+    ]
+  },
+  {
+    "word": "desire",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/dɪˈzaɪə(r)/",
+    "partOfSpeech": "n. & vt.",
+    "translation": "渴望，希望",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "You have a strong desire for independence and you want to be trusted.",
+    "readingExamples": [
+      "You have a strong desire for independence and you want to be trusted."
+    ]
+  },
+  {
+    "word": "struggle",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈstrʌɡl/",
+    "partOfSpeech": "vi. & n.",
+    "translation": "奋斗；斗争；搏斗",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "Just remember that it is completely normal to struggle with the stress that parent‑child tensions create, and that you and your parents can work together to improve your relationship.",
+    "readingExamples": [
+      "Just remember that it is completely normal to struggle with the stress that parent‑child tensions create, and that you and your parents can work together to improve your relationship."
+    ]
+  },
+  {
+    "word": "rough",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/rʌf/",
+    "partOfSpeech": "adj.",
+    "translation": "艰难的；粗糙的；不确切的",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "On the other hand, when you are struggling to control your feelings, you wish they could be more caring and patient – sometimes they forget that growing up is a rough ride.",
+    "readingExamples": [
+      "On the other hand, when you are struggling to control your feelings, you wish they could be more caring and patient – sometimes they forget that growing up is a rough ride."
+    ]
+  },
+  {
+    "word": "breakdown",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈbreɪkdaʊn/",
+    "partOfSpeech": "n.",
+    "translation": "(关系)破裂；故障",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "All of this can lead to a breakdown in your relationship.",
+    "readingExamples": [
+      "All of this can lead to a breakdown in your relationship."
+    ]
+  },
+  {
+    "word": "regular",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈreɡjələ(r)/",
+    "partOfSpeech": "adj.",
+    "translation": "频繁的；有规律的",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "The key to keeping the peace is regular and honest communication.",
+    "readingExamples": [
+      "The key to keeping the peace is regular and honest communication."
+    ]
+  },
+  {
+    "word": "calm",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/kɑːm/",
+    "partOfSpeech": "vt. & adj.",
+    "translation": "使平静，使镇静；镇静的，沉着的",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "When you disagree with your parents, take a minute to calm down and try to understand the situation from their point of view.",
+    "readingExamples": [
+      "When you disagree with your parents, take a minute to calm down and try to understand the situation from their point of view."
+    ]
+  },
+  {
+    "word": "calm down",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "平静，镇静，安静",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "When you disagree with your parents, take a minute to calm down and try to understand the situation from their point of view.",
+    "readingExamples": [
+      "When you disagree with your parents, take a minute to calm down and try to understand the situation from their point of view."
+    ]
+  },
+  {
+    "word": "view",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/vjuː/",
+    "partOfSpeech": "n. & vt.",
+    "translation": "看法；视线；景色；把…视为；观看",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "When you disagree with your parents, take a minute to calm down and try to understand the situation from their point of view.",
+    "readingExamples": [
+      "When you disagree with your parents, take a minute to calm down and try to understand the situation from their point of view."
+    ]
+  },
+  {
+    "word": "from one's point of view",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "从某人的角度，观点出发",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "When you disagree with your parents, take a minute to calm down and try to understand the situation from their point of view.",
+    "readingExamples": [
+      "When you disagree with your parents, take a minute to calm down and try to understand the situation from their point of view."
+    ]
+  },
+  {
+    "word": "think sth through",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "充分考虑，全盘考虑，想透",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "After you have thought it through, explain your actions and feelings calmly, listen carefully, and address their concerns.",
+    "readingExamples": [
+      "After you have thought it through, explain your actions and feelings calmly, listen carefully, and address their concerns."
+    ]
+  },
+  {
+    "word": "concern",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/kənˈsɜːn/",
+    "partOfSpeech": "n. & vt.",
+    "translation": "担心，忧虑；关心；涉及；让(某人)担忧",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "After you have thought it through, explain your actions and feelings calmly, listen carefully, and address their concerns.",
+    "readingExamples": [
+      "After you have thought it through, explain your actions and feelings calmly, listen carefully, and address their concerns."
+    ]
+  },
+  {
+    "word": "back down",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "承认错误，认输",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "Through this kind of healthy discussion, you will learn when to back down and when to ask your parents to relax their control.",
+    "readingExamples": [
+      "Through this kind of healthy discussion, you will learn when to back down and when to ask your parents to relax their control."
+    ]
+  },
+  {
+    "word": "normal",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈnɔːml/",
+    "partOfSpeech": "adj. & n.",
+    "translation": "正常的，一般的；常态，通常标准",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "Just remember that it is completely normal to struggle with the stress that parent‑child tensions create, and that you and your parents can work together to improve your relationship.",
+    "readingExamples": [
+      "Just remember that it is completely normal to struggle with the stress that parent‑child tensions create, and that you and your parents can work together to improve your relationship."
+    ]
+  },
+  {
+    "word": "stress",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/stres/",
+    "partOfSpeech": "n. & vt.",
+    "translation": "精神压力，紧张；强调，着重",
+    "source": "Reading",
+    "sub_section": "Article: Strangers under the same roof?",
+    "original_sentence": "Just remember that it is completely normal to struggle with the stress that parent‑child tensions create, and that you and your parents can work together to improve your relationship.",
+    "readingExamples": [
+      "Just remember that it is completely normal to struggle with the stress that parent‑child tensions create, and that you and your parents can work together to improve your relationship."
+    ]
+  },
+  {
+    "word": "editor",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈedɪtə(r)/",
+    "partOfSpeech": "n.",
+    "translation": "主编，编辑；剪辑师",
+    "source": "Grammar",
+    "sub_section": "B1 邮件填空",
+    "original_sentence": "Dear Editor, I am writing to ask for advice on my relationship with my teenage son.",
+    "readingExamples": [
+      "Dear Editor, I am writing to ask for advice on my relationship with my teenage son."
+    ]
+  },
+  {
+    "word": "argue",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈɑːɡjuː/",
+    "partOfSpeech": "vi. & vt.",
+    "translation": "争吵，争辩，争论；说理，论证",
+    "source": "Grammar",
+    "sub_section": "B1 邮件填空",
+    "original_sentence": "Recently we have argued with each other a great deal.",
+    "readingExamples": [
+      "Recently we have argued with each other a great deal."
+    ]
+  },
+  {
+    "word": "skin",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/skɪn/",
+    "partOfSpeech": "n.",
+    "translation": "皮肤；(兽)皮，毛皮",
+    "source": "Grammar",
+    "sub_section": "B1 邮件填空",
+    "original_sentence": "He is anxious about his skin because it has started to become very oily, with lots of red spots.",
+    "readingExamples": [
+      "He is anxious about his skin because it has started to become very oily, with lots of red spots."
+    ]
+  },
+  {
+    "word": "design",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/dɪˈzaɪn/",
+    "partOfSpeech": "vt. & n.",
+    "translation": "设计；制订；设计艺术",
+    "source": "Grammar",
+    "sub_section": "A 句子类型探究",
+    "original_sentence": "So, we have designed TeenHealthWeb to help you along the journey to adulthood.",
+    "readingExamples": [
+      "So, we have designed TeenHealthWeb to help you along the journey to adulthood."
+    ]
+  },
+  {
+    "word": "forum",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈfɔːrəm/",
+    "partOfSpeech": "n.",
+    "translation": "论坛，讨论会；公共集会场所",
+    "source": "Grammar",
+    "sub_section": "A 句子类型探究",
+    "original_sentence": "You can visit the \"teen health\" forum on our website instead.",
+    "readingExamples": [
+      "You can visit the \"teen health\" forum on our website instead."
+    ]
+  },
+  {
+    "word": "expert",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈekspɜːt/",
+    "partOfSpeech": "n. & adj.",
+    "translation": "专家，行家；熟练的，内行的，专家的",
+    "source": "Grammar",
+    "sub_section": "A 句子类型探究",
+    "original_sentence": "Users are encouraged to post their problems, and they will get advice from our health experts and other forum users.",
+    "readingExamples": [
+      "Users are encouraged to post their problems, and they will get advice from our health experts and other forum users."
+    ]
+  },
+  {
+    "word": "likely",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈlaɪkli/",
+    "partOfSpeech": "adj.",
+    "translation": "可能的，预料的，有希望的",
+    "source": "Grammar",
+    "sub_section": "A 句子类型探究",
+    "original_sentence": "It is likely that the matter has already been discussed on our forum.",
+    "readingExamples": [
+      "It is likely that the matter has already been discussed on our forum."
+    ]
+  },
+  {
+    "word": "unique",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/juˈniːk/",
+    "partOfSpeech": "adj.",
+    "translation": "独一无二的；独特的；独具的，特有的",
+    "source": "Grammar",
+    "sub_section": "B2 对话填空",
+    "original_sentence": "Everyone is unique.",
+    "readingExamples": [
+      "Everyone is unique."
+    ]
+  },
+  {
+    "word": "passive",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈpæsɪv/",
+    "partOfSpeech": "adj.",
+    "translation": "消极的，被动的",
+    "source": "Grammar",
+    "sub_section": "B2 对话填空",
+    "original_sentence": "Don't take a passive role in the relationship.",
+    "readingExamples": [
+      "Don't take a passive role in the relationship."
+    ]
+  },
+  {
+    "word": "performance",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/pəˈfɔːməns/",
+    "partOfSpeech": "n.",
+    "translation": "表现；表演；执行，履行",
+    "source": "Grammar",
+    "sub_section": "B2 对话填空",
+    "original_sentence": "Right now, it's just making you anxious and having a bad influence on your performance.",
+    "readingExamples": [
+      "Right now, it's just making you anxious and having a bad influence on your performance."
+    ]
+  },
+  {
+    "word": "cheer up",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "(使)变得高兴，振奋起来",
+    "source": "Grammar",
+    "sub_section": "B2 对话填空",
+    "original_sentence": "Jack: Cheer up, Teresa.",
+    "readingExamples": [
+      "Jack: Cheer up, Teresa."
+    ]
+  },
+  {
+    "word": "press",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/pres/",
+    "partOfSpeech": "vt. & vi. & n.",
+    "translation": "催促，逼迫；按，压；挤，推；报章杂志，报刊；新闻工作者，新闻界",
+    "source": "Integrated skills",
+    "sub_section": "Part A — 三位青少年的问题",
+    "original_sentence": "When we're at home, she keeps pressing me to study all the time.",
+    "readingExamples": [
+      "When we're at home, she keeps pressing me to study all the time."
+    ]
+  },
+  {
+    "word": "eager",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈiːɡə(r)/",
+    "partOfSpeech": "adj.",
+    "translation": "热切的，渴望的，渴求的",
+    "source": "Integrated skills",
+    "sub_section": "Part A — 三位青少年的问题",
+    "original_sentence": "I'm eager for my parents' love.",
+    "readingExamples": [
+      "I'm eager for my parents' love."
+    ]
+  },
+  {
+    "word": "youth",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/juːθ/",
+    "partOfSpeech": "n.",
+    "translation": "青年时期；青春；(the youth)年轻人",
+    "source": "Integrated skills",
+    "sub_section": "Part A — 三位青少年的问题",
+    "original_sentence": "Everyone says that youth is a time for adventure, but my parents disagree.",
+    "readingExamples": [
+      "Everyone says that youth is a time for adventure, but my parents disagree."
+    ]
+  },
+  {
+    "word": "adventure",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ədˈventʃə(r)/",
+    "partOfSpeech": "n.",
+    "translation": "冒险，冒险经历，奇遇",
+    "source": "Integrated skills",
+    "sub_section": "Part A — 三位青少年的问题",
+    "original_sentence": "Everyone says that youth is a time for adventure, but my parents disagree.",
+    "readingExamples": [
+      "Everyone says that youth is a time for adventure, but my parents disagree."
+    ]
+  },
+  {
+    "word": "be on sb's back about sth",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "缠磨，烦扰",
+    "source": "Integrated skills",
+    "sub_section": "Part A — 三位青少年的问题",
+    "original_sentence": "' They're always on my back about something.",
+    "readingExamples": [
+      "' They're always on my back about something."
+    ]
+  },
+  {
+    "word": "kangaroo",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˌkæŋɡəˈruː/",
+    "partOfSpeech": "n.",
+    "translation": "袋鼠",
+    "source": "Integrated skills",
+    "sub_section": "Part A — 三位青少年的问题",
+    "original_sentence": "However, just as a baby kangaroo must learn to protect itself when it leaves its mother's pocket, I will have to learn to protect myself when I grow up.",
+    "readingExamples": [
+      "However, just as a baby kangaroo must learn to protect itself when it leaves its mother's pocket, I will have to learn to protect myself when I grow up."
+    ]
+  },
+  {
+    "word": "flexible",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈfleksəbl/",
+    "partOfSpeech": "adj.",
+    "translation": "灵活的，可变动的；柔韧的",
+    "source": "Integrated skills",
+    "sub_section": "Part A — 三位青少年的问题",
+    "original_sentence": "I wish they could be more flexible so that I can make my own choices about what to do in my spare time.",
+    "readingExamples": [
+      "I wish they could be more flexible so that I can make my own choices about what to do in my spare time."
+    ]
+  },
+  {
+    "word": "account",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/əˈkaʊnt/",
+    "partOfSpeech": "n. & vt.",
+    "translation": "账户；描述；解释；认为是，视为",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "Mama and Her Bank Account Every Saturday night Mama would sit down by the kitchen table and count out the money Papa had brought home.",
+    "readingExamples": [
+      "Mama and Her Bank Account Every Saturday night Mama would sit down by the kitchen table and count out the money Papa had brought home."
+    ]
+  },
+  {
+    "word": "rent",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/rent/",
+    "partOfSpeech": "n. & vi. & vt.",
+    "translation": "租金；租用；出租",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "\"For the rent.\" Mama would count out the big silver pieces.",
+    "readingExamples": [
+      "\"For the rent.\" Mama would count out the big silver pieces."
+    ]
+  },
+  {
+    "word": "grocery",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈɡrəʊsəri/",
+    "partOfSpeech": "n.",
+    "translation": "食品杂货；食品杂货店",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "\"I will work in Dillon's grocery after school,\" Nels volunteered.",
+    "readingExamples": [
+      "\"I will work in Dillon's grocery after school,\" Nels volunteered."
+    ]
+  },
+  {
+    "word": "secure",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/sɪˈkjʊə(r)/",
+    "partOfSpeech": "adj.",
+    "translation": "安心的；可靠的；牢固的",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "It gave us such a warm, secure feeling.",
+    "readingExamples": [
+      "It gave us such a warm, secure feeling."
+    ]
+  },
+  {
+    "word": "graduate",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈɡrædʒuət/",
+    "partOfSpeech": "vi. & vt. & n.",
+    "translation": "毕业；毕业生",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "When Nels graduated from grammar school, he wanted to go on to high school.",
+    "readingExamples": [
+      "When Nels graduated from grammar school, he wanted to go on to high school."
+    ]
+  },
+  {
+    "word": "gather",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈɡæðə(r)/",
+    "partOfSpeech": "vi. & vt.",
+    "translation": "聚集，集合；收拢；搜集，收集；聚集",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "Eagerly we gathered around the table.",
+    "readingExamples": [
+      "Eagerly we gathered around the table."
+    ]
+  },
+  {
+    "word": "emergency",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ɪˈmɜːdʒənsi/",
+    "partOfSpeech": "n.",
+    "translation": "突发事件，紧急情况",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "It was used for sudden emergencies, such as the time when Christine broke her arm and had to be taken to a doctor.",
+    "readingExamples": [
+      "It was used for sudden emergencies, such as the time when Christine broke her arm and had to be taken to a doctor."
+    ]
+  },
+  {
+    "word": "volunteer",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˌvɒlənˈtɪə(r)/",
+    "partOfSpeech": "vt. & vi. & n.",
+    "translation": "主动建议(或告诉)；自愿做，义务做；志愿者",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "\"I will work in Dillon's grocery after school,\" Nels volunteered.",
+    "readingExamples": [
+      "\"I will work in Dillon's grocery after school,\" Nels volunteered."
+    ]
+  },
+  {
+    "word": "pipe",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/paɪp/",
+    "partOfSpeech": "n.",
+    "translation": "烟斗；管子；管乐器",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "Then he took his pipe out of his mouth and looked at it for a long time.",
+    "readingExamples": [
+      "Then he took his pipe out of his mouth and looked at it for a long time."
+    ]
+  },
+  {
+    "word": "figure",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈfɪɡə(r)/",
+    "partOfSpeech": "n.",
+    "translation": "数字；人物；体形，身材",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "Then she wrote down another figure.",
+    "readingExamples": [
+      "Then she wrote down another figure."
+    ]
+  },
+  {
+    "word": "downtown",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˌdaʊnˈtaʊn/",
+    "partOfSpeech": "adv.",
+    "translation": "在市中心，往市中心",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "We all felt very good because we did not have to go downtown and draw money out of Mama's Bank Account.",
+    "readingExamples": [
+      "We all felt very good because we did not have to go downtown and draw money out of Mama's Bank Account."
+    ]
+  },
+  {
+    "word": "draw sth out of sth",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": null,
+    "partOfSpeech": "phr.",
+    "translation": "提取，支取",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "We all felt very good because we did not have to go downtown and draw money out of Mama's Bank Account.",
+    "readingExamples": [
+      "We all felt very good because we did not have to go downtown and draw money out of Mama's Bank Account."
+    ]
+  },
+  {
+    "word": "operation",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˌɒpəˈreɪʃn/",
+    "partOfSpeech": "n.",
+    "translation": "手术；运转，操作",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "So many things came out of the Little Bank that year: Christine's dress for the school play, my little sister Dagmar's operation ...",
+    "readingExamples": [
+      "So many things came out of the Little Bank that year: Christine's dress for the school play, my little sister Dagmar's operation ..."
+    ]
+  },
+  {
+    "word": "lap",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/læp/",
+    "partOfSpeech": "n.",
+    "translation": "大腿部",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "When the check came, I hurried over to Mama's and put it in her lap.",
+    "readingExamples": [
+      "When the check came, I hurried over to Mama's and put it in her lap."
+    ]
+  },
+  {
+    "word": "teller",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/ˈtelə(r)/",
+    "partOfSpeech": "n.",
+    "translation": "出纳员；叙述者",
+    "source": "Extended reading",
+    "sub_section": "Extended reading",
+    "original_sentence": "Just hand it to the teller.",
+    "readingExamples": [
+      "Just hand it to the teller."
+    ]
+  },
+  {
+    "word": "scene",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/siːn/",
+    "partOfSpeech": "n.",
+    "translation": "(戏剧等)场；场面，片段；地点，现场；景象，风光",
+    "source": "Project",
+    "sub_section": "C 短剧示例与表演",
+    "original_sentence": "Act 1, Scene 1 Friday evening.",
+    "readingExamples": [
+      "Act 1, Scene 1 Friday evening."
+    ]
+  },
+  {
+    "word": "flat",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/flæt/",
+    "partOfSpeech": "n. & adj.",
+    "translation": "公寓；平坦的；瘪了的",
+    "source": "Project",
+    "sub_section": "C 短剧示例与表演",
+    "original_sentence": "The living room of a flat.",
+    "readingExamples": [
+      "The living room of a flat."
+    ]
+  },
+  {
+    "word": "response",
+    "textbook": "必修一",
+    "unit": "Unit 2",
+    "pronunciation": "/rɪˈspɒns/",
+    "partOfSpeech": "n.",
+    "translation": "回复；反应，响应",
+    "source": "Project",
+    "sub_section": "C 短剧示例与表演",
+    "original_sentence": "He waits for a response but doesn't get one.",
+    "readingExamples": [
+      "He waits for a response but doesn't get one."
+    ]
+  }
+]
