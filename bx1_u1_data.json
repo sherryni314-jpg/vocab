@@ -233,24 +233,140 @@
     "partOfSpeech": "adj. & n.",
     "translation": "adj. 中学的（招收11或13岁以上学生）；级别高的；高级水平的；老年的 | n. 级别（或地位）较高者；较…年长的人；高水平运动员",
     "source": "Reading",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) adj. high in rank or status, or higher in rank than someone else\n(2) adj. relating to or intended for older students, especially those at the later stage of secondary school\n(3) adj. (of people) old; having reached the later years of life\n(4) n. someone who is older or higher in rank than someone else; (AmE) a student in the final year of high school or college",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（美国）高中或大学的毕业班学生",
+        "example": "As a senior facing the college application season, Jason found himself flipping through the yearbook late at night, wondering where the four years had quietly slipped away. （读后续写·毕业季·时光感慨）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（置于同名父子中父亲的名字后）老…，大…（缩写 Sr.）",
+        "example": "The faded sign above the workshop door still read 'Thomas Baker, Senior' — a name the whole town spoke with respect long after the old carpenter had laid down his tools. （读后续写·小镇人物·两代传承）"
+      }
+    ],
     "readingExamples": [
       "Welcome to senior high school!"
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "On my first day at senior high school, I stood frozen at the gate, clutching my schedule so tightly that the paper crumpled, until a warm voice behind me said, 'Lost? Follow me.' （读后续写·开学第一天·紧张与善意）"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "I am writing to invite you, as a senior engineer with rich hands-on experience, to deliver a lecture on artificial intelligence to the members of our science club next Friday afternoon. （应用文·邀请信）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Respecting our seniors is not merely a matter of politeness; it is a recognition that their experience, accumulated over decades of trial and error, remains a precious resource for the younger generation. （议论文·尊老美德）"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "It is high time that more volunteers visited the local nursing home, for many senior citizens there long not for material comfort but for simple companionship and a patient listener. （议论文·老龄化社会）"
+      }
+    ],
     "wordForms": {
-      "noun": null,
+      "noun": "seniority（资历；年长）",
       "verb": null,
-      "adjective": null,
+      "adjective": "senior",
       "adverb": null,
-      "other": null
+      "other": "senior citizen（老年人）; Sr.（老…，用于父名后）"
     },
-    "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "idioms": [
+      {
+        "idiom": "have a senior moment",
+        "translation": "（幽默）一时健忘，老年失神的瞬间",
+        "example": "Grandpa patted every pocket for the glasses that were perched on his own head, then chuckled, 'Forgive me — just having a senior moment.' （读后续写·祖孙温情·幽默细节）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "senior high school",
+        "translation": "高中",
+        "example": "Entering senior high school means embracing not only harder courses but also greater freedom, which in turn calls for far stronger self-discipline. （议论文·自律主题）"
+      },
+      {
+        "phrase": "senior citizens",
+        "translation": "老年人",
+        "example": "Our volunteer club organizes weekly visits to senior citizens in the neighbourhood, offering them company, small repairs and a patient ear. （应用文·社团活动介绍）"
+      },
+      {
+        "phrase": "a senior position / official / manager",
+        "translation": "高级职位／高级官员／高管",
+        "example": "Years of quiet dedication finally earned her a senior position in the company, yet she never forgot the mentor who had believed in her first. （读后续写·职场励志）"
+      },
+      {
+        "phrase": "senior staff / members",
+        "translation": "资深员工／老成员",
+        "example": "The senior members of the debate team patiently coached the newcomers, passing on techniques they had polished through countless competitions. （应用文·社团招新）"
+      },
+      {
+        "phrase": "one's senior year",
+        "translation": "毕业年级那一年（高三／大四）",
+        "example": "In his senior year, with the college entrance examination looming ever larger, Kevin gradually learned to turn pressure into fuel rather than fear. （读后续写·备考成长）"
+      },
+      {
+        "phrase": "be senior to sb / be sb's senior by ... years",
+        "translation": "职位高于某人；比某人年长…岁",
+        "example": "Although Ms. Lin was ten years my senior, she treated my immature suggestions with a seriousness that instantly won my respect. （读后续写·忘年之交）"
+      },
+      {
+        "phrase": "senior management",
+        "translation": "高层管理人员",
+        "example": "Our proposal to extend the library's opening hours was warmly received by the school's senior management, who promised a trial run next month. （应用文·建议信反馈）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "superior",
+        "translation": "上级；级别更高的",
+        "example": "Before making the final decision, she wisely consulted her immediate superior, whose timely advice saved the project from a costly mistake. （议论文·善于求教）",
+        "usage": "superior 强调等级上的\"上级\"，可作名词指\"上司\"，隐含权力关系；senior 兼指年长与资历深，语气更中性温和"
+      },
+      {
+        "synonym": "elderly",
+        "translation": "上了年纪的（委婉）",
+        "example": "An elderly gentleman on the bus insisted on giving his seat to the exhausted young nurse, saying her night shift had earned it twice over. （读后续写·暖心场面）",
+        "usage": "elderly 是描述老年人的委婉形容词，只指年龄；senior 表\"老年的\"时多用于 senior citizen 等固定说法，另有\"级别高、资深\"义"
+      },
+      {
+        "synonym": "advanced",
+        "translation": "高级的，程度深的",
+        "example": "The school offers advanced courses in programming for students who have already mastered the basics and hunger for greater challenges. （应用文·课程介绍）",
+        "usage": "advanced 指水平、阶段或技术\"高级、领先\"（如 advanced learners）；senior 指人的级别、资历或年龄，不形容技术水平"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·成长感悟",
+        "expression": "It was not until ... that sb. truly understood what it meant to be a senior student",
+        "example": "It was not until I helped a tearful freshman find her classroom that I truly understood what it meant to be a senior student — to pass on the kindness once shown to me. （not until 强调句+破折号点题，续写结尾升华）"
+      },
+      {
+        "type": "应用文·邀请恭维",
+        "expression": "As a senior ... with ... experience, you are undoubtedly the ideal person to ...",
+        "example": "As a senior editor with over a decade of experience, you are undoubtedly the ideal person to judge our English writing contest. （身份+资历恭维式开场，邀请信高分套句）"
+      },
+      {
+        "type": "议论文·观点论证",
+        "expression": "Whether junior or senior, ... share(s) the responsibility of ...",
+        "example": "Whether junior or senior, every member of society shares the responsibility of caring for the environment, for the planet draws no line between generations. （whether 让步结构+拟人收束，扩大论证覆盖面）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "The senior students helped us.",
+        "upgraded": "The senior students did not simply show us around; they walked beside us through every corridor of confusion, turning our nervous first week into a journey of belonging. （读后续写·校园互助）",
+        "techniques": "not simply... 否定引出递进 + 抽象名词具体化(corridor of confusion) + turning 现在分词表结果，化叙述为画面"
+      },
+      {
+        "original": "I am a senior high school student.",
+        "upgraded": "As a senior high school student standing at the crossroads between adolescence and adulthood, I am learning to shoulder responsibilities that once seemed far beyond me. （应用文·自我介绍）",
+        "techniques": "As 介词短语开篇亮明身份 + crossroads 隐喻定位人生阶段 + that 定语从句体现成长弧线"
+      }
+    ],
     "section": "Reading",
     "sub_section": "校长致辞",
     "original_sentence": "Welcome to senior high school!"
@@ -1503,24 +1619,135 @@
     "partOfSpeech": "adj.",
     "translation": "令人大为惊奇的，令人惊喜的",
     "source": "Reading",
-    "definitionEn": "",
+    "definitionEn": "(1) adj. very surprising, especially in a way that makes you feel pleasure or admiration\n(2) adj. extremely good; wonderful\n(3) adj. so unexpected or extraordinary that it is difficult to believe",
     "uncommonMeanings": [],
     "readingExamples": [
       "Who knows what beautiful works of art you will create, what medical advances you will make or what amazing technologies you will develop!"
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "When the curtain finally rose, an amazing scene unfolded before us: hundreds of paper cranes, folded by the whole class in secret, drifted down like snow onto the brightly lit stage. （读后续写·惊喜场面·环境描写）"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "I am delighted to share the amazing news that our school orchestra has been invited to perform at the city concert hall, and I sincerely hope you can come and cheer for us. （应用文·分享喜讯的邮件）"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "It is amazing how a single act of kindness, small as a dropped coin, can set off ripples that travel far beyond anything the giver ever imagines. （议论文·善意的力量）"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "The old craftsman's hands, wrinkled yet perfectly steady, moved with amazing precision, carving lifelike petals out of a plain block of wood while we watched, hardly daring to breathe. （读后续写·匠人技艺·细节描写）"
+      }
+    ],
     "wordForms": {
-      "noun": null,
-      "verb": null,
-      "adjective": null,
-      "adverb": null,
+      "noun": "amazement（惊奇）",
+      "verb": "amaze（使大为惊奇）",
+      "adjective": "amazing / amazed（感到惊奇的）",
+      "adverb": "amazingly",
       "other": null
     },
-    "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "idioms": [
+      {
+        "idiom": "to one's amazement",
+        "translation": "令某人大为惊讶的是",
+        "example": "To my amazement, the shy girl who had barely spoken all term walked straight up to the microphone and delivered the most moving speech of the evening. （读后续写·人物反转）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "an amazing experience",
+        "translation": "一次奇妙的经历",
+        "example": "Volunteering at the sports meeting was an amazing experience that taught me more about teamwork than any textbook ever could. （应用文·活动感悟）"
+      },
+      {
+        "phrase": "it is amazing that / how ...",
+        "translation": "…真是令人惊叹",
+        "example": "It is amazing how quickly the desert blooms after a single night of rain, as if life had been waiting patiently underground all along. （读后续写·自然描写·拟人）"
+      },
+      {
+        "phrase": "absolutely / truly amazing",
+        "translation": "绝对令人惊叹的（amazing 为强义形容词，用 absolutely 而非 very 修饰）",
+        "example": "The view from the mountain top was absolutely amazing: a sea of clouds rolled beneath our feet, dyed gold by the rising sun. （读后续写·登山·景物描写）"
+      },
+      {
+        "phrase": "an amazing achievement",
+        "translation": "了不起的成就",
+        "example": "Winning first prize in the national contest was an amazing achievement for a team that had been founded only six months before. （应用文·校园喜报）"
+      },
+      {
+        "phrase": "an amazing variety / range of",
+        "translation": "种类多得惊人的…",
+        "example": "The new library offers an amazing variety of resources, from ancient maps to virtual-reality science labs, catering to readers of every possible interest. （应用文·宣传稿）"
+      },
+      {
+        "phrase": "find it amazing that ...",
+        "translation": "觉得…令人惊奇",
+        "example": "Foreign visitors often find it amazing that a city so fiercely modern still preserves its centuries-old tea houses in quiet corners. （议论文·传统与现代）"
+      },
+      {
+        "phrase": "watch / stare in amazement",
+        "translation": "惊讶地看着",
+        "example": "The children watched in amazement as the paper dragon, lifted by a hundred pairs of hands, seemed to come alive above the festival crowd. （读后续写·节日场面）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "astonishing",
+        "translation": "令人震惊的",
+        "example": "The results of the experiment were so astonishing that the professor repeated it three times before daring to publish them. （议论文·科学求证）",
+        "usage": "程度比 amazing 更强，含\"几乎难以置信\"之意，且可用于中性或负面消息；amazing 多带赞叹色彩"
+      },
+      {
+        "synonym": "remarkable",
+        "translation": "非凡的，值得注意的",
+        "example": "What is truly remarkable about her progress is that it was achieved not by talent alone but by two hundred early mornings. （议论文·勤奋主题）",
+        "usage": "语气客观正式，议论文中替换 amazing 可提升文体档次；侧重\"值得关注\"而非情绪上的惊喜"
+      },
+      {
+        "synonym": "breathtaking",
+        "translation": "（景色、表演等）令人屏息的",
+        "example": "Standing on the glass bridge, we drank in the breathtaking scenery below, where a silver river threaded its way through folds of green. （读后续写·写景）",
+        "usage": "专指美得让人屏住呼吸的景色、表演或速度，是续写写景的首选；不用于形容消息或成绩"
+      },
+      {
+        "synonym": "incredible",
+        "translation": "难以置信的",
+        "example": "It seemed incredible that the tiny seed we had almost thrown away should grow into the tallest sunflower in the garden. （读后续写·意外之喜）",
+        "usage": "口语色彩较浓，兼指\"好得／怪得难以置信\"，强调超出预期；amazing 更侧重引发赞叹"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·惊喜高潮",
+        "expression": "Nothing could have prepared sb. for the amazing sight that ...",
+        "example": "Nothing could have prepared me for the amazing sight that greeted us at the summit — a rainbow arched clean across the valley, as though the sky itself were celebrating our climb. （否定开篇制造悬念+拟人升华，续写高潮段）"
+      },
+      {
+        "type": "应用文·推荐感谢",
+        "expression": "What makes ... truly amazing is not ... but ...",
+        "example": "What makes this programme truly amazing is not its modern equipment but the patient volunteers who never give up on any learner. （主语从句+not...but 对比强调，推荐信亮点句）"
+      },
+      {
+        "type": "议论文·辩证让步",
+        "expression": "However amazing ... may seem, ...",
+        "example": "However amazing artificial intelligence may seem, it remains a tool whose value ultimately depends on the wisdom of those who wield it. （however 让步从句先扬后抑，引出辩证主旨）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "The performance was amazing.",
+        "upgraded": "So amazing was the performance that the entire audience rose to their feet before the last note had even faded, their applause rolling through the hall like thunder. （读后续写·场面描写）",
+        "techniques": "So...that 倒装强调 + before 时间从句制造节奏感 + 独立主格(their applause rolling) + 明喻(like thunder)"
+      },
+      {
+        "original": "Our school has amazing facilities.",
+        "upgraded": "Equipped with amazing facilities ranging from a digital planetarium to a rooftop garden, our school provides fertile soil in which every student's interest can take root and flourish. （应用文·学校介绍）",
+        "techniques": "Equipped with 过去分词开头 + ranging from...to 列举展开 + 土壤/生根隐喻链(fertile soil, take root, flourish)收束"
+      }
+    ],
     "section": "Reading",
     "sub_section": "校长致辞",
     "original_sentence": "Who knows what beautiful works of art you will create, what medical advances you will make or what amazing technologies you will develop!"
@@ -1838,24 +2065,145 @@
     "partOfSpeech": "n.",
     "translation": "资源；资料；谋略",
     "source": "Reading",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) n. [usually plural] a supply of something valuable, such as land, water, minerals or money, that a country, organization or person can use\n(2) n. something, such as books, equipment or online material, that provides information or help for learning and teaching\n(3) n. [plural] personal qualities, such as courage, imagination and determination, that help you deal with difficult situations\n(4) v. (chiefly BrE) to provide an organization or activity with the money, equipment or staff it needs",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（复数）应变的智谋与内在力量",
+        "example": "Stranded on the mountainside with night closing in, Emma had nothing to rely on but her own inner resources — calm thinking, a pocketknife, and a stubborn refusal to panic. （读后续写·野外遇险·心理描写）"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "为…提供资金（或设备、人员）",
+        "example": "The after-school reading corner, generously resourced by local businesses, has grown from a single bookshelf into a small library that children queue up to enter. （应用文·感谢信/社区报道）"
+      }
+    ],
     "readingExamples": [
       "To fully realize your potential, it is important for you to make the most of our school resources."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The old fisherman taught me that the sea is a generous but limited resource, handing me one small fish and releasing the rest with a gentleness I would never forget. （读后续写·祖辈教诲·动作细节）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "I would like to suggest that our library open its digital resources to all students at weekends, so that those without computers at home will not be left behind. （应用文·建议信）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Time, unlike money or minerals, is a resource that can never be recycled; how we spend our eighteenth year determines, in large part, who we become at eighty. （议论文·珍惜时间）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "No civilization, however advanced its technology, can afford to squander the natural resources on which its very survival depends — a lesson written plainly in the ruins of ancient empires. （议论文·可持续发展）"
+      }
+    ],
     "wordForms": {
-      "noun": null,
-      "verb": null,
-      "adjective": null,
-      "adverb": null,
+      "noun": "resource; resourcefulness（足智多谋）",
+      "verb": "resource（提供资源/资金）",
+      "adjective": "resourceful（足智多谋的）",
+      "adverb": "resourcefully",
       "other": null
     },
-    "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "idioms": [
+      {
+        "idiom": "be thrown back on one's own resources",
+        "translation": "只能依靠自己，被迫自力更生",
+        "example": "With no signal and no map, the hikers were thrown back on their own resources, navigating by the sun and the moss on the north side of the trees. （读后续写·困境求生）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "natural resources",
+        "translation": "自然资源",
+        "example": "The western regions are rich in natural resources, yet lasting prosperity there depends on wise development rather than reckless exploitation. （议论文·区域发展）"
+      },
+      {
+        "phrase": "human resources",
+        "translation": "人力资源",
+        "example": "After graduation, my cousin joined the human resources department, where her daily job is to match the right people with the right posts. （应用文·人物介绍）"
+      },
+      {
+        "phrase": "limited / scarce resources",
+        "translation": "有限的／稀缺的资源",
+        "example": "Precisely because our resources are limited, every drop of water saved in the school canteen is a quiet vote for the planet's future. （议论文·节约主题）"
+      },
+      {
+        "phrase": "make full use of / make the most of resources",
+        "translation": "充分利用资源",
+        "example": "To prepare for the contest, she made full use of every resource available — past papers, online lectures, and even lunchtime chats with her teachers. （读后续写·备赛励志）"
+      },
+      {
+        "phrase": "pool / allocate resources",
+        "translation": "汇集／分配资源",
+        "example": "The two schools decided to pool their resources, sharing laboratories and libraries so that students on both campuses could benefit equally. （应用文·合作倡议）"
+      },
+      {
+        "phrase": "a valuable / precious resource",
+        "translation": "宝贵的资源",
+        "example": "Our seniors' life experience is a precious resource that no search engine can replace, which is why our club records their oral histories every weekend. （应用文·社团活动介绍）"
+      },
+      {
+        "phrase": "online / teaching / learning resources",
+        "translation": "在线／教学／学习资源",
+        "example": "The school website has uploaded abundant learning resources, including recorded lessons and interactive exercises, free for every student to download. （应用文·通知）"
+      },
+      {
+        "phrase": "waste / conserve resources",
+        "translation": "浪费／节约资源",
+        "example": "Turning off an idle screen may seem trivial, but a habit multiplied by a billion people conserves resources on a scale no single power plant can match. （议论文·环保论证）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "asset",
+        "translation": "宝贵的人（物）；资产",
+        "example": "Her fluency in three languages proved a tremendous asset when the international guests arrived without an interpreter. （读后续写·关键时刻）",
+        "usage": "asset 强调\"对人或组织构成优势的财富\"，可以指人；resource 强调\"可取用的储备\"，一般不直接指人"
+      },
+      {
+        "synonym": "means",
+        "translation": "方法，手段；财力",
+        "example": "For many rural children, the scholarship is the only means by which the dream of college can ever be reached. （议论文·教育公平）",
+        "usage": "means 指达到目的的\"途径、手段\"，单复数同形（by means of）；resource 是被利用的\"资源\"本身"
+      },
+      {
+        "synonym": "reserve",
+        "translation": "储备，储藏量",
+        "example": "The country keeps a strategic reserve of grain so that no natural disaster can shake the stability of its food supply. （议论文·粮食安全）",
+        "usage": "reserve 强调\"特意留作备用\"的储备量（石油储备、外汇储备）；resource 泛指一切可利用之物，不含\"备用\"之意"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·困境反转",
+        "expression": "Drawing on every resource within her/him, sb. ...",
+        "example": "Drawing on every resource within her — her wits, her training, and the memory of her coach's calm voice — Lily steadied the boat and steered it toward the fading light of the shore. （现在分词开头+破折号三项列举，续写高潮段的蓄力句式）"
+      },
+      {
+        "type": "应用文·倡议呼吁",
+        "expression": "It is the shared duty of ... to make the most of ... resources while wasting none",
+        "example": "It is the shared duty of every student to make the most of our school's resources while wasting none, for the library's true wealth lies not on its shelves but in our hands. （倡议书结尾·职责句+对比升华）"
+      },
+      {
+        "type": "议论文·概念升格",
+        "expression": "... is not merely a resource to be consumed, but a legacy to be preserved",
+        "example": "Clean air is not merely a resource to be consumed, but a legacy to be preserved — borrowed, as the saying goes, from our children rather than inherited from our ancestors. （not merely...but 平行结构+化用谚语，论证收束）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "We should use school resources well.",
+        "upgraded": "Only by making the most of the resources around us — attentive teachers, well-stocked shelves and open-minded classmates — can we turn three short years of senior high into a lifetime's foundation. （应用文·演讲稿）",
+        "techniques": "Only by...can 部分倒装 + 破折号三项列举具体化\"资源\" + 时间对比(three short years / a lifetime)制造格局感"
+      },
+      {
+        "original": "She used her resources to solve the problem.",
+        "upgraded": "Refusing to admit defeat, she summoned every resource at her disposal, and piece by piece the seemingly unsolvable puzzle yielded to her quiet persistence. （读后续写·攻坚克难）",
+        "techniques": "Refusing 现在分词表伴随心理 + at one's disposal 高级搭配 + 拟人(puzzle yielded) + piece by piece 副词控制节奏"
+      }
+    ],
     "section": "Reading",
     "sub_section": "校长致辞",
     "original_sentence": "To fully realize your potential, it is important for you to make the most of our school resources."
@@ -1985,24 +2333,134 @@
     "partOfSpeech": "n.",
     "translation": "设施，设备；场所",
     "source": "Reading",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) n. [usually plural] rooms, equipment or services that are provided for a particular purpose\n(2) n. a place, especially a building, used for a particular activity or industry\n(3) n. a natural ability to learn or do something easily and well\n(4) n. an extra function or useful feature of a machine, system or service",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "天赋，才能（a facility for sth，高考爱考）",
+        "example": "The new student showed a rare facility for languages, slipping between English and French so effortlessly that even the teacher paused mid-sentence to listen. （读后续写·天才同学·侧面烘托）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（机器、系统的）特殊功能",
+        "example": "Thanks to the recording facility on her phone, the interview with the ninety-year-old veteran was preserved word for word for the school's oral history project. （应用文·社会实践报道）"
+      }
+    ],
     "readingExamples": [
       "Take advantage of your classes, learn from your teachers and classmates, and make use of our school facilities."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The village school had no sports facilities to speak of — just a bare yard and a homemade wooden goal — yet the children's laughter there rang louder than in any stadium I had ever visited. （读后续写·乡村支教·对比描写）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "I am writing to recommend our newly opened community centre, whose modern facilities, including a heated swimming pool and a well-equipped gym, are free to all residents over sixty. （应用文·推荐信）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "First-class facilities alone do not make a first-class school; without devoted teachers and hungry minds, the shiniest laboratory is merely an expensive room with the lights left on. （议论文·教育本质）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Visitors are kindly reminded that the library's facilities, from self-service printers to group study rooms, may be booked in advance through the official app or at the front desk. （应用文·通知）"
+      }
+    ],
     "wordForms": {
-      "noun": null,
-      "verb": null,
-      "adjective": null,
+      "noun": "facility; facilitation（促进）; facilitator（促进者，引导者）",
+      "verb": "facilitate（促进，使便利）",
+      "adjective": "facile（同源词：轻易的，肤浅的，含贬义）",
       "adverb": null,
       "other": null
     },
     "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "collocations": [
+      {
+        "phrase": "sports / leisure facilities",
+        "translation": "体育／休闲设施",
+        "example": "The city plans to upgrade the sports facilities in every district park, giving joggers, dancers and basketball lovers alike a place to sweat. （应用文·新闻报道）"
+      },
+      {
+        "phrase": "public facilities",
+        "translation": "公共设施",
+        "example": "Treating public facilities with care is a quiet test of character that every citizen takes daily, whether or not anyone happens to be watching. （议论文·公民素养）"
+      },
+      {
+        "phrase": "medical facilities",
+        "translation": "医疗设施",
+        "example": "Mobile clinics now carry basic medical facilities into remote mountain villages, where a doctor's visit was once a once-a-year event. （应用文·医疗下乡报道）"
+      },
+      {
+        "phrase": "modern / state-of-the-art / first-class facilities",
+        "translation": "现代化的／最先进的／一流的设施",
+        "example": "Equipped with state-of-the-art facilities, the new science building allows students to conduct experiments that used to exist only in textbooks. （应用文·校园介绍）"
+      },
+      {
+        "phrase": "provide / offer facilities for",
+        "translation": "为…提供设施",
+        "example": "The airport provides thoughtful facilities for passengers with disabilities, from step-free ramps to volunteer guides stationed at every corner. （应用文·服务介绍）"
+      },
+      {
+        "phrase": "childcare facilities",
+        "translation": "托儿设施",
+        "example": "More companies are setting up childcare facilities in the workplace, an arrangement that eases young parents' minds and, in turn, boosts their efficiency. （议论文·职场与家庭）"
+      },
+      {
+        "phrase": "have a facility for",
+        "translation": "有…的天赋",
+        "example": "Not everyone has a facility for numbers, but everyone can develop, through patient daily practice, a firm working friendship with them. （议论文·努力与天赋）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "equipment",
+        "translation": "设备，器材（不可数）",
+        "example": "The lab equipment must be checked and cleaned after each experiment, a rule our chemistry teacher enforces without a single exception. （应用文·规章说明）",
+        "usage": "equipment 指具体的器材装备，不可数名词；facilities 泛指成套的场地与配套服务，常用复数"
+      },
+      {
+        "synonym": "amenity",
+        "translation": "便利设施，生活福利设施",
+        "example": "The seaside town owes its popularity to its charming amenities: open-air cafés, free beach showers and a promenade lined with palm trees. （应用文·旅游介绍）",
+        "usage": "amenity 侧重让生活舒适愉快的配套（社区、酒店、城市宜居度）；facility 侧重实现某种功能的设施"
+      },
+      {
+        "synonym": "venue",
+        "translation": "场馆，活动场所",
+        "example": "The concert venue was switched to the indoor stadium at the last minute because of the fast-approaching storm. （读后续写·突发变故）",
+        "usage": "venue 特指举办活动（比赛、演出、会议）的地点；facility 既可指场所，也可指其中的设备与服务"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·以物衬情",
+        "expression": "For all its humble facilities, ... was rich in ...",
+        "example": "For all its humble facilities, the mountain classroom was rich in what no money could buy: a curiosity that lit up forty pairs of eyes every single morning. （for all 让步+冒号解释，物质与精神的反差描写）"
+      },
+      {
+        "type": "应用文·宣传介绍",
+        "expression": "Boasting ... facilities, ... offers sb. an ideal place to ...",
+        "example": "Boasting first-class facilities and a warm atmosphere, our English corner offers every learner an ideal place to open their mouths and their minds. （boasting 分词开头+一语双关(open mouths and minds)，宣传稿亮点句）"
+      },
+      {
+        "type": "议论文·辩证论证",
+        "expression": "Facilities may set the stage, but it is ... that ...",
+        "example": "Facilities may set the stage, but it is the people on it — their passion, discipline and vision — that decide how the play of education unfolds. （舞台隐喻+强调句，硬件与人的辩证关系）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "Our school has good facilities.",
+        "upgraded": "From the glass-walled library flooded with morning light to the standard track that circles a green field, our school's facilities quietly invite every student to stretch both body and mind. （应用文·校园介绍）",
+        "techniques": "from...to 空间列举铺开画面 + 环境细节(flooded with morning light) + 拟人(facilities invite) + body and mind 对仗收束"
+      },
+      {
+        "original": "The facilities in the village were poor.",
+        "upgraded": "The village boasted no facilities beyond a single dusty blackboard, yet within that bare-walled classroom I witnessed a hunger for knowledge that put the best-equipped city schools to shame. （读后续写·支教见闻）",
+        "techniques": "boasted no... 反语强化贫瘠 + yet 转折设置反差 + 抽象名词具体化(a hunger for knowledge) + put...to shame 高级表达"
+      }
+    ],
     "section": "Reading",
     "sub_section": "校长致辞",
     "original_sentence": "Take advantage of your classes, learn from your teachers and classmates, and make use of our school facilities."
@@ -2122,24 +2580,156 @@
     "partOfSpeech": "n.",
     "translation": "态度，看法",
     "source": "Reading",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) n. the way you think or feel about someone or something, often shown in your behaviour\n(2) n. (informal) confident, independent or aggressive behaviour that shows you do not care what others think\n(3) n. (formal or literary) a position of the body",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（非正式）桀骜自信的个性，酷劲儿",
+        "example": "With her leather jacket, fearless grin and second-hand electric guitar, the new transfer student was a girl with attitude, and the whole class sensed that school life was about to get interesting. （读后续写·人物出场·个性刻画）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（正式/文学）姿势，姿态",
+        "example": "The marble statue stood in an attitude of prayer, hands folded and head bowed, as though it had been listening to the same silence for centuries. （读后续写·场景描写·静物传情）"
+      }
+    ],
     "readingExamples": [
       "Of equal importance are good study habits, useful skills and a positive attitude."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "What struck me most about Grandpa was his attitude towards setbacks: whenever a crop failed, he would simply tip back his straw hat, study the sky, and say, 'The land forgives those who try again.' （读后续写·祖辈智慧·语言描写）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "I strongly recommend Li Hua for the exchange programme, for his positive attitude towards challenges has inspired everyone in our class to push beyond their comfort zones. （应用文·推荐信）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "In the long run, it is attitude rather than aptitude that determines altitude; countless ordinary talents have out-flown gifted minds simply by refusing to quit when quitting seemed the only sensible choice. （议论文·态度决定高度）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Let us adopt a responsible attitude towards rubbish sorting, for the habit of one household, multiplied by millions, reshapes the face of a city and the future of a planet. （应用文·倡议书）"
+      }
+    ],
     "wordForms": {
-      "noun": null,
+      "noun": "attitude",
       "verb": null,
-      "adjective": null,
+      "adjective": "attitudinal（态度上的）",
       "adverb": null,
       "other": null
     },
-    "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "idioms": [
+      {
+        "idiom": "have an attitude problem",
+        "translation": "态度有问题，爱摆脸色",
+        "example": "The new waiter was said to have an attitude problem, yet Mrs. Lee noticed that his rudeness melted away the moment anyone asked about his little daughter. （读后续写·误解与理解）"
+      },
+      {
+        "idiom": "strike an attitude",
+        "translation": "装腔作势，摆出某种姿态",
+        "example": "Rather than striking an attitude of false modesty, the champion openly credited her rivals for pushing her to the very edge of her ability. （议论文·真诚品格）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a positive / negative attitude towards",
+        "translation": "对…积极／消极的态度",
+        "example": "A positive attitude towards failure, treating it as tuition rather than tragedy, is the invisible engine behind most success stories. （议论文·成败观）"
+      },
+      {
+        "phrase": "adopt / take an attitude",
+        "translation": "采取某种态度",
+        "example": "Faced with the strangers' mockery, Tom adopted a calm attitude, bent down without a word, and went on picking up the scattered litter. （读后续写·以行动回应）"
+      },
+      {
+        "phrase": "change / adjust one's attitude",
+        "translation": "改变／调整态度",
+        "example": "It took one sleepless night in the hospital corridor for Jack to change his attitude towards his 'nagging' mother forever. （读后续写·亲情觉醒）"
+      },
+      {
+        "phrase": "attitude to / towards life",
+        "translation": "人生态度",
+        "example": "Grandma's attitude towards life was written in her garden: whatever the winter took away, she calmly planted again in spring. （读后续写·人物象征）"
+      },
+      {
+        "phrase": "a casual / relaxed attitude",
+        "translation": "漫不经心的／从容的态度",
+        "example": "A casual attitude towards traffic rules costs lives; a moment's convenience at a red light may become a lifetime's regret. （议论文·规则意识）"
+      },
+      {
+        "phrase": "shape / influence one's attitude",
+        "translation": "塑造／影响某人的态度",
+        "example": "The books we read in adolescence quietly shape our attitudes long after their plots have been forgotten. （议论文·阅读的意义）"
+      },
+      {
+        "phrase": "reflect one's attitude",
+        "translation": "反映某人的态度",
+        "example": "How a tourist treats the smallest flower at a scenic spot reflects his attitude not only towards nature but towards everyone who comes after him. （议论文·文明旅游）"
+      },
+      {
+        "phrase": "a wait-and-see attitude",
+        "translation": "观望态度",
+        "example": "Instead of taking a wait-and-see attitude towards the new recycling scheme, our class volunteered to pilot it on the very first day. （应用文·活动报道）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "outlook",
+        "translation": "人生观，总体看法",
+        "example": "Studying abroad broadened her outlook, teaching her that there is more than one right way to live a meaningful life. （议论文·开阔视野）",
+        "usage": "outlook 指对世界、未来或人生的总体看法（outlook on life）；attitude 可具体到对某人某事的态度"
+      },
+      {
+        "synonym": "approach",
+        "translation": "态度，处理方式",
+        "example": "The professor's hands-on approach to teaching turns every lecture into a laboratory of living ideas. （应用文·课程介绍）",
+        "usage": "approach 强调做事的\"方式方法\"，落在行动层面；attitude 强调内心的看法与情感倾向"
+      },
+      {
+        "synonym": "stance",
+        "translation": "（公开的）立场",
+        "example": "The school takes a firm stance against any form of bullying, promising that every report will be investigated within twenty-four hours. （应用文·校方声明）",
+        "usage": "stance 指就争议问题公开表明的正式立场，多用于机构、政策语境；attitude 更私人化、日常化"
+      },
+      {
+        "synonym": "perspective",
+        "translation": "视角，看问题的角度",
+        "example": "Seen from the perspective of a first-time volunteer, even sorting donated books felt like an adventure worth writing home about. （读后续写·志愿初体验）",
+        "usage": "perspective 强调观察问题的角度，可以随立足点转换；attitude 含情感与评价色彩，相对稳定"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·态度转变",
+        "expression": "It was ... that transformed sb.'s attitude from ... to ...",
+        "example": "It was that rain-soaked afternoon, watching my father repair strangers' bicycles for free, that transformed my attitude from indifference to admiration. （强调句锁定关键场景+from...to 画出情感弧线，续写转折段）"
+      },
+      {
+        "type": "应用文·倡议呼吁",
+        "expression": "Let us approach ... with an attitude of ..., for ...",
+        "example": "Let us approach the ocean with an attitude of humility and gratitude, for every breath we take owes something to its silent blue depths. （let us 呼吁+for 补充理由，倡议书结尾句）"
+      },
+      {
+        "type": "议论文·核心论证",
+        "expression": "What separates ... from ... is rarely talent, but almost always attitude",
+        "example": "What separates those who finish the marathon from those who abandon it is rarely talent, but almost always attitude — the quiet decision, made a thousand times, to take one more step. （主语从句对比+破折号下定义，论证核心句）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "He changed his attitude towards study.",
+        "upgraded": "Gone was the boy who dozed through classes; in his place sat a young man whose attitude towards study had been reshaped, stroke by stroke, by his mother's tired handwriting on those midnight notes. （读后续写·人物转变）",
+        "techniques": "Gone was... 倒装开篇宣告旧我退场 + 今昔同框对比 + stroke by stroke 副词短语控制节奏 + 以物载情(midnight notes)"
+      },
+      {
+        "original": "A positive attitude is important.",
+        "upgraded": "It cannot be overstated that a positive attitude functions as a compass in the fog of adversity: it does not remove the obstacles ahead, but it keeps every traveller pointed toward the dawn. （议论文·态度主题）",
+        "techniques": "It cannot be overstated that 强调句式 + compass/fog/dawn 一以贯之的隐喻链 + not...but 让步式对比深化论点"
+      }
+    ],
     "section": "Reading",
     "sub_section": "校长致辞",
     "original_sentence": "Of equal importance are good study habits, useful skills and a positive attitude."
@@ -2152,24 +2742,145 @@
     "partOfSpeech": "n.",
     "translation": "目标；进球得分",
     "source": "Reading",
-    "definitionEn": "",
+    "definitionEn": "(1) n. something you hope to achieve in the future; an aim or purpose\n(2) n. (in football, hockey, etc.) the frame, often with a net, into which players try to send the ball in order to score\n(3) n. a point that is scored when the ball goes into the goal",
     "uncommonMeanings": [],
     "readingExamples": [
       "Carefully plan your study, set clear goals and balance your schoolwork with other activities."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Taped above Amy's desk was a photo of the wheelchair marathon champion, and beneath it, in bold red ink, her goal for the year: 'Finish the race — however slowly.' （读后续写·励志·细节特写）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "To help every member set a realistic goal for the coming term, our English club will hold a goal-planning workshop in Room 302 at 4 p.m. this Friday. （应用文·通知）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A goal without a plan is merely a wish; it is the daily, unglamorous steps — reviewed notes, early alarms, refused temptations — that turn wishing into achieving. （议论文·目标与行动）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "With thirty seconds left on the clock, Leo curled the ball past the diving goalkeeper — the winning goal that sent the whole stand surging to its feet like a released spring. （读后续写·体育高潮·比喻）"
+      }
+    ],
     "wordForms": {
-      "noun": null,
+      "noun": "goal",
       "verb": null,
       "adjective": null,
       "adverb": null,
-      "other": null
+      "other": "goalkeeper（守门员）; goalpost（门柱）; goal-setting（目标设定）"
     },
-    "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "idioms": [
+      {
+        "idiom": "score an own goal",
+        "translation": "打进乌龙球；（喻）弄巧成拙，害了自己",
+        "example": "By copying his best friend's essay word for word, Mike scored a spectacular own goal: the teacher had marked that very essay only the day before. （读后续写·教训·幽默反转）"
+      },
+      {
+        "idiom": "move the goalposts",
+        "translation": "（喻）中途改变规则或标准，使人难以达标",
+        "example": "Employees complain that the company keeps moving the goalposts: no sooner is one sales target met than a higher one silently appears. （议论文·公平规则）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "set a goal",
+        "translation": "设定目标",
+        "example": "At the start of each month, she sets one small, measurable goal, believing that stairs are climbed step by step rather than in a single desperate leap. （议论文·方法论）"
+      },
+      {
+        "phrase": "achieve / reach / attain a goal",
+        "translation": "实现目标",
+        "example": "The moment the research team achieved their goal after six hundred failed experiments, the lab erupted — not with cheers, but with quiet, exhausted tears. （读后续写·科研坚持）"
+      },
+      {
+        "phrase": "pursue a goal",
+        "translation": "追求目标",
+        "example": "Those who pursue their goals with patience learn to treat every setback as a signpost rather than a stop sign. （议论文·挫折观）"
+      },
+      {
+        "phrase": "a long-term / short-term goal",
+        "translation": "长期／短期目标",
+        "example": "Balancing long-term goals with short-term rewards keeps motivation alive: dream of the mountain top, but celebrate each camp along the way. （议论文·自我管理）"
+      },
+      {
+        "phrase": "the ultimate goal",
+        "translation": "终极目标",
+        "example": "The ultimate goal of education is not to fill a bucket but to light a fire, as the old saying wisely reminds every teacher and parent. （议论文·教育目的）"
+      },
+      {
+        "phrase": "work towards a goal",
+        "translation": "朝着目标努力",
+        "example": "Our volunteer team has been working towards one simple goal: that no elderly neighbour should eat dinner alone on festival nights. （应用文·社团介绍）"
+      },
+      {
+        "phrase": "score a goal",
+        "translation": "进球",
+        "example": "Seconds after coming on as a substitute, the youngest player scored a stunning goal, proving that chances belong to those who stay ready. （读后续写·体育励志）"
+      },
+      {
+        "phrase": "one's goal in life",
+        "translation": "人生目标",
+        "example": "When asked about his goal in life, the street cleaner smiled and said, 'To make one street shine — isn't that enough for one man?' （读后续写·平凡人物·对话）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "aim",
+        "translation": "目的，目标",
+        "example": "The aim of this survey is to find out how much time senior high students actually spend on sleep, exercise and screens each day. （应用文·调查报告）",
+        "usage": "aim 较口语化，泛指行动的意图或目的；goal 更强调明确、需要长期努力才能到达的终点"
+      },
+      {
+        "synonym": "objective",
+        "translation": "（具体、可衡量的）目标",
+        "example": "Our first objective is to raise five thousand yuan for the mountain-area library before the end of May. （应用文·活动方案）",
+        "usage": "objective 正式，多指计划或工作中可量化、可核查的具体目标，是应用文和议论文中的高级替换词"
+      },
+      {
+        "synonym": "target",
+        "translation": "指标；靶子",
+        "example": "The factory hit its yearly production target two months ahead of schedule, thanks to a string of small but clever innovations. （议论文·创新例证）",
+        "usage": "target 强调量化指标（sales target）或被瞄准的对象，常与具体数字连用；goal 未必量化"
+      },
+      {
+        "synonym": "ambition",
+        "translation": "抱负，雄心",
+        "example": "Nursing a secret ambition to become a pilot, the farm boy saved every coin for flying magazines and spent cloudless afternoons watching planes. （读后续写·少年梦想·细节）",
+        "usage": "ambition 指长远宏大的人生抱负，情感色彩强烈，常与 nurse/cherish 连用；goal 可大可小，更中性"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·信念支撑",
+        "expression": "With the goal firmly anchored in sb.'s heart, ...",
+        "example": "With that goal firmly anchored in her heart, no ridicule could shake her and no failure could sink her; she simply adjusted her sails and read on. （with 复合结构+船锚/风帆隐喻贯穿，续写励志段）"
+      },
+      {
+        "type": "应用文·方案计划",
+        "expression": "With the goal of doing ..., we will ...",
+        "example": "With the goal of making our campus greener, we will plant fifty trees along the playground and set up a paper-recycling corner in every classroom. （with the goal of 目的状语开篇，活动方案的骨架句）"
+      },
+      {
+        "type": "议论文·让步论证",
+        "expression": "A goal, however ambitious, remains ... unless ...",
+        "example": "A goal, however ambitious, remains ink on paper unless it is broken down into daily actions and defended against daily distractions. （however 插入让步+隐喻(ink on paper)，论证目标与执行的关系）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "I set a goal and worked hard to achieve it.",
+        "upgraded": "Having nailed my goal to the wall — 'Top ten in the grade' — I traded weekend games for vocabulary lists, and when the results came out that winter, the trembling finger I ran down the list stopped at number nine. （读后续写·奋斗与收获）",
+        "techniques": "Having done 完成式分词开头 + 目标具体化为引语细节 + traded A for B 表取舍 + 结尾特写(trembling finger)以画面代抒情"
+      },
+      {
+        "original": "Students should set clear goals.",
+        "upgraded": "It is widely acknowledged that clear goals act as lighthouses in the sea of adolescence, without which even the most talented students may drift with the current and wake to find their harbour far behind. （议论文·目标主题）",
+        "techniques": "It is widely acknowledged that 权威式开头 + lighthouse/sea/harbour 一致的航海隐喻链 + without which 非限定性定语从句承接推进"
+      }
+    ],
     "section": "Reading",
     "sub_section": "校长致辞",
     "original_sentence": "Carefully plan your study, set clear goals and balance your schoolwork with other activities."
@@ -2325,24 +3036,140 @@
     "partOfSpeech": "vt. & vi.",
     "translation": "改进，改善",
     "source": "Reading",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) vt. to make something better in quality, standard or value than it was before\n(2) vi. to become better; to reach a higher standard or level\n(3) vi. (of a sick person or a bad situation) to get better; to recover gradually\n(4) vt. to increase the value of land or property by farming, building, etc.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vi.",
+        "meaning": "（病情、健康状况）好转",
+        "example": "For three sleepless nights Grandma's condition showed no sign of improving, but at dawn on the fourth day she opened her eyes and, ever so faintly, smiled. （读后续写·亲情守护·病榻转机）"
+      }
+    ],
     "readingExamples": [
       "As a senior high school student, you must make efforts to improve your communication and problem-solving skills."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Determined to improve his spoken English before the exchange programme, Li Hua stood in front of the mirror every morning, reciting speeches until his voice cracked and the winter sky turned pale. （读后续写·励志成长）"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "I am writing to suggest that our library extend its opening hours, a measure that would greatly improve study conditions for students preparing for the college entrance examination. （应用文·建议信）"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Statistics released by our school indicate that students' physical fitness has improved remarkably since the daily running programme was introduced last autumn. （议论文·体育锻炼）"
+      },
+      {
+        "partOfSpeech": "vi.",
+        "sentence": "Rome was not built in a day; likewise, a language learner's fluency improves not through occasional bursts of effort but through steady, deliberate daily practice. （议论文·学习方法）"
+      }
+    ],
     "wordForms": {
-      "noun": null,
+      "noun": "improvement",
       "verb": null,
-      "adjective": null,
+      "adjective": "improved",
       "adverb": null,
       "other": null
     },
-    "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "idioms": [
+      {
+        "idiom": "improve with age",
+        "translation": "越陈越好，随岁月而愈佳",
+        "example": "Like fine wine, their friendship improved with age, growing richer with every shared hardship and every quiet evening of conversation. （读后续写·友情升华）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "improve one's skills / ability",
+        "translation": "提高技能 / 能力",
+        "example": "Joining the debate club is an effective way to improve your critical thinking skills as well as your confidence in public speaking. （应用文·招募启事）"
+      },
+      {
+        "phrase": "improve the quality of ...",
+        "translation": "提高……的质量",
+        "example": "Planting more trees along the streets would considerably improve the quality of the air we breathe every day. （应用文·倡议书）"
+      },
+      {
+        "phrase": "greatly / significantly / dramatically improve",
+        "translation": "极大地 / 显著地改善",
+        "example": "The new online platform has significantly improved communication between teachers and parents, which benefits students in the long run. （议论文·科技与教育）"
+      },
+      {
+        "phrase": "improve on / upon sth",
+        "translation": "改进；做得比……更好，超越",
+        "example": "Though her first painting won the prize, she spent the whole summer trying to improve on it, convinced that true artists compete only with themselves. （读后续写·艺术追求）"
+      },
+      {
+        "phrase": "room for improvement",
+        "translation": "改进的余地",
+        "example": "While our recycling programme has made progress, there is still plenty of room for improvement, especially in how waste is sorted. （应用文·总结报告）"
+      },
+      {
+        "phrase": "improve efficiency",
+        "translation": "提高效率",
+        "example": "Making a to-do list every evening can improve your efficiency the next day, leaving you more time for hobbies and rest. （应用文·建议信）"
+      },
+      {
+        "phrase": "improve relations / relationships with",
+        "translation": "改善与……的关系",
+        "example": "A sincere apology, delivered face to face, did more to improve his relationship with his father than a hundred unsent text messages ever could. （读后续写·亲情和解）"
+      },
+      {
+        "phrase": "steadily / gradually improve",
+        "translation": "稳步 / 逐渐改善",
+        "example": "Her grades steadily improved over the term, each small victory quietly rebuilding the confidence that failure had once stolen from her. （读后续写·逆袭成长）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "enhance",
+        "translation": "增强，提升（价值、品质、形象）",
+        "example": "Volunteering at the community centre will not only enhance your sense of responsibility but also enrich your life experience. （应用文·招募信）",
+        "usage": "enhance 更正式，多指提升已有的良好品质、价值或形象，常见于书面语；improve 泛指使变好，可用于任何需要改进的对象"
+      },
+      {
+        "synonym": "strengthen",
+        "translation": "加强，巩固",
+        "example": "Regular class discussions strengthen the bond between students and help create a harmonious learning atmosphere. （议论文·班级建设）",
+        "usage": "strengthen 强调使更牢固、更强大，宾语常为关系、体质、信心等；improve 强调质量或水平的普遍提高"
+      },
+      {
+        "synonym": "refine",
+        "translation": "改进，使精炼完善",
+        "example": "The young writer spent months refining every paragraph of her story until each sentence rang clear as a bell. （读后续写·匠心打磨）",
+        "usage": "refine 指在已较好的基础上精雕细琢、去粗取精，多用于技艺、方法、文字；improve 不含'精细打磨'的意味"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·成长感悟",
+        "expression": "with each ..., sb. improved little by little, until ...",
+        "example": "With each stumble and each humiliating fall, her skating improved little by little, until one frosty morning she glided across the ice as if she had been born on it. （重复结构渲染过程+until引出质变，续写高潮段）"
+      },
+      {
+        "type": "应用文·建议信",
+        "expression": "I would appreciate it if measures could be taken to improve ...",
+        "example": "I would appreciate it if effective measures could be taken to improve the food quality in our school canteen, as a balanced diet is essential to our health. （建议信礼貌句式+原因补充）"
+      },
+      {
+        "type": "议论文·观点论证",
+        "expression": "it is not ... but ... that truly improves ...",
+        "example": "It is not the amount of time spent at the desk but the quality of focused effort that truly improves academic performance. （强调句否定转折，直击论点）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "He worked hard to improve his English.",
+        "upgraded": "Night after night, long after his roommates had drifted off to sleep, he huddled beneath a dim lamp with a worn dictionary, determined to improve his English one stubborn word at a time. （读后续写·环境+动作描写）",
+        "techniques": "Night after night 时间重复营造毅力感 + long after 时间状语从句 + huddled/worn/dim 细节描写 + one stubborn word at a time 量词短语收尾显画面"
+      },
+      {
+        "original": "We should improve our study methods.",
+        "upgraded": "Only by constantly reflecting on and adjusting our study methods can we improve them to the point where effort is translated into genuine progress rather than mere exhaustion. （议论文·方法论）",
+        "techniques": "Only by...倒装句式 + to the point where 程度状语从句 + rather than 对比结构强化论证"
+      }
+    ],
     "section": "Reading",
     "sub_section": "校长致辞",
     "original_sentence": "As a senior high school student, you must make efforts to improve your communication and problem-solving skills."
@@ -2355,12 +3182,25 @@
     "partOfSpeech": "phr.",
     "translation": "最后但同样重要的",
     "source": "Reading",
-    "definitionEn": "",
+    "definitionEn": "(1) phr. used when mentioning the final person or thing in a list, to emphasize that they are just as important as the others\n(2) phr. a discourse marker that signals the last point of a speech or piece of writing while keeping the audience's attention",
     "uncommonMeanings": [],
     "readingExamples": [
       "Last but not least, always look on the bright side and never lose hope, even in difficult situations."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "phr.",
+        "sentence": "Last but not least, I would like to extend my heartfelt thanks to the volunteers whose quiet dedication made this charity sale such a resounding success. （应用文·感谢信/演讲稿）"
+      },
+      {
+        "partOfSpeech": "phr.",
+        "sentence": "Last but not least, remember to bring your student ID card on the day of the visit, for no one will be admitted to the museum without it. （应用文·通知）"
+      },
+      {
+        "partOfSpeech": "phr.",
+        "sentence": "Last but not least, perseverance matters more than talent, for countless examples prove that it is the determined, not merely the gifted, who reach the summit of success. （议论文·结尾论点）"
+      }
+    ],
     "wordForms": {
       "noun": null,
       "verb": null,
@@ -2369,10 +3209,66 @@
       "other": null
     },
     "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "collocations": [
+      {
+        "phrase": "last but not least, I would like to ...",
+        "translation": "最后但同样重要的是，我想……（演讲/书信收尾套路）",
+        "example": "Last but not least, I would like to invite all of you to join our English corner, where laughter and learning always go hand in hand. （应用文·邀请演讲）"
+      },
+      {
+        "phrase": "last but not least, it should be noted that ...",
+        "translation": "最后但同样重要的是，应当指出……",
+        "example": "Last but not least, it should be noted that a healthy body is the foundation on which all academic achievement is built. （议论文·收束要点）"
+      },
+      {
+        "phrase": "first ... second ... last but not least ...",
+        "translation": "首先……其次……最后但同样重要的是……（列举框架）",
+        "example": "First, set a realistic goal; second, break it into daily tasks; last but not least, reward yourself for every small step forward. （应用文·建议信）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "finally",
+        "translation": "最后",
+        "example": "Finally, please confirm your attendance by Friday so that we can make proper arrangements. （应用文·邀请信）",
+        "usage": "finally 仅表示列举顺序上的'最后'，不含'同样重要'的强调；last but not least 特意提醒读者最后一点绝非最不重要，更适合演讲和书信收尾"
+      },
+      {
+        "synonym": "lastly",
+        "translation": "最后（一点）",
+        "example": "Lastly, keep in mind that safety always comes first during the outdoor activity. （应用文·通知）",
+        "usage": "lastly 是中性的列举结尾词，语气平实；last but not least 更有修辞色彩和感染力，是高考应用文加分表达"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "应用文·演讲收尾",
+        "expression": "last but not least, may I take this opportunity to ...",
+        "example": "Last but not least, may I take this opportunity to wish every one of you a fruitful and colourful senior high school life. （情态倒装致辞句式，演讲稿典范收尾）"
+      },
+      {
+        "type": "应用文·建议信",
+        "expression": "last but not least, it would be advisable to ...",
+        "example": "Last but not least, it would be advisable to set aside ten minutes each day for reflection, a habit that pays off handsomely in the long run. （委婉建议句式+习语点睛）"
+      },
+      {
+        "type": "议论文·终点强调",
+        "expression": "last but not least, ... — perhaps the most vital point of all",
+        "example": "Last but not least, learn to embrace failure — perhaps the most vital point of all, for every setback carries within it the seed of future success. （破折号补语强化收尾，升华论点）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "Last but not least, we should protect the environment.",
+        "upgraded": "Last but not least, safeguarding the environment is not a burden we reluctantly shoulder but a responsibility we proudly embrace, for the earth we save today is the home our children will inherit tomorrow. （议论文·结尾升华）",
+        "techniques": "not ... but ... 对比结构 + for 引出理由 + today/tomorrow 时间对照营造格局感"
+      },
+      {
+        "original": "Last but not least, thank you for your help.",
+        "upgraded": "Last but not least, please accept my sincerest gratitude for your generous help, without which the entire programme would have remained nothing but a dream on paper. （应用文·感谢信）",
+        "techniques": "please accept my sincerest gratitude 正式致谢句式 + without which 非限制性定语从句含虚拟语气 + nothing but a dream on paper 形象化收尾"
+      }
+    ],
     "section": "Reading",
     "sub_section": "校长致辞",
     "original_sentence": "Last but not least, always look on the bright side and never lose hope, even in difficult situations."
@@ -2810,12 +3706,40 @@
     "partOfSpeech": "adv.",
     "translation": "（时间、空间）向前；提前",
     "source": "Reading",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) adv. in front of someone or something; further forward in space\n(2) adv. in or into the future; at a later time (the years ahead)\n(3) adv. earlier than planned or expected; in advance\n(4) adv. making more progress than someone else; winning or leading in a competition",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "adv.",
+        "meaning": "（比赛、竞争中）领先",
+        "example": "With only two minutes left on the clock, our team was still one goal ahead, and every heartbeat in the stadium seemed to thunder in my ears. （读后续写·赛场悬念）"
+      },
+      {
+        "partOfSpeech": "adv.",
+        "meaning": "提前（于预定时间）",
+        "example": "To everyone's astonishment, the bridge was completed three months ahead of schedule, a tribute to the workers who had laboured through the freezing winter. （读后续写·工程奇迹·集体奋斗）"
+      }
+    ],
     "readingExamples": [
       "I've been told that schoolwork will present more of a challenge in the years ahead, and that the teachers will hold us to higher standards."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "The path ahead twisted into the misty pine forest, and though her legs trembled, she tightened the straps of her backpack and pressed on. （读后续写·徒步冒险·环境+动作）"
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "In the years ahead, our reading club plans to invite well-known writers to campus, so I sincerely encourage you to sign up and seize this precious opportunity. （应用文·招募启事）"
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "Admittedly, countless difficulties lie ahead on the road to carbon neutrality, yet history proves that human wisdom always rises to meet the challenges of its age. （议论文·环保主题）"
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "Those who plan ahead and prepare thoroughly are seldom caught off guard when opportunity knocks at the door. （议论文·规划人生）"
+      }
+    ],
     "wordForms": {
       "noun": null,
       "verb": null,
@@ -2823,11 +3747,119 @@
       "adverb": null,
       "other": null
     },
-    "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "idioms": [
+      {
+        "idiom": "get ahead",
+        "translation": "获得成功，出人头地",
+        "example": "In his letters home, Uncle Ming always wrote that the only honest way to get ahead was to work harder than anyone else and complain less than everyone else. （读后续写·家书励志）"
+      },
+      {
+        "idiom": "ahead of one's time",
+        "translation": "超越时代的，有超前思想的",
+        "example": "Dismissed as a dreamer in her own day, the scientist was in fact decades ahead of her time, and the world eventually caught up with her vision. （议论文·创新人物论据）"
+      },
+      {
+        "idiom": "one step ahead (of sb)",
+        "translation": "（比某人）先行一步，占得先机",
+        "example": "No matter how carefully the little brother hid the chocolate, his sister was always one step ahead of him, giggling behind the curtain with the prize in hand. （读后续写·童趣手足）"
+      },
+      {
+        "idiom": "go ahead",
+        "translation": "开始进行；（口语）请便，去做吧",
+        "example": "\"Go ahead, take the stage,\" Ms. Lin whispered, giving my shoulder a gentle squeeze that somehow steadied my shaking knees. （读后续写·师生鼓励·对话描写）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "ahead of time / schedule",
+        "translation": "提前，先于预定时间",
+        "example": "Arriving at the interview twenty minutes ahead of time gave her a chance to calm her nerves and rehearse her opening lines. （读后续写·面试场景）"
+      },
+      {
+        "phrase": "lie ahead",
+        "translation": "（困难、任务等）在前方等待着",
+        "example": "Whatever challenges lie ahead in senior high school, I am convinced that unity and perseverance will carry us through. （应用文·演讲稿）"
+      },
+      {
+        "phrase": "the road / journey / path ahead",
+        "translation": "前方的道路；未来的历程",
+        "example": "The road ahead may be paved with setbacks, but every stumble teaches us a lesson that smooth success never could. （议论文·挫折教育）"
+      },
+      {
+        "phrase": "look ahead (to)",
+        "translation": "展望未来",
+        "example": "Instead of dwelling on past failures, we should look ahead to the opportunities that each new day generously offers. （议论文·心态主题）"
+      },
+      {
+        "phrase": "plan ahead",
+        "translation": "提前规划",
+        "example": "Planning ahead for the winter camp, the committee booked the buses and checked the weather forecast a full month in advance. （应用文·活动筹备通知）"
+      },
+      {
+        "phrase": "go ahead with sth",
+        "translation": "着手进行，继续开展",
+        "example": "Despite the sudden rain, the organisers decided to go ahead with the opening ceremony under the shelter of the gymnasium. （应用文·活动报道）"
+      },
+      {
+        "phrase": "press / forge ahead (with)",
+        "translation": "奋力推进，坚定前行",
+        "example": "Blistered and exhausted, the rescue team pressed ahead through the snowstorm, guided only by the faint cries for help. （读后续写·救援场景）"
+      },
+      {
+        "phrase": "be ahead of sb (in sth)",
+        "translation": "（在某方面）领先于某人",
+        "example": "She was far ahead of her classmates in maths, yet she never hesitated to slow down and explain a problem twice. （读后续写·学霸人设·善良）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "in advance",
+        "translation": "提前，预先",
+        "example": "Those who wish to attend the lecture are required to register in advance through the school website. （应用文·通知）",
+        "usage": "in advance 只表'提前于某时间点'，是中性介词短语；ahead 除'提前'外还能表空间在前、竞争领先，且 ahead of schedule 比 in advance 更具体"
+      },
+      {
+        "synonym": "forward",
+        "translation": "向前",
+        "example": "Refusing to be defeated by the injury, the young runner inched forward, step by painful step, towards the finishing line. （读后续写·体育拼搏）",
+        "usage": "forward 强调朝前的方向或动作本身；ahead 强调所处位置在前方或进度领先，如 the path ahead 不能换成 the path forward 表'前方的路'"
+      },
+      {
+        "synonym": "beforehand",
+        "translation": "事先",
+        "example": "Had she checked the ingredients beforehand, the birthday cake disaster could easily have been avoided. （读后续写·乌龙事件）",
+        "usage": "beforehand 是副词，指'在事情发生之前'，多修饰准备类动作；不用于空间'在前方'或比赛'领先'之义"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·结尾展望",
+        "expression": "whatever lay ahead, sb. knew (that) ...",
+        "example": "Whatever lay ahead, she knew that the courage kindled on that stormy night would light her way for years to come. （让步状语+隐喻，续写结尾升华定式）"
+      },
+      {
+        "type": "应用文·演讲稿收束",
+        "expression": "with ... ahead of us, let us ...",
+        "example": "With three challenging yet promising years ahead of us, let us set sail together and turn every obstacle into a stepping stone. （介词短语开路+let us 呼吁+暗喻，演讲结尾感染力句式）"
+      },
+      {
+        "type": "议论文·让步论证",
+        "expression": "though obstacles lie ahead, ... will ultimately ...",
+        "example": "Though formidable obstacles lie ahead on the path of technological innovation, the wheels of progress will ultimately roll over them, as they always have. （让步从句+比喻论证，先抑后扬）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "There were many difficulties ahead, but he didn't give up.",
+        "upgraded": "Though the trail ahead vanished into darkness and his water bottle held barely a mouthful, something stubborn in his chest refused to whisper the word 'quit'. （读后续写·心理+环境）",
+        "techniques": "though 让步从句 + vanished into darkness 环境渲染 + barely a mouthful 细节量化困境 + something stubborn in his chest 内心具象化，避免直白的 didn't give up"
+      },
+      {
+        "original": "We should prepare for the future ahead.",
+        "upgraded": "Only those who take the trouble to prepare today can stand unshaken when the storms of the years ahead finally arrive. （议论文·未雨绸缪）",
+        "techniques": "only those who...主语从句限定 + today/years ahead 时间对照 + storms 隐喻未来挑战 + stand unshaken 结果具象化"
+      }
+    ],
     "section": "Reading",
     "sub_section": "Building your language",
     "original_sentence": "I've been told that schoolwork will present more of a challenge in the years ahead, and that the teachers will hold us to higher standards."
@@ -2840,24 +3872,134 @@
     "partOfSpeech": "adj. & n.",
     "translation": "adj.（学校）为11或13岁以下儿童设立的；地位（或级别）低的；青少年的 | n. 职位较低者；青少年运动员",
     "source": "Reading",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) adj. connected with education for young people, usually below the age of 11 or 13 (junior high school, junior school)\n(2) adj. having a lower rank or position in an organization or profession\n(3) adj. relating to young people below a particular age, especially in sport\n(4) n. a person with a lower rank or less experience; a young athlete competing at a lower age level",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（美国高中或大学的）三年级学生",
+        "example": "As a junior at the state university, Emma was already juggling two research projects, a part-time job and a stubborn dream of medical school. （读后续写·留学生活·奋斗群像）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "比某人年幼者（be sb's junior / be ... years sb's junior 比某人小……岁）",
+        "example": "Though the new coach was ten years his junior, the veteran player listened to every piece of advice with genuine respect, for wisdom, he believed, wears no age. （读后续写·体育·谦逊品格）"
+      }
+    ],
     "readingExamples": [
       "This is all quite new and different from my life at junior high school, but I'm sure I'll rise to all these challenges."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Standing at the gate of my junior high school for the last time, I ran my fingers along the rusty railing, letting three years of laughter and tears flood back all at once. （读后续写·毕业离别·细节动作）"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "sentence": "Our school will hold an orientation day for junior students next Friday, during which senior volunteers will show them around the campus and answer their questions. （应用文·通知）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "In a healthy workplace, seniors should pass on their experience generously while juniors bring in fresh perspectives; it is this two-way exchange that keeps an organization alive. （议论文·代际合作）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "At only fifteen, the tennis junior stunned the audience by defeating the defending champion, proving that age is merely a number on the scoreboard of ambition. （读后续写·体育黑马）"
+      }
+    ],
     "wordForms": {
-      "noun": null,
+      "noun": "junior",
       "verb": null,
-      "adjective": null,
+      "adjective": "junior",
       "adverb": null,
-      "other": null
+      "other": "senior（反义词：年长的；高年级的；级别高的）"
     },
     "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "collocations": [
+      {
+        "phrase": "junior high school",
+        "translation": "初级中学，初中",
+        "example": "The habits I formed at junior high school — keeping a diary and reading before bed — have quietly shaped the person I am today. （应用文·经验分享）"
+      },
+      {
+        "phrase": "junior school",
+        "translation": "（英）小学（7-11岁）",
+        "example": "Volunteers from our class will visit the local junior school every Thursday to read picture books with the children. （应用文·活动介绍）"
+      },
+      {
+        "phrase": "junior staff / employees",
+        "translation": "初级职员，资历较浅的员工",
+        "example": "A wise manager values the voices of junior staff, for those closest to the ground often see the cracks first. （议论文·管理与倾听）"
+      },
+      {
+        "phrase": "a junior partner / doctor / officer",
+        "translation": "初级合伙人 / 住院医生 / 下级军官",
+        "example": "The junior doctor stayed by the old man's bedside through the night, checking his pulse every hour with textbook care and un-textbook tenderness. （读后续写·医者仁心）"
+      },
+      {
+        "phrase": "be junior to sb",
+        "translation": "职位（或级别）低于某人",
+        "example": "Although he was junior to everyone else on the committee, his proposal was so well-researched that it won unanimous approval. （议论文·实力胜于资历）"
+      },
+      {
+        "phrase": "the junior team / championship",
+        "translation": "青少年队 / 青少年锦标赛",
+        "example": "Winning the national junior championship did not go to her head; the next morning she was back on the court before sunrise, as always. （读后续写·体育·胜不骄）"
+      },
+      {
+        "phrase": "two years sb's junior",
+        "translation": "比某人小两岁",
+        "example": "My cousin, two years my junior, taught me how to skateboard with the patience of a saint and the mischief of an imp. （读后续写·亲情童趣）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "subordinate",
+        "translation": "下级的；下属",
+        "example": "A true leader never looks down upon his subordinates; instead, he rolls up his sleeves and works beside them. （议论文·领导力）",
+        "usage": "subordinate 强调隶属关系中的'下级'，正式且略带层级色彩；junior 侧重资历浅、级别低或年纪轻，语气更中性温和"
+      },
+      {
+        "synonym": "young",
+        "translation": "年轻的",
+        "example": "The young volunteers, sleeves rolled up and faces glowing, turned the shabby community garden into a riot of colour within a single weekend. （读后续写·志愿服务）",
+        "usage": "young 仅描述年龄小；junior 在描述年龄时通常隐含'相对更年幼/低年级'的比较意味，如 junior members 指资历浅或年龄小的成员"
+      },
+      {
+        "synonym": "inexperienced",
+        "translation": "缺乏经验的",
+        "example": "Inexperienced as she was, the new teacher won over the naughtiest class in the school with nothing but sincerity and homemade cookies. （读后续写·新手教师）",
+        "usage": "inexperienced 直指经验不足，可能含轻微贬义；junior 描述职位或资历，本身不评价能力高低"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·今昔对照",
+        "expression": "the ... who had once ... at junior high school now ...",
+        "example": "The shy boy who had once hidden in the last row at junior high school now strode to the centre of the stage, microphone steady in his hand. （定语从句浓缩前史+now转折，一句完成人物弧光）"
+      },
+      {
+        "type": "应用文·欢迎辞",
+        "expression": "on behalf of ..., I would like to extend a warm welcome to our junior schoolmates",
+        "example": "On behalf of the Students' Union, I would like to extend a warm welcome to our junior schoolmates and assure them that a helping hand is never far away. （代表句式+extend a warm welcome 致辞套路，迎新演讲开篇）"
+      },
+      {
+        "type": "议论文·类比论证",
+        "expression": "just as juniors learn from seniors, so ...",
+        "example": "Just as juniors learn from seniors on the sports field, so emerging economies can draw lessons from developed ones — not by copying blindly, but by adapting wisely. （just as...so...类比句式+not...but...修正，论证有层次）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "Life in senior high school is different from junior high school.",
+        "upgraded": "Compared with the carefully sheltered routines of junior high school, life in senior high resembles a wider river — swifter, deeper, and demanding far better swimmers of us all. （读后续写/演讲·比喻）",
+        "techniques": "compared with 对比开路 + resemble a wider river 河流比喻 + 三个形容词递进(swifter, deeper, demanding) + of us all 收尾扩大共鸣"
+      },
+      {
+        "original": "Junior students should respect senior students, and senior students should help junior students.",
+        "upgraded": "It is in the mutual exchange — juniors offering fresh enthusiasm, seniors offering seasoned guidance — that a school community finds its truest harmony. （议论文·校园文化）",
+        "techniques": "it is...that 强调句 + 破折号内对称结构(juniors offering.../seniors offering...) + truest harmony 抽象名词升华"
+      }
+    ],
     "section": "Reading",
     "sub_section": "Building your language",
     "original_sentence": "This is all quite new and different from my life at junior high school, but I'm sure I'll rise to all these challenges."
@@ -2870,24 +4012,180 @@
     "partOfSpeech": "adv.",
     "translation": "向将来；向前；进展，前进",
     "source": "Reading",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) adv. towards a place or position that is in front\n(2) adv. towards the future; onward in time (from this day forward)\n(3) adv. towards a better state; making progress (a big step forward)\n(4) adv. to an earlier time or date (bring the meeting forward)",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "转发（邮件、信件）；转寄",
+        "example": "Please forward this email to any classmates who missed yesterday's meeting, so that no one is left out of the preparations. （应用文·通知·邮件场景）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "（足球、篮球等的）前锋",
+        "example": "The young forward weaved past two defenders, and for one breathless second the entire stadium seemed to hold a single heartbeat before the ball kissed the net. （读后续写·赛场高光时刻）"
+      },
+      {
+        "partOfSpeech": "adj.",
+        "meaning": "冒失的，唐突的；过于大胆的",
+        "example": "\"I hope it's not too forward of me to ask,\" the new student said shyly, \"but could I join your study group?\" （读后续写·社交对话·礼貌试探）"
+      }
+    ],
     "readingExamples": [
       "In fact, I'm looking forward to being more independent and responsible for my own learning."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "Gathering every ounce of courage, Amy stepped forward, raised her trembling hand, and volunteered to be the first speaker at the English festival. （读后续写·勇气突破·动作链）"
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "We warmly welcome suggestions from all students, and anyone with creative ideas for the campus art week is encouraged to come forward before this Friday. （应用文·征集启事）"
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "A nation moves forward not on the wheels of luck but on the rails of education, which is precisely why investment in schools deserves top priority. （议论文·教育强国）"
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "From this day forward, I promised myself, no alarm clock would ever be snoozed, and no homework would ever meet a midnight deadline again. （读后续写·自我觉醒·幽默决心）"
+      }
+    ],
     "wordForms": {
       "noun": null,
-      "verb": null,
-      "adjective": null,
-      "adverb": null,
-      "other": null
+      "verb": "forward（转发，转寄）",
+      "adjective": "forward（向前的；前部的）",
+      "adverb": "forward / forwards",
+      "other": "forward-looking（有远见的，着眼未来的）"
     },
-    "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "idioms": [
+      {
+        "idiom": "put one's best foot forward",
+        "translation": "全力以赴；展现最佳状态",
+        "example": "Interview day arrived at last, and determined to put her best foot forward, Lucy ironed her shirt twice and rehearsed her self-introduction until it flowed like a song. （读后续写·面试准备·细节刻画）"
+      },
+      {
+        "idiom": "look forward to (doing) sth",
+        "translation": "盼望，期待（做）某事",
+        "example": "I am looking forward to your early reply, and I sincerely hope my suggestions will be taken into consideration. （应用文·建议信结尾）"
+      },
+      {
+        "idiom": "put forward",
+        "translation": "提出（建议、观点、计划）",
+        "example": "At the class meeting, Wang Fang put forward a proposal that we set up a book-sharing corner, which was greeted with warm applause. （应用文·班会报道）"
+      },
+      {
+        "idiom": "come forward",
+        "translation": "挺身而出；主动站出来（提供帮助或信息）",
+        "example": "Just when the old man's cries seemed to dissolve into the indifferent crowd, a girl in a school uniform came forward and knelt beside him without a second's hesitation. （读后续写·见义勇为·对比烘托）"
+      },
+      {
+        "idiom": "bring forward",
+        "translation": "把……提前；提出",
+        "example": "Owing to the approaching typhoon, the sports meeting has been brought forward to this Wednesday; please adjust your schedules accordingly. （应用文·通知）"
+      },
+      {
+        "idiom": "carry forward",
+        "translation": "发扬，传承（精神、传统）",
+        "example": "It falls to our generation to carry forward the spirit of craftsmanship, polishing every detail of our work as the old masters once did. （议论文·工匠精神）"
+      },
+      {
+        "idiom": "fast forward",
+        "translation": "快进；（叙事）时间快进到",
+        "example": "Fast forward ten years, and the boy who once failed every maths test was standing at the front of a classroom, chalk in hand, teaching the subject he had feared most. （读后续写·时间跳跃·命运反转）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a step forward",
+        "translation": "一大进步；向前迈出的一步",
+        "example": "The new recycling system is a significant step forward in our school's journey towards a greener campus. （应用文·倡议书）"
+      },
+      {
+        "phrase": "move / go forward",
+        "translation": "前进；（事业、进程）向前发展",
+        "example": "However dark the night, time moves forward all the same — and so, the old fisherman said, must we. （读后续写·哲理点题）"
+      },
+      {
+        "phrase": "lean forward",
+        "translation": "俯身向前",
+        "example": "The judges leaned forward in their seats, pens frozen mid-air, as the girl's voice rose from a whisper to a soaring note. （读后续写·舞台高光·旁观者反应）"
+      },
+      {
+        "phrase": "push / press forward (with)",
+        "translation": "坚定推进",
+        "example": "Despite the shortage of funds, the volunteers pressed forward with the library project, believing every donated book was a brick in a child's future. （读后续写/报道·公益坚持）"
+      },
+      {
+        "phrase": "the way forward",
+        "translation": "前进的方向；解决问题的出路",
+        "example": "Cooperation, rather than confrontation, is the only sensible way forward when tackling global challenges such as climate change. （议论文·国际合作）"
+      },
+      {
+        "phrase": "forward planning / thinking",
+        "translation": "前瞻性规划 / 超前思维",
+        "example": "Thanks to careful forward planning, the charity sale ran like clockwork from the opening speech to the final auction. （应用文·活动总结）"
+      },
+      {
+        "phrase": "backward(s) and forward(s)",
+        "translation": "来来回回，反复",
+        "example": "She paced backwards and forwards outside the examination hall, her admission ticket growing damp in her clenched palm. （读后续写·考前焦虑·动作+细节）"
+      },
+      {
+        "phrase": "forward sth to sb",
+        "translation": "把……转发/转寄给某人",
+        "example": "Kindly forward the attached schedule to the exchange students so that they can prepare for next week's cultural tour. （应用文·邮件）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "onward",
+        "translation": "向前的/地；继续前进地",
+        "example": "The travellers rested briefly at the mountain hut, then continued their onward journey through the thinning air. （读后续写·登山旅程）",
+        "usage": "onward 更书面化，强调'继续向目的地行进'，常见于 onward journey、from ... onward；forward 使用范围更广，兼含空间、时间、进步义"
+      },
+      {
+        "synonym": "ahead",
+        "translation": "在前方；向前",
+        "example": "She fixed her eyes on the runner ahead, matching him stride for stride until the final bend. （读后续写·赛跑追逐）",
+        "usage": "ahead 侧重'位置在前方'或'进度领先'；forward 侧重'朝前的方向或动作'，如 step forward 强调迈步的动作本身"
+      },
+      {
+        "synonym": "advance",
+        "translation": "前进；推进（v./n.）",
+        "example": "Science advances one question at a time, and every 'failed' experiment quietly redraws the boundary of human knowledge. （议论文·科学精神）",
+        "usage": "advance 是动词/名词，指有目标、有组织的推进（军队、科技、事业）；forward 主要作副词表方向，二者词性和搭配不同"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·转折推进",
+        "expression": "sb. took a deep breath and stepped forward, ...",
+        "example": "He took a deep breath and stepped forward, the apology he had rehearsed a hundred times finally finding its voice. （深呼吸+迈步动作组合表下定决心，独立主格收尾，续写关键转折的万能句式）"
+      },
+      {
+        "type": "应用文·信件结尾",
+        "expression": "I am looking forward to ... and would be grateful if ...",
+        "example": "I am looking forward to your favourable reply and would be grateful if you could inform me of your decision at your earliest convenience. （期待+感激双重礼貌句式，书信标准收尾）"
+      },
+      {
+        "type": "议论文·比喻论证",
+        "expression": "just as ... cannot ... without moving forward, neither can ...",
+        "example": "Just as a bicycle cannot keep its balance without moving forward, neither can a society maintain its vitality without continuous reform. （类比+neither倒装，具象事物论证抽象道理）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "He walked forward and helped the old lady.",
+        "upgraded": "Without a moment's hesitation, he threaded his way forward through the murmuring crowd, steadied the old lady's arm, and picked up the scattered oranges one by one. （读后续写·助人场景）",
+        "techniques": "without a moment's hesitation 果断感 + threaded his way 动词升级显画面 + murmuring crowd 环境音衬托 + 三动作连贯(threaded, steadied, picked up) + one by one 细节收尾"
+      },
+      {
+        "original": "Our school has moved forward in many ways.",
+        "upgraded": "In the past three years, our school has taken remarkable strides forward — from a smart library to a student-run radio station — each new facility bearing witness to its forward-looking philosophy. （应用文·校园介绍）",
+        "techniques": "take strides forward 替换 move forward + 破折号举例具体化 + 独立主格 bearing witness to 收尾 + forward-looking 同根词呼应"
+      }
+    ],
     "section": "Reading",
     "sub_section": "Building your language",
     "original_sentence": "In fact, I'm looking forward to being more independent and responsible for my own learning."
@@ -2900,12 +4198,29 @@
     "partOfSpeech": "phr.",
     "translation": "盼望，期待",
     "source": "Reading",
-    "definitionEn": "",
+    "definitionEn": "(1) phr. to feel pleased and excited about something that is going to happen\n(2) phr. (in letters and emails) used as a polite formula to say you are waiting eagerly for a reply or a meeting\n注意：to 是介词，后接名词或动名词（look forward to doing sth），不可接动词原形——高考高频考点",
     "uncommonMeanings": [],
     "readingExamples": [
       "In fact, I'm looking forward to being more independent and responsible for my own learning."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "phr.",
+        "sentence": "All winter Grandpa looked forward to the spring fair, marking off the days on the kitchen calendar with a red pencil worn down to a stub. （读后续写·亲情期盼·细节描写）"
+      },
+      {
+        "partOfSpeech": "phr.",
+        "sentence": "I am looking forward to hearing from you at your earliest convenience, and I would be more than happy to provide any further information you may need. （应用文·申请信结尾）"
+      },
+      {
+        "partOfSpeech": "phr.",
+        "sentence": "Psychologists point out that people who have something to look forward to — a trip, a reunion, even a good book — tend to weather daily stress far better than those who do not. （议论文·心理健康）"
+      },
+      {
+        "partOfSpeech": "phr.",
+        "sentence": "Having looked forward to this hiking trip for months, the whole class burst into cheers when the bus finally rolled through the misty mountain gate. （读后续写·集体出游·情绪释放）"
+      }
+    ],
     "wordForms": {
       "noun": null,
       "verb": null,
@@ -2914,10 +4229,87 @@
       "other": null
     },
     "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "collocations": [
+      {
+        "phrase": "look forward to doing sth",
+        "translation": "期待做某事（to 为介词，接动名词）",
+        "example": "The exchange students said they were especially looking forward to trying their hand at Chinese calligraphy and paper cutting. （应用文·活动报道）"
+      },
+      {
+        "phrase": "look forward to hearing from you",
+        "translation": "期待收到您的回复（书信万能结尾）",
+        "example": "Thank you for taking the time to read my letter; I look forward to hearing from you soon. （应用文·书信结尾）"
+      },
+      {
+        "phrase": "look forward to your reply / response",
+        "translation": "期待您的答复",
+        "example": "Should you have any questions about the proposal, please feel free to contact me; I look forward to your reply. （应用文·建议信）"
+      },
+      {
+        "phrase": "look forward to seeing / meeting sb",
+        "translation": "期待见到某人",
+        "example": "We look forward to seeing you at the graduation ceremony, where a small surprise awaits every member of Class Three. （应用文·邀请信）"
+      },
+      {
+        "phrase": "eagerly / really / very much look forward to",
+        "translation": "热切期待",
+        "example": "Every member of the drama club is eagerly looking forward to the premiere, for it marks the fruit of a whole semester's rehearsals. （应用文·活动预告）"
+      },
+      {
+        "phrase": "sth to look forward to",
+        "translation": "值得期盼的事",
+        "example": "In the grey routine of hospital life, the little patient's only thing to look forward to was the Thursday visit of the therapy dog, whose wagging tail could light up the whole ward. （读后续写·温情治愈）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "expect",
+        "translation": "预料，期待",
+        "example": "We expect the number of participants to double this year, so an extra hall has been reserved just in case. （应用文·筹备说明）",
+        "usage": "expect 是中性的'预计会发生'，不含喜悦感；look forward to 带有'盼望、憧憬'的积极情绪，二者感情色彩截然不同"
+      },
+      {
+        "synonym": "anticipate",
+        "translation": "期望；预期",
+        "example": "The long-anticipated concert did not disappoint: the moment the lights dimmed, a wave of excitement swept through the crowd. （读后续写·万众期待）",
+        "usage": "anticipate 较正式，兼指'预见并提前准备'；look forward to 更口语化、情绪更暖，是书信结尾的固定礼貌用语，anticipate 一般不用于信件套话"
+      },
+      {
+        "synonym": "long for",
+        "translation": "渴望，热切盼望",
+        "example": "Far from home, the young soldier longed for the smell of his mother's dumplings more than anything else in the world. （读后续写·思乡之情）",
+        "usage": "long for 感情最浓，指'深切渴望（尤指难以得到之物）'，常带惆怅色彩；look forward to 期待的对象通常是确定将要发生的事"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "应用文·信件结尾",
+        "expression": "I look forward to ... and remain at your disposal should ...",
+        "example": "I look forward to your favourable reply and remain at your disposal should any further details be required. （期待+待命双重礼貌+should倒装虚拟，申请信高级收尾）"
+      },
+      {
+        "type": "读后续写·情感铺垫",
+        "expression": "it was ... that sb. had been looking forward to for ...",
+        "example": "It was this very moment — the medal cold and real against her palm — that she had been looking forward to for five long years of dawn training. （强调句+破折号插入细节+时间量化，将期待瞬间具象化）"
+      },
+      {
+        "type": "议论文·观点引入",
+        "expression": "rather than merely looking forward to ..., we should ...",
+        "example": "Rather than merely looking forward to a greener future, we should roll up our sleeves and plant it, one tree and one habit at a time. （rather than 对比纠偏+隐喻式行动呼吁，结尾升华）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "I look forward to the summer holiday.",
+        "upgraded": "Like a sailor scanning the horizon for the first hint of land, I have been counting down to the summer holiday, each crossed-off date on my calendar bringing the smell of the sea one day closer. （读后续写·比喻+细节）",
+        "techniques": "like a sailor... 明喻开路 + counting down 动作具体化'期待' + 独立主格 each crossed-off date...bringing 细节推进 + 通感(smell of the sea)收尾"
+      },
+      {
+        "original": "I look forward to your reply.",
+        "upgraded": "Your early reply would be greatly appreciated, and I sincerely look forward to the opportunity of discussing my proposal with you in person. （应用文·正式书信）",
+        "techniques": "would be greatly appreciated 被动礼貌句式 + the opportunity of doing 名词化表达 + in person 收尾显诚意，双句叠加提升正式度"
+      }
+    ],
     "section": "Reading",
     "sub_section": "Building your language",
     "original_sentence": "In fact, I'm looking forward to being more independent and responsible for my own learning."
@@ -4096,24 +5488,150 @@
     "partOfSpeech": "n.",
     "translation": "风格；方式；样式",
     "source": "Integrated skills",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) n. a particular way of doing something, or of expressing ideas in writing, music, art, etc.\n(2) n. a particular design or fashion of clothes, hair, furniture and so on\n(3) n. the quality of being elegant, confident and attractive in the way one behaves or dresses\n(4) vt. to design, shape or arrange something, especially hair or clothes, in a particular way",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "称呼;给(某人)冠以称号(常用被动或 style oneself)",
+        "example": "Though he had retired years before, the villagers still styled him 'Headmaster Wang' — a title he wore with quiet pride whenever he passed the school gate. （读后续写·人物·尊敬）"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "设计;为(头发、服装等)做造型",
+        "example": "The shop window displayed a mannequin styled entirely in recycled materials, and passers-by slowed down, curious about the message behind the unusual design. （应用文·环保活动报道）"
+      }
+    ],
     "readingExamples": [
       "Read short stories in different styles;"
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Grandma's kitchen had a style all its own — mismatched china, hand-embroidered curtains and the lingering smell of ginger — and the moment I stepped in, the tension of exam season melted away. （读后续写·环境描写·温情）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Our English Drama Club welcomes members of every level, and our teaching style — relaxed, interactive and encouraging — ensures that even the shyest beginner will soon feel at home on stage. （应用文·招募启事）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Since every student has a distinctive learning style, a one-size-fits-all approach to teaching, however convenient for schools, inevitably leaves some talented minds unchallenged and others hopelessly behind. （议论文·教育）"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Before the graduation ceremony, my elder sister spent a whole hour styling my hair in front of the mirror, insisting that such a milestone deserved nothing less than perfection. （读后续写·亲情·仪式感）"
+      }
+    ],
     "wordForms": {
-      "noun": null,
-      "verb": null,
-      "adjective": null,
-      "adverb": null,
+      "noun": "stylist (设计师;发型师)",
+      "verb": "style (设计;做造型)",
+      "adjective": "stylish (时髦的) / stylistic (文体的;风格上的)",
+      "adverb": "stylishly",
       "other": null
     },
-    "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "idioms": [
+      {
+        "idiom": "in style",
+        "translation": "隆重地;气派地;流行",
+        "example": "When our team finally won the championship, we celebrated in style — banners, fireworks and a feast that lasted well into the night. （读后续写·庆祝场面）"
+      },
+      {
+        "idiom": "cramp sb's style",
+        "translation": "妨碍某人自由发挥",
+        "example": "Tom loved his little brother dearly, yet he could not help feeling that babysitting every single weekend rather cramped his style. （读后续写·家庭·矛盾心理）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "a distinctive / unique style",
+        "translation": "独特的风格",
+        "example": "Years of keeping a diary helped Lucy develop a distinctive style that her teachers could recognize at first glance. （读后续写·成长积累）"
+      },
+      {
+        "phrase": "in the style of",
+        "translation": "模仿……的风格;以……的风格",
+        "example": "For the school art festival, our class painted a mural in the style of Van Gogh, its swirling stars lighting up the dull corridor. （应用文·活动报道）"
+      },
+      {
+        "phrase": "writing style / style of writing",
+        "translation": "写作风格;文体",
+        "example": "The judges praised her plain yet powerful writing style, remarking that true emotion never needs fancy decoration. （读后续写·比赛·点评）"
+      },
+      {
+        "phrase": "learning style",
+        "translation": "学习风格",
+        "example": "A wise teacher adjusts the pace of the class to accommodate different learning styles instead of forcing everyone down the same track. （议论文·教育）"
+      },
+      {
+        "phrase": "go out of style",
+        "translation": "过时;不再流行",
+        "example": "Gadgets go out of style within months, but the joy of sharing a good book with a friend never does. （议论文·对比论证）"
+      },
+      {
+        "phrase": "develop / form one's own style",
+        "translation": "形成自己的风格",
+        "example": "Rather than copying famous speakers word for word, contestants are encouraged to develop their own style of delivery. （应用文·比赛通知）"
+      },
+      {
+        "phrase": "suit one's style",
+        "translation": "合乎某人的风格(口味)",
+        "example": "Loud parties never suited Grandpa's style; he preferred a quiet evening with tea, chess and an old friend. （读后续写·人物刻画）"
+      },
+      {
+        "phrase": "a formal / informal style",
+        "translation": "正式/非正式文体",
+        "example": "Remember that a letter to a professor calls for a formal style, while a note to a classmate can be casual and warm. （应用文·写作建议）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "manner",
+        "translation": "方式;举止",
+        "example": "The doctor explained the treatment in a gentle, unhurried manner, which gradually eased the old man's fears. （读后续写·医患·安抚）",
+        "usage": "侧重做事的具体方式或言谈举止,常用于 in a ... manner 结构;不指艺术、服饰等'风格'"
+      },
+      {
+        "synonym": "fashion",
+        "translation": "时尚;流行款式;方式",
+        "example": "School uniforms may never follow the latest fashion, but they quietly teach us that identity runs deeper than clothes. （议论文·校园话题）",
+        "usage": "强调一段时期内的流行,时效性强;style 更强调个人特色与品位,不一定随大流"
+      },
+      {
+        "synonym": "approach",
+        "translation": "方法;方式",
+        "example": "Instead of drilling grammar rules, our teacher adopted a story-based approach to language learning, and the class came alive. （应用文·课程感悟）",
+        "usage": "指解决问题、处理事情的方法路径,常与 to 连用;style 偏向个人表现出来的特征"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·人物刻画",
+        "expression": "in a style that was uniquely one's own",
+        "example": "She comforted the crying boy in a style that was uniquely her own — no lectures, no fuss, just a warm biscuit and a seat by the fire. （破折号列举具体动作,以细节代替抽象评价,人物形象立体化）"
+      },
+      {
+        "type": "应用文·活动介绍",
+        "expression": "Designed to cater to different styles of ..., ... offers ...",
+        "example": "Designed to cater to different learning styles, the club offers workshops, film nights and story-writing contests alike, so that everyone can find a door into English. （过去分词短语开头点明设计意图,应用文高分开头）"
+      },
+      {
+        "type": "议论文·观点论证",
+        "expression": "It is not the style but the substance of ... that ...",
+        "example": "It is not the style but the substance of an argument that ultimately persuades a critical reader — a truth many flashy speakers choose to ignore. （强调句+style/substance 对比,论证有力）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "She had her own style.",
+        "upgraded": "Quiet as she was, everything she did — from the way she folded paper cranes to the way she calmed a nervous classmate before exams — carried a gentle style that was unmistakably her own. （读后续写·细节描写）",
+        "techniques": "让步倒装(Quiet as she was) + from ... to ... 细节列举 + 破折号插入语,用具体行为呈现抽象的'风格'"
+      },
+      {
+        "original": "Our club has many styles of activities.",
+        "upgraded": "Ranging from classic drama rehearsals to modern film-dubbing contests, the activities of our club embrace such a rich variety of styles that every member is guaranteed to find a stage of his or her own. （应用文·社团介绍）",
+        "techniques": "Ranging from ... to ... 分词短语开头 + such ... that ... 结果状语从句 + 正式措辞(embrace, be guaranteed to)"
+      }
+    ],
     "section": "Integrated skills",
     "sub_section": "Proposal for a new club",
     "original_sentence": "Read short stories in different styles;"
@@ -4211,24 +5729,129 @@
     "partOfSpeech": "n.",
     "translation": "研讨会，讲习班；车间，作坊",
     "source": "Integrated skills",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) n. a meeting at which people share ideas and gain practical experience of a subject through discussion and hands-on activities\n(2) n. a room or building in which things are made or repaired using tools and machines\n(3) vt. to discuss and try out a play, piece of writing, etc. with a group in order to improve it (used especially in theatre and creative writing)",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "(以工作坊形式)集体研讨、打磨(剧本、作品等)",
+        "example": "The script was workshopped for months in a tiny basement theatre before it finally dazzled audiences in the West End. （读后续写·戏剧梦想·先抑后扬）"
+      }
+    ],
     "readingExamples": [
       "Hold workshops to discuss the short stories that club members read and write;"
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "At the carpentry workshop at the end of the lane, Grandpa taught me to sand a rough plank until it shone, saying that patience, like wood, reveals its grain slowly. （读后续写·祖孙情·哲理）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Nervously clutching her first draft, Lily walked into the writing workshop, never suspecting that the strangers in that room would become her fiercest supporters and dearest friends. （读后续写·成长·伏笔）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "To sharpen members' writing skills, the club will hold a monthly workshop where short stories are read aloud, discussed in groups and polished under the guidance of our English teachers. （应用文·社团方案）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Compared with traditional lectures, hands-on workshops engage students far more effectively, for knowledge discovered through one's own effort takes deeper root than knowledge merely received. （议论文·教育方式）"
+      }
+    ],
     "wordForms": {
       "noun": null,
-      "verb": null,
+      "verb": "workshop (vt. 集体研讨打磨作品)",
       "adjective": null,
       "adverb": null,
       "other": null
     },
     "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "collocations": [
+      {
+        "phrase": "hold / run a workshop",
+        "translation": "举办研讨会(讲习班)",
+        "example": "Next Friday the Student Union will hold a workshop on public speaking, aimed at helping freshmen overcome stage fright. （应用文·通知）"
+      },
+      {
+        "phrase": "attend / take part in a workshop",
+        "translation": "参加研讨会",
+        "example": "All those who attend the workshop will receive a certificate as well as a booklet of practical writing tips. （应用文·活动介绍）"
+      },
+      {
+        "phrase": "a workshop on sth",
+        "translation": "关于……的研讨会",
+        "example": "A workshop on traditional paper-cutting drew so many curious students that extra chairs had to be squeezed into the art room. （读后续写·文化活动）"
+      },
+      {
+        "phrase": "a hands-on workshop",
+        "translation": "动手实践型工作坊",
+        "example": "Unlike a lecture where you merely listen, a hands-on workshop invites you to make mistakes, fix them and truly learn. （议论文·学习方式）"
+      },
+      {
+        "phrase": "a two-day / weekend workshop",
+        "translation": "为期两天的/周末研讨班",
+        "example": "The weekend workshop on photography transformed my phone from a toy into a tool for storytelling. （应用文·活动感悟）"
+      },
+      {
+        "phrase": "workshop participants",
+        "translation": "工作坊参与者",
+        "example": "At the closing session, workshop participants exchanged contact information, reluctant to let the newly formed friendships fade. （读后续写·聚散）"
+      },
+      {
+        "phrase": "a repair / carpenter's workshop",
+        "translation": "修理车间;木工作坊",
+        "example": "The old bicycle repair workshop smelled of oil and rubber, and its walls were hung with tools polished by decades of honest labour. （读后续写·环境描写）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "seminar",
+        "translation": "研讨班;专题讨论会",
+        "example": "The professor's seminar on climate change challenged us to question data rather than simply memorize it. （议论文·学术场景）",
+        "usage": "更学术化,以专题讨论、发言为主,常见于大学;workshop 强调动手实践与共同产出"
+      },
+      {
+        "synonym": "session",
+        "translation": "一场(活动、会议);一节课",
+        "example": "The morning training session left the volunteers exhausted but far more confident about the tasks ahead. （应用文·志愿活动）",
+        "usage": "泛指一段进行某活动的时间,如 a training session;不像 workshop 那样特指'实践研讨'这种形式"
+      },
+      {
+        "synonym": "course",
+        "translation": "课程",
+        "example": "She signed up for an online course in coding and stuck with it for a whole year, one lesson a night. （读后续写·自律成长）",
+        "usage": "指系统、连续的系列课程,周期较长;workshop 通常短期、密集、聚焦单一主题"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·场景点题",
+        "expression": "It was at that ... workshop that sb. first ...",
+        "example": "It was at that shabby little workshop that I first understood what it meant to create something with my own hands. （强调句锁定关键场景,常用于续写点明转折或主题）"
+      },
+      {
+        "type": "应用文·活动方案",
+        "expression": "A series of workshops will be organized, covering ...",
+        "example": "A series of interactive workshops will be organized, covering story structure, vivid description and peer editing, so that members can grow from casual readers into confident writers. （被动语态+现在分词补充说明,方案类应用文高分句式）"
+      },
+      {
+        "type": "议论文·对比论证",
+        "expression": "workshops, where theory is put into practice, bridge the gap between ...",
+        "example": "Workshops, where theory is immediately put into practice, bridge the long-lamented gap between knowing and doing — precisely the gap that traditional classrooms so often fail to close. （非限制性定语从句+破折号强调,凸显对比）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "We had a workshop and learned a lot.",
+        "upgraded": "By the time the two-hour workshop drew to a close, my notebook was crammed with fresh ideas, my doubts had quietly dissolved, and I found myself already longing for the next session. （读后续写·活动感悟）",
+        "techniques": "By the time 时间状语从句 + 三分句排比递进 + 具象细节(notebook crammed with ideas)代替空泛的 learned a lot"
+      },
+      {
+        "original": "The club will hold workshops for students.",
+        "upgraded": "Tailored to students of different levels, the club's weekly workshops will provide a supportive platform where budding writers can exchange ideas, receive constructive feedback and steadily refine their craft. （应用文·社团介绍）",
+        "techniques": "过去分词短语开头(Tailored to ...) + where 定语从句 + 三动词并列递进(exchange, receive, refine)"
+      }
+    ],
     "section": "Integrated skills",
     "sub_section": "Proposal for a new club",
     "original_sentence": "Hold workshops to discuss the short stories that club members read and write;"
@@ -4457,24 +6080,131 @@
     "partOfSpeech": "n.",
     "translation": "海报；（在网络留言板上）发布消息的人",
     "source": "Integrated skills",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) n. a large printed notice or picture put up in a public place to advertise or announce something\n(2) n. a large printed picture or photograph stuck on a wall as decoration\n(3) n. a person who posts a message on an Internet forum or message board",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "(网络论坛、留言板上的)发帖人",
+        "example": "The anonymous poster who first shared the missing boy's photo online never imagined that thousands of strangers would join the search within hours. （读后续写·网络善举）"
+      }
+    ],
     "readingExamples": [
       "Make posters and put them up around the school;"
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Under the flickering streetlamp, Amy smoothed out the hand-drawn poster of her lost cat, pressed it against the cold wall, and whispered a small prayer before hurrying to the next corner. （读后续写·寻宠·动作细节）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Eye-catching posters will be put up at the school gate and in every classroom next Monday, so please take a moment to read them for further details about the charity sale. （应用文·活动通知）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A well-designed poster can convey an environmental message at a single glance, which explains why visual campaigns often reach audiences that lengthy articles fail to touch. （议论文·宣传方式）"
+      }
+    ],
     "wordForms": {
-      "noun": null,
-      "verb": null,
+      "noun": "post (帖子;邮件;职位)",
+      "verb": "post (张贴;(在网上)发布)",
       "adjective": null,
       "adverb": null,
       "other": null
     },
-    "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "idioms": [
+      {
+        "idiom": "a poster child / poster boy / poster girl (for sth)",
+        "translation": "典型代表;代言式人物",
+        "example": "Once a struggling stutterer, the young speaker has become a poster child for what determination and daily practice can achieve. （议论文·励志论据）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "put up / stick up a poster",
+        "translation": "张贴海报",
+        "example": "The volunteers put up posters along the main street, hoping every passer-by would pause for the sake of the stray animals. （读后续写·公益行动）"
+      },
+      {
+        "phrase": "design / make a poster",
+        "translation": "设计/制作海报",
+        "example": "Each class is invited to design a poster on water conservation, and the winning work will be printed and displayed in the library. （应用文·比赛通知）"
+      },
+      {
+        "phrase": "take down a poster",
+        "translation": "取下海报",
+        "example": "Long after the concert, Jack refused to take down the poster, for it reminded him of the night his shy voice first filled a hall. （读后续写·纪念·成长）"
+      },
+      {
+        "phrase": "an eye-catching / colourful poster",
+        "translation": "醒目的/色彩鲜艳的海报",
+        "example": "An eye-catching poster at the entrance, we believe, will double the number of visitors to our second-hand book fair. （应用文·活动方案）"
+      },
+      {
+        "phrase": "a poster advertising sth",
+        "translation": "宣传……的海报",
+        "example": "On the notice board hung a poster advertising the English Corner, its bold letters promising 'friendship first, fluency second'. （读后续写·校园场景）"
+      },
+      {
+        "phrase": "a film / movie poster",
+        "translation": "电影海报",
+        "example": "The faded movie poster on his bedroom wall told everyone what the quiet boy dreamed of becoming. （读后续写·环境暗示人物）"
+      },
+      {
+        "phrase": "a poster campaign",
+        "translation": "海报宣传活动",
+        "example": "The student union launched a poster campaign against food waste, and within weeks the leftover trays in the canteen had visibly shrunk. （议论文·事例论证）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "notice",
+        "translation": "通知;布告",
+        "example": "A notice on the board says the library will extend its opening hours during the final exam weeks. （应用文·通知）",
+        "usage": "侧重传达文字信息的告示;poster 强调图文并茂、有视觉冲击力的宣传画"
+      },
+      {
+        "synonym": "placard",
+        "translation": "标语牌;招贴",
+        "example": "The marathon route was lined with cheering families holding hand-made placards of encouragement. （读后续写·赛事场面）",
+        "usage": "多指手举或竖立的标语牌,常见于集会、比赛现场;poster 通常张贴于墙面"
+      },
+      {
+        "synonym": "flyer / leaflet",
+        "translation": "(散发的)传单",
+        "example": "Volunteers handed out flyers about the blood donation drive at the school gate during lunch break. （应用文·活动报道）",
+        "usage": "指发到人手中的单页宣传品,小而便携;poster 尺寸大、固定张贴、供远观"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·环境暗示",
+        "expression": "..., plastered with posters of ..., betrayed ...",
+        "example": "The bedroom wall, plastered with posters of distant galaxies, betrayed the quiet dream the boy had never dared to say aloud. （过去分词短语作插入定语+betray'流露',以环境细节暗示人物内心）"
+      },
+      {
+        "type": "应用文·宣传描述",
+        "expression": "As is vividly shown on the poster, ...",
+        "example": "As is vividly shown on the poster, the English Festival will feature drama, debate and dubbing contests, promising something for everyone. （as 引导的非限制性定语从句,描述宣传品的经典应用文句式）"
+      },
+      {
+        "type": "议论文·让步深化",
+        "expression": "No poster, however striking, can substitute for ...",
+        "example": "No poster, however striking, can substitute for genuine action; awareness raised on paper must eventually walk off the wall and into our daily lives. （否定主语+however 让步插入语+隐喻,深化论证）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "We made posters and put them up around the school.",
+        "upgraded": "Armed with brushes and boundless enthusiasm, we spent the whole afternoon painting posters, and by dusk our colourful invitations were smiling from every wall and notice board on campus. （读后续写·活动筹备）",
+        "techniques": "Armed with ... 过去分词开头 + 拟人(invitations were smiling) + 时间推进(by dusk)营造画面感"
+      },
+      {
+        "original": "The poster gives information about the club.",
+        "upgraded": "Displayed prominently at the school entrance, the poster offers a clear picture of the club's aims, weekly activities and application procedure, ensuring that no interested student misses the chance to join. （应用文·招募说明）",
+        "techniques": "过去分词短语开头(Displayed ...) + 三项并列名词结构 + ensuring 现在分词表结果"
+      }
+    ],
     "section": "Integrated skills",
     "sub_section": "Proposal for a new club",
     "original_sentence": "Make posters and put them up around the school;"
@@ -4700,24 +6430,150 @@
     "partOfSpeech": "n. & vt.",
     "translation": "n. 主人；东道主；主持人 | vt. 主办；主持",
     "source": "Extended reading",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) n. a person who invites guests to a meal, a party, etc. and looks after them\n(2) n. a country, city or organization that arranges and provides the facilities for a special event\n(3) n. a person who introduces guests and performers on a television or radio programme\n(4) vt. to organize an event and invite people to it; to act as the host of a place, event or programme",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "许多,大量(a host of,高考高频熟词僻义)",
+        "example": "Standing at the crossroads of graduation, she found a host of memories flooding back — the morning readings, the shared umbrellas, the whispered jokes in the back row. （读后续写·毕业·回忆蒙太奇）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "meaning": "(寄生生物的)宿主;(计算机网络的)主机",
+        "example": "In biology class we learned, to our astonishment, that some parasites can live quietly inside their host for years without ever being detected. （科普·生物）"
+      }
+    ],
     "readingExamples": [
       "I stayed with a lovely host family and went to school with their son, Daniel."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "My host family greeted me at the airport with a hand-painted welcome sign, and in that instant the loneliness I had carried across the ocean simply evaporated. （读后续写·异国求学·温情）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "We would feel greatly honoured if you could serve as the host of our English Evening, for your humour and fluent English have long been admired by the whole school. （应用文·邀请信）"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "Our school will host an international culture festival next month, which offers students a precious opportunity to exchange ideas with peers from entirely different backgrounds. （应用文·通知）"
+      },
+      {
+        "partOfSpeech": "vt.",
+        "sentence": "When a city hosts a major sporting event, the benefits extend far beyond the stadium: infrastructure improves, tourism flourishes, and citizens develop a stronger sense of pride and belonging. （议论文·城市发展）"
+      }
+    ],
     "wordForms": {
-      "noun": null,
-      "verb": null,
+      "noun": "hostess (女主人;女主持人)",
+      "verb": "host (主办;主持)",
       "adjective": null,
       "adverb": null,
       "other": null
     },
-    "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "idioms": [
+      {
+        "idiom": "a (whole) host of",
+        "translation": "大量;许多",
+        "example": "Volunteering at the nursing home brought me a whole host of unexpected rewards, the greatest of which was learning to listen with patience. （应用文·活动感悟）"
+      },
+      {
+        "idiom": "play host to",
+        "translation": "招待;主办;为……提供场所",
+        "example": "Next spring, our city will play host to the National Youth Robotics Contest, welcoming young inventors from all over the country. （应用文·新闻报道）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "host family",
+        "translation": "寄宿家庭;接待家庭",
+        "example": "Living with a host family, exchange students absorb the local culture at the dinner table as much as in the classroom. （议论文·文化交流）"
+      },
+      {
+        "phrase": "host country / host city",
+        "translation": "东道国;主办城市",
+        "example": "As the host city of the games, Hangzhou impressed visitors with its seamless blend of ancient charm and cutting-edge technology. （应用文·介绍信）"
+      },
+      {
+        "phrase": "host a party / dinner",
+        "translation": "举办聚会/宴请",
+        "example": "To bid farewell to the exchange students, our class hosted a dinner where laughter and carefully rehearsed English toasts flowed in equal measure. （读后续写·送别场面）"
+      },
+      {
+        "phrase": "host the Olympic Games / a competition",
+        "translation": "主办奥运会/比赛",
+        "example": "The privilege of hosting the Olympic Games pushes a nation to present its very best face to the world. （议论文·国家形象）"
+      },
+      {
+        "phrase": "host a TV programme / talk show",
+        "translation": "主持电视节目/脱口秀",
+        "example": "The retired teacher now hosts a weekend radio programme, answering study questions from anxious students with her trademark patience. （读后续写·人物近况）"
+      },
+      {
+        "phrase": "a talk show host",
+        "translation": "脱口秀主持人",
+        "example": "The talk show host paused, lowered his cue cards, and let the young guest's story speak entirely for itself. （读后续写·访谈·留白）"
+      },
+      {
+        "phrase": "act as host",
+        "translation": "担任主人(主持人)",
+        "example": "Having acted as host at three school open days, Wang Lin has developed the calm and quick wit the role demands. （应用文·推荐信）"
+      },
+      {
+        "phrase": "thank one's host",
+        "translation": "感谢主人(东道主)",
+        "example": "Before boarding, I turned around one last time to thank my hosts, my voice trembling more than I had expected. （读后续写·离别·情感）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "hold",
+        "translation": "举行;举办",
+        "example": "The speech contest will be held in the lecture hall this Friday afternoon, and all are welcome to watch. （应用文·通知）",
+        "usage": "中性词,只强调'举行'这一事实;host 突出以东道主身份提供场地并接待宾客"
+      },
+      {
+        "synonym": "organize",
+        "translation": "组织;筹办",
+        "example": "The Student Union organized a flea market to raise money for children in mountainous areas. （应用文·活动报道）",
+        "usage": "强调筹备、安排的过程;host 强调'主办方/接待者'的身份,而非具体筹备工作"
+      },
+      {
+        "synonym": "present",
+        "translation": "主持(节目);展示",
+        "example": "She presents the campus news programme every Monday, opening each episode with a proverb she has picked for the week. （读后续写·校园生活）",
+        "usage": "英式英语常说 present a programme,主持人称 presenter;host 兼指主持节目和主办活动,美式更常用"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "读后续写·情感升华",
+        "expression": "Nothing could better express my gratitude to ... than ...",
+        "example": "Nothing could better express my gratitude to my host family than the tears I fought back at the departure gate — some kindness is simply too deep for words. （否定词开头的比较结构+破折号点题,续写结尾升华常用）"
+      },
+      {
+        "type": "应用文·邀请信",
+        "expression": "It would be our great honour to have you host ...",
+        "example": "It would be our great honour to have you host this year's graduation ceremony, as no one commands the stage with more warmth and wit than you do. （虚拟语气客套+比较结构,邀请信高分表达）"
+      },
+      {
+        "type": "议论文·利弊权衡",
+        "expression": "Hosting ..., while (undeniably) costly, ...",
+        "example": "Hosting international events, while undeniably costly, plants seeds of openness and confidence in a city that money alone could never buy. （动名词作主语+while 让步插入语+隐喻,利弊论证句式）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "My host family was very kind to me.",
+        "upgraded": "From the steaming breakfast that awaited me every morning to the bedtime stories Mrs. Smith translated word by word, my host family wrapped my homesick heart in a warmth I had thought only my own family could give. （读后续写·细节+情感）",
+        "techniques": "from ... to ... 细节列举开头 + 隐喻(wrap ... in a warmth) + 对比(only my own family)深化情感"
+      },
+      {
+        "original": "Our school will host an English contest.",
+        "upgraded": "It gives us great pleasure to announce that our school will host the 5th Citywide English Speech Contest, an event designed to ignite students' passion for the language and build their confidence on stage. （应用文·通知）",
+        "techniques": "It gives us great pleasure to announce that ... 正式开场 + 同位语(an event ...)补充说明 + 不定式并列表目的(to ignite ... and build ...)"
+      }
+    ],
     "section": "Extended reading",
     "sub_section": "School life in the UK",
     "original_sentence": "I stayed with a lovely host family and went to school with their son, Daniel."
@@ -4730,12 +6586,21 @@
     "partOfSpeech": "abbr.",
     "translation": "上午，午前",
     "source": "Extended reading",
-    "definitionEn": "",
+    "definitionEn": "(1) abbr. used after a time to show that it is between midnight and midday (short for the Latin 'ante meridiem', meaning 'before noon')",
     "uncommonMeanings": [],
     "readingExamples": [
       "The British school day commonly begins around 9 a.m. and ends around 4 p.m."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "abbr.",
+        "sentence": "The morning reading session starts at 7:30 a.m. sharp, so all students are expected to arrive on time with their textbooks ready. （应用文·通知）"
+      },
+      {
+        "partOfSpeech": "abbr.",
+        "sentence": "At exactly 6 a.m., before the first light crept over the rooftops, Grandpa was already out in the yard watering his beloved roses. （读后续写·清晨·人物习惯）"
+      }
+    ],
     "wordForms": {
       "noun": null,
       "verb": null,
@@ -4744,7 +6609,23 @@
       "other": null
     },
     "idioms": [],
-    "collocations": [],
+    "collocations": [
+      {
+        "phrase": "at 8 a.m.",
+        "translation": "在上午八点(注意:数字在前,a.m. 在后,不与 in the morning 连用)",
+        "example": "The opening ceremony will begin at 8 a.m. in the school hall, followed by a campus tour for our guests. （应用文·日程安排）"
+      },
+      {
+        "phrase": "from 9 a.m. to 5 p.m.",
+        "translation": "从上午九点到下午五点",
+        "example": "The exhibition is open from 9 a.m. to 5 p.m. on weekdays, and admission is free for all students with an ID card. （应用文·通知）"
+      },
+      {
+        "phrase": "the 7 a.m. train / bus",
+        "translation": "早上七点的火车/公交",
+        "example": "To catch the 7 a.m. train, Father rose in darkness, moving about the kitchen as quietly as a shadow so as not to wake us. （读后续写·父爱·细节）"
+      }
+    ],
     "synonyms": [],
     "advancedExpressions": [],
     "sentenceUpgrade": [],
@@ -4760,12 +6641,21 @@
     "partOfSpeech": "abbr.",
     "translation": "下午，午后",
     "source": "Extended reading",
-    "definitionEn": "",
+    "definitionEn": "(1) abbr. used after a time to show that it is between midday and midnight (short for the Latin 'post meridiem', meaning 'after noon')",
     "uncommonMeanings": [],
     "readingExamples": [
       "The British school day commonly begins around 9 a.m. and ends around 4 p.m."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "abbr.",
+        "sentence": "The closing ceremony is scheduled for 3 p.m. this Friday in the school hall, and all club members are required to be seated ten minutes in advance. （应用文·通知）"
+      },
+      {
+        "partOfSpeech": "abbr.",
+        "sentence": "By 11 p.m. the whole house had fallen silent, yet the lamp in Mother's room still glowed — she was mending my school uniform again. （读后续写·母爱·深夜）"
+      }
+    ],
     "wordForms": {
       "noun": null,
       "verb": null,
@@ -4774,7 +6664,23 @@
       "other": null
     },
     "idioms": [],
-    "collocations": [],
+    "collocations": [
+      {
+        "phrase": "at 6 p.m.",
+        "translation": "在下午六点(注意:数字在前,p.m. 在后,不与 in the afternoon 连用)",
+        "example": "Dinner with our host family was served at 6 p.m. every day, a fixed ritual that soon became the warmest hour of my exchange life. （应用文·交流感悟）"
+      },
+      {
+        "phrase": "from 2 p.m. to 4 p.m.",
+        "translation": "从下午两点到四点",
+        "example": "The book donation will be received at the gym from 2 p.m. to 4 p.m. this Saturday; volunteers are needed to sort and pack. （应用文·倡议书）"
+      },
+      {
+        "phrase": "no later than 10 p.m.",
+        "translation": "不晚于晚上十点",
+        "example": "Experts recommend that senior students go to bed no later than 10 p.m., for a clear mind outperforms an extra hour of tired review. （议论文·作息与效率）"
+      }
+    ],
     "synonyms": [],
     "advancedExpressions": [],
     "sentenceUpgrade": [],
@@ -4790,24 +6696,98 @@
     "partOfSpeech": "n.",
     "translation": "生物学",
     "source": "Extended reading",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) n. the scientific study of living things, including plants, animals and micro-organisms\n(2) n. the scientific processes and features of a particular living thing or group of living things (the biology of sth)\n(3) n. the physical processes that happen inside the body, as opposed to the mind",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "(某类生物或人体的)生理机制、生命活动规律(the biology of sth)",
+        "example": "Scientists studying the biology of ageing have discovered that regular exercise can slow down many of the bodily changes we once believed were unavoidable. （议论文·科学与健康）"
+      }
+    ],
     "readingExamples": [
       "Every secondary school student in the UK must study English, Maths and the Science subjects: Biology, Chemistry and Physics."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Bent over her biology textbook long after midnight, Lucy traced the diagram of a beating heart with her fingertip, wondering whether her own racing heart would ever calm down before tomorrow's exam. （读后续写·深夜备考·心理描写）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "I am delighted to announce that our biology club will organize a field trip to the wetland park this Saturday, where members can observe migrating birds and collect water samples under the teacher's guidance. （应用文·通知）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "A solid grounding in biology not only equips young people with scientific literacy but also deepens their respect for the delicate web of life on which every one of us depends. （议论文·科学教育）"
+      }
+    ],
     "wordForms": {
-      "noun": null,
+      "noun": "biologist (生物学家)",
       "verb": null,
-      "adjective": null,
-      "adverb": null,
-      "other": null
+      "adjective": "biological (生物的;biological parents 亲生父母)",
+      "adverb": "biologically",
+      "other": "bio- 前缀(生命):biography 传记, biosphere 生物圈"
     },
     "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "collocations": [
+      {
+        "phrase": "study / major in biology",
+        "translation": "学习/主修生物学",
+        "example": "Inspired by her volunteer work at the nature reserve, Mei has decided to major in biology at university and devote herself to wildlife protection. （应用文·个人陈述）"
+      },
+      {
+        "phrase": "marine biology",
+        "translation": "海洋生物学",
+        "example": "The documentary on marine biology opened my eyes to a glowing underwater world that few of us will ever witness with our own eyes. （记叙·观影感悟）"
+      },
+      {
+        "phrase": "molecular / cell biology",
+        "translation": "分子/细胞生物学",
+        "example": "Breakthroughs in molecular biology have made it possible to treat diseases that were considered incurable only a decade ago. （议论文·科技进步）"
+      },
+      {
+        "phrase": "a biology lesson / class",
+        "translation": "生物课",
+        "example": "What began as an ordinary biology lesson turned unforgettable when our teacher brought in a real beehive and let us listen to its steady, drowsy hum. （读后续写·课堂惊喜）"
+      },
+      {
+        "phrase": "a biology lab / experiment",
+        "translation": "生物实验室/生物实验",
+        "example": "Please note that all students must wear gloves and follow the safety instructions strictly during the biology experiment scheduled for next Monday. （应用文·实验室通知）"
+      },
+      {
+        "phrase": "a degree in biology",
+        "translation": "生物学学位",
+        "example": "Armed with a degree in biology and years of field experience, Dr. Lin has become a leading voice in the campaign to save the snow leopard. （议论文·人物例证）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "life science(s)",
+        "translation": "生命科学",
+        "example": "Advances in the life sciences are quietly reshaping medicine, agriculture and even the way we understand ourselves. （议论文·科技话题）",
+        "usage": "更宽泛的学科统称,涵盖生物学、医学、生态学等;biology 特指\"生物学\"这门课程或学科,日常校园语境用 biology"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "应用文·课程/社团介绍",
+        "expression": "Designed for students who ..., the biology course/club offers ...",
+        "example": "Designed for students who are endlessly curious about the living world, the biology club offers hands-on experiments, field trips and the rare joy of watching textbook knowledge come alive. （过去分词短语开头+三项并列,招新启事高分框架）"
+      },
+      {
+        "type": "议论文·学科价值论证",
+        "expression": "A solid grounding in ... not only ... but also ...",
+        "example": "A solid grounding in biology not only sharpens our scientific reasoning but also teaches us humility before the astonishing complexity of nature. （not only...but also 递进论证+抽象名词升格）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "I like biology.",
+        "upgraded": "Of all the subjects on my timetable, it is biology that never fails to set my curiosity alight, for every slide under the microscope seems to whisper a small secret about how life works. （夹叙夹议·兴趣描写）",
+        "techniques": "Of all... 范围铺垫 + it is...that 强调句 + never fails to 双重否定强化 + 拟人(whisper a secret)"
+      }
+    ],
     "section": "Extended reading",
     "sub_section": "School life in the UK",
     "original_sentence": "Every secondary school student in the UK must study English, Maths and the Science subjects: Biology, Chemistry and Physics."
@@ -5148,7 +7128,7 @@
     "partOfSpeech": "adv.",
     "translation": "幸运地，幸亏",
     "source": "Extended reading",
-    "definitionEn": "(1) adv. by good luck\n(2) adv. luckily",
+    "definitionEn": "(1) adv. used to say that it is good that something happened or is the case; by good luck\n(2) adv. in a fortunate manner; luckily; happily\n(3) adv. (as a sentence adverb) it is a matter of good fortune that ...",
     "uncommonMeanings": [],
     "readingExamples": [
       "Fortunately, my teachers and classmates were always helpful and gave me lots of encouragement."
@@ -5156,11 +7136,15 @@
     "posExamples": [
       {
         "partOfSpeech": "adv.",
-        "sentence": "The bridge gave way three seconds after the last car crossed — three seconds, the width of a breath, the margin between tragedy and a story that would be told, years later, at family gatherings with the nervous laughter of people who did not yet know, as they drove across, how close they had come to not arriving at all. Fortunately. One word, so small, containing an entire alternate universe of what-might-have-been. （读后续写·千钧一发·幸存的重量）"
+        "sentence": "The bridge gave way three seconds after the last car crossed — three seconds, the width of a breath, the margin between tragedy and a story that would be told, years later, at family gatherings with the nervous laughter of people who had not, as they drove across, understood how close they had come to never arriving at all. Fortunately. One word, so small, containing an entire alternate universe of what-might-have-been. （读后续写·千钧一发·幸存的重量）"
       },
       {
         "partOfSpeech": "adv.",
-        "sentence": "Fortunately, the venue was available on our backup date — a stroke of luck that, I must admit, was less about good planning and more about the fact that the previous booking had canceled at the last minute. （应用文·活动通知·诚实幽默）"
+        "sentence": "Fortunately, the venue turned out to be available on our backup date — a stroke of luck that, I must honestly admit, owed less to careful planning than to the fact that the previous booking had been cancelled at the very last minute. （应用文·活动通知·诚实幽默）"
+      },
+      {
+        "partOfSpeech": "adv.",
+        "sentence": "Some argue that success is nothing but a happy accident; fortunately, history tells a different story, for behind almost every so-called 'lucky break' lies years of quiet, unglamorous preparation that finally met its opportunity. （议论文·努力与运气·驳论）"
       }
     ],
     "wordForms": {
@@ -5175,7 +7159,37 @@
       {
         "phrase": "fortunately for sb.",
         "translation": "对某人来说幸运的是",
-        "example": "Fortunately for her — and unfortunately for the committee that had rejected her application — she kept every rejection letter, and at the ceremony where she received the award they had once deemed her unworthy of, she read from them, not with bitterness but with the gentle irony of someone who understood that the word 'no' is sometimes just 'not yet' in disguise. （读后续写·逆袭·拒绝信的另一种解读）"
+        "example": "Fortunately for her — and unfortunately for the committee that had rejected her application — she had kept every rejection letter, and at the ceremony where she received the very award they had once deemed her unworthy of, she read from them, not with bitterness but with the gentle irony of someone who understood that the word 'no' is sometimes just 'not yet' in disguise. （读后续写·逆袭·拒绝信的另一种解读）"
+      },
+      {
+        "phrase": "fortunately enough",
+        "translation": "算是够幸运的（加强语气，常带庆幸/如释重负）",
+        "example": "Fortunately enough, the storm changed course during the night, and by dawn the fishing boats that had stayed out too late were bobbing safely back into the harbour, their crews too exhausted to do anything but wave. （读后续写·天气转好·劫后余生）"
+      },
+      {
+        "phrase": "fortunately, as it turned out",
+        "translation": "幸好，结果证明……",
+        "example": "Fortunately, as it turned out, the wrong turn she had cursed for adding an hour to the journey was the very road that led her past the house where an elderly woman had collapsed alone. （读后续写·因祸得福·反转）"
+      },
+      {
+        "phrase": "fortunately, thanks to sth/sb.",
+        "translation": "幸亏有……",
+        "example": "Fortunately, thanks to the generosity of our parent volunteers and the tireless efforts of the student council, we were able to raise the full amount — and then some. （应用文·感谢信/活动总结）"
+      },
+      {
+        "phrase": "fortunately for all concerned",
+        "translation": "对所有相关的人来说都幸运的是",
+        "example": "Fortunately for all concerned, the misunderstanding was cleared up before it hardened into a lasting grudge, and the two teams that had nearly come to blows ended the day sharing a table and a laugh. （应用文·活动通知/议论文·和解）"
+      },
+      {
+        "phrase": "quite / most fortunately",
+        "translation": "十分幸运地（正式书面语加强）",
+        "example": "Most fortunately, a passing doctor recognised the symptoms at once and began first aid long before the ambulance, delayed by the evening traffic, finally forced its way through. （读后续写·危急救援·关键人物出场）"
+      },
+      {
+        "phrase": "and fortunately (so) / but fortunately",
+        "translation": "而幸运的是 / 但幸好（转折衔接）",
+        "example": "The map had been useless from the start, and the phone had died an hour ago — but fortunately, the old shepherd they stumbled upon knew every goat-path on the mountain by heart. （读后续写·迷路脱困·转折衔接）"
       }
     ],
     "synonyms": [
@@ -5183,25 +7197,36 @@
         "synonym": "luckily",
         "translation": "幸运地，幸好",
         "example": "Luckily, the rain held off until the ceremony was over — though the clouds had been gathering all afternoon, dark and patient, as if they too were waiting for the speeches to end before releasing their applause. （读后续写·天公作美·拟人化描写）",
-        "usage": "更口语化，与fortunately几乎完全可互换"
+        "usage": "更口语化，与fortunately几乎完全可互换；正式书面（应用文、议论文）里fortunately更稳妥，luckily偏轻松随意"
       },
       {
         "synonym": "mercifully",
-        "translation": "幸运地， mercifully（带感情色彩）",
+        "translation": "幸运地，谢天谢地地（带感情色彩）",
         "example": "The long meeting ended mercifully early — the chairperson had lost her voice, which everyone agreed, though they expressed the appropriate sympathies, was the best thing that had happened to the committee all year. （读后续写·会议提前结束·讽刺幽默）",
-        "usage": "强调从痛苦/无聊中解脱的幸运，带有「谢天谢地」的情感"
+        "usage": "强调从痛苦/无聊/危险中解脱的幸运，带「谢天谢地、总算」的情感；fortunately中性，mercifully更主观、更有语气"
+      },
+      {
+        "synonym": "happily",
+        "translation": "幸好，令人高兴的是",
+        "example": "Happily, the misunderstanding was soon put right, and the friendship that had almost been lost over a careless word grew, if anything, closer for having been tested. （读后续写·和好·作句首状语）",
+        "usage": "作句首状语时=fortunately/luckily，语气更文雅书面；注意happily也可作方式状语（快乐地），fortunately则只表庆幸，不表情绪"
       }
     ],
     "advancedExpressions": [
       {
         "type": "读后续写·转危为安",
-        "expression": "fortunately, as it turned out, ...",
-        "example": "Fortunately, as it turned out, the road she had taken by mistake — the one she had cursed under her breath for adding an hour to her journey — was the road that led past the house where an old woman was having a heart attack, alone, with no one to call for help. And the young woman who had been so angry about the wrong turn became, in that moment, the right person in the right place at the right time, and the wrong turn became the most fortunate mistake of her life. （错误的转弯→最幸运的偶然→成为别人的救星）"
+        "expression": "Fortunately, as it turned out, ...",
+        "example": "Fortunately, as it turned out, the road she had taken by mistake — the one she had cursed under her breath for adding an hour to her journey — was the road that led past the house where an old woman was having a heart attack, alone, with no one to call for help. And the young woman who had been so angry about the wrong turn became, in that very moment, the right person in the right place at the right time. （错误的转弯→最幸运的偶然→成为别人的救星）"
       },
       {
         "type": "应用文·感恩表达",
-        "expression": "fortunately, thanks to ..., we were able to ...",
+        "expression": "Fortunately, thanks to ..., we were able to ...",
         "example": "Fortunately, thanks to the generosity of our parent volunteers and the tireless efforts of the student council, we were able to raise the full amount — and then some — proving once again that when this community comes together, the word 'impossible' starts to look a lot like 'not yet.' （感谢信/活动总结）"
+      },
+      {
+        "type": "议论文·运气与努力",
+        "expression": "What looks like fortune is, more often than not, ...",
+        "example": "What looks like fortune is, more often than not, preparation wearing a lucky disguise; fortunately, the harder we work, the more of these 'lucky breaks' seem to find their way to our door. （辩证观点·把「运气」重新定义为「有准备的机遇」）"
       }
     ],
     "sentenceUpgrade": [
@@ -5444,24 +7469,120 @@
     "partOfSpeech": "n.",
     "translation": "黄油",
     "source": "Extended reading",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) n. a soft yellow food made from cream, which people spread on bread or use in cooking\n(2) n. a soft paste made by crushing a particular nut or bean (peanut butter 花生酱)\n(3) v. to spread butter on bread, toast, etc.",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "vt.",
+        "meaning": "在……上涂黄油(动词用法,教材只给名词义)",
+        "example": "Grandma buttered a thick slice of home-made bread and slid it across the table without a word — her quiet way of saying that everything would be all right. （读后续写·亲情·无声的安慰）"
+      }
+    ],
     "readingExamples": [
       "There were lots of options including bread and butter, chicken pie and puddings, but I still missed my mum's cooking!"
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "The kitchen smelled of melted butter and warm flour as Mum flipped pancakes at the stove, and for one golden moment all my worries about the coming exam simply dissolved. （读后续写·家庭温情·嗅觉描写）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "For our cooking workshop next Friday, please bring some flour, two eggs and a small box of butter, and our foreign teacher will show us how to bake traditional British scones. （应用文·活动通知）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Nutritionists point out that replacing butter with plant-based oils, though seemingly a trivial change, can make a measurable difference to one's long-term heart health. （议论文·健康饮食）"
+      }
+    ],
     "wordForms": {
       "noun": null,
-      "verb": null,
-      "adjective": null,
+      "verb": "butter (同形动词:涂黄油)",
+      "adjective": "buttery (有黄油味的;油亮的)",
       "adverb": null,
       "other": null
     },
-    "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "idioms": [
+      {
+        "idiom": "butter sb up",
+        "translation": "奉承,讨好(以达到目的)",
+        "example": "Tom spent the whole morning buttering up his sister — doing the dishes and praising her cooking — in the hope that she would lend him her new camera for the weekend. （读后续写·兄妹日常·幽默）"
+      },
+      {
+        "idiom": "bread and butter",
+        "translation": "生计,主要收入来源;(喻)最基本、最重要的东西",
+        "example": "For most families in the fishing village, the sea has always been their bread and butter, which explains why they fought so fiercely against the polluting factory. （议论文·环保与民生）"
+      },
+      {
+        "idiom": "look as if butter wouldn't melt in one's mouth",
+        "translation": "装得天真无辜、一本正经",
+        "example": "Standing before the teacher, Jack looked as if butter wouldn't melt in his mouth, yet the streaks of blue paint on his fingers told quite a different story. （读后续写·孩童恶作剧·反差刻画）"
+      },
+      {
+        "idiom": "know which side one's bread is buttered (on)",
+        "translation": "清楚自己的利益所在,会看风向",
+        "example": "The new assistant knew perfectly well which side his bread was buttered, so he greeted every regular customer with the warmest smile in town. （读后续写·人物刻画）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "spread butter on sth",
+        "translation": "把黄油涂在……上",
+        "example": "Humming an old tune, Dad spread butter on the toast so generously that it glistened like morning sunlight, and the whole kitchen seemed warmer for it. （读后续写·清晨餐桌·细节描写）"
+      },
+      {
+        "phrase": "melt the butter",
+        "translation": "熔化黄油",
+        "example": "First melt the butter in a pan over gentle heat, then stir in the flour little by little — that, our cookery teacher insists, is the secret of a smooth sauce. （应用文·食谱/流程说明）"
+      },
+      {
+        "phrase": "a knob / pat of butter",
+        "translation": "一小块黄油",
+        "example": "The recipe calls for just a knob of butter at the end, yet it is that final touch that gives the dish its rich, comforting flavour. （应用文·食谱介绍）"
+      },
+      {
+        "phrase": "peanut butter",
+        "translation": "花生酱",
+        "example": "Nothing cheered up little Amy like a peanut butter sandwich, so Mum always tucked one into her schoolbag on rainy mornings. （读后续写·童年细节）"
+      },
+      {
+        "phrase": "salted / unsalted butter",
+        "translation": "咸味/无盐黄油",
+        "example": "The recipe recommends unsalted butter, which allows beginners to control the flavour of the biscuits far more precisely. （应用文·食谱说明）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "margarine",
+        "translation": "人造黄油",
+        "example": "Some families choose margarine instead of butter for health or budget reasons, though many bakers insist that nothing matches the taste of real butter. （议论文·饮食比较）",
+        "usage": "margarine 是植物油制成的黄油替代品;butter 由奶油制成,口感更醇厚。二者外形相似但原料不同"
+      },
+      {
+        "synonym": "cream",
+        "translation": "奶油,稀奶油",
+        "example": "She stirred a spoonful of cream into the soup, and its plain taste turned instantly silky and rich. （读后续写·烹饪细节）",
+        "usage": "cream 是牛奶上层的液态奶油,也是制作 butter 的原料;butter 是固体涂抹食品,不能混用"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "议论文·比喻论证",
+        "expression": "sth is the bread and butter of ...",
+        "example": "Patience and daily practice are the bread and butter of language learning — glamorous shortcuts simply do not exist. （借习语 bread and butter 喻\"根本\",破折号断言收尾,论证干脆有力）"
+      },
+      {
+        "type": "读后续写·人物神态",
+        "expression": "look as if butter wouldn't melt in one's mouth",
+        "example": "The little girl folded her hands and looked as if butter wouldn't melt in her mouth, though the empty biscuit tin behind her said otherwise. （习语+反差细节,一句写活\"表面乖巧\"）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "Mum gave me bread and butter for breakfast.",
+        "upgraded": "Breakfast was nothing fancy — just thick slices of bread with butter melting into every corner — yet the familiar smell wrapped around me like Mum's own arms, steadying me for the long day ahead. （读后续写·以食物写亲情）",
+        "techniques": "先抑后扬(nothing fancy — yet) + 细节特写(melting into every corner) + 明喻(like Mum's own arms) + 现在分词收尾(steadying me)"
+      }
+    ],
     "section": "Extended reading",
     "sub_section": "School life in the UK",
     "original_sentence": "There were lots of options including bread and butter, chicken pie and puddings, but I still missed my mum's cooking!"
@@ -5474,12 +7595,31 @@
     "partOfSpeech": "n.",
     "translation": "甜点；布丁",
     "source": "Extended reading",
-    "definitionEn": "",
-    "uncommonMeanings": [],
+    "definitionEn": "(1) n. (BrE) the sweet course eaten at the end of a meal; dessert\n(2) n. a hot sweet dish made from flour, milk and eggs, often served with a sauce (e.g. Christmas pudding)\n(3) n. (BrE) a dish of flour or batter cooked with meat inside or alongside (e.g. steak and kidney pudding, Yorkshire pudding)\n(4) n. (AmE) a soft, creamy cold dessert made with milk",
+    "uncommonMeanings": [
+      {
+        "partOfSpeech": "n.",
+        "meaning": "(英式)咸味的\"布丁\"类菜肴,并非甜点 — 如 Yorkshire pudding 约克郡布丁(配烤牛肉的烤面糊)、black pudding 血肠",
+        "example": "To Lin Hui's astonishment, the Yorkshire pudding on his plate turned out to be no dessert at all, but a golden, hollow puff waiting to soak up the gravy of the roast beef. （读后续写·留学餐桌·文化冲击）"
+      }
+    ],
     "readingExamples": [
       "There were lots of options including bread and butter, chicken pie and puddings, but I still missed my mum's cooking!"
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Staring at the wobbly pudding on his dinner tray, Wang Lei suddenly ached for his mother's steamed buns, and the noisy school dining hall seemed to fall strangely quiet around him. （读后续写·思乡·以物寄情）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Do save room for the Christmas pudding at our International Food Festival next Friday — we have followed an authentic British recipe, and I promise its rich, fruity flavour will not disappoint you. （应用文·邀请信）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Small as it may seem, the pudding that rounds off a traditional British meal shows how deeply everyday food rituals are woven into a nation's cultural identity. （议论文·饮食文化）"
+      }
+    ],
     "wordForms": {
       "noun": null,
       "verb": null,
@@ -5487,11 +7627,73 @@
       "adverb": null,
       "other": null
     },
-    "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "idioms": [
+      {
+        "idiom": "the proof of the pudding is in the eating",
+        "translation": "实践出真知;好坏一试便知",
+        "example": "As for whether the new study plan can really reduce our burden, the proof of the pudding is in the eating — let us try it for a month before we draw any conclusions. （议论文·实践检验）"
+      },
+      {
+        "idiom": "over-egg the pudding",
+        "translation": "(英式口语)做过头,画蛇添足",
+        "example": "His apology started off sincere, but by the fifth extravagant compliment he had clearly over-egged the pudding, and Sarah's smile began to cool. （读后续写·人际分寸·幽默）"
+      }
+    ],
+    "collocations": [
+      {
+        "phrase": "Christmas pudding",
+        "translation": "圣诞布丁",
+        "example": "Following tradition, Grandma hid a shiny coin inside the Christmas pudding, and the children dug in eagerly, each hoping to be the lucky one. （读后续写·节日习俗·童趣）"
+      },
+      {
+        "phrase": "rice pudding",
+        "translation": "米布丁",
+        "example": "The canteen's rice pudding, warm and faintly sweet, was the one dish that reminded the homesick exchange students of their childhood suppers. （读后续写·细节描写）"
+      },
+      {
+        "phrase": "for pudding",
+        "translation": "作为饭后甜点",
+        "example": "Before he had even finished his vegetables, little Tom was already asking what was for pudding, making everyone at the table burst out laughing. （读后续写·餐桌对话·童趣）"
+      },
+      {
+        "phrase": "bread and butter pudding",
+        "translation": "黄油面包布丁(英国传统甜点)",
+        "example": "The cookery club's bread and butter pudding, baked from yesterday's leftover loaf, proved that thrift and deliciousness can happily live side by side. （应用文·活动报道·节约主题）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "dessert",
+        "translation": "甜点,甜食",
+        "example": "The restaurant is famous for its desserts, from silky cheesecakes to fruit tarts that look almost too pretty to eat. （应用文·推荐介绍）",
+        "usage": "通用词,正式菜单和美式英语常用;pudding 是英式日常口语对\"饭后甜点\"这道程序的统称,也指具体的布丁类点心"
+      },
+      {
+        "synonym": "sweet",
+        "translation": "(英式口语)甜点;糖果",
+        "example": "After the roast, the waiter came round to ask whether we would like a sweet to finish off the meal. （记叙·就餐场景）",
+        "usage": "英式非正式说法,相当于 pudding/dessert;另有\"糖果\"义。正式程度最低"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "议论文·引谚论证",
+        "expression": "The proof of the pudding is in the eating — ...",
+        "example": "The proof of the pudding is in the eating — however promising a policy sounds on paper, its true worth is revealed only when it is put into practice. （谚语开篇+however 让步,增强说服力与文采）"
+      },
+      {
+        "type": "应用文·邀请信",
+        "expression": "Do save room for ... — I promise ... will not disappoint you.",
+        "example": "Do save room for the home-made pudding at the end of the evening — I promise its warm, gentle sweetness will not disappoint you. （do 强调式祈使+破折号承诺,给邀请信增添热情与人情味）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "The pudding was delicious.",
+        "upgraded": "One spoonful of the warm pudding, and the sweetness spread slowly across my tongue — rich, comforting, and so much like home that I closed my eyes without meaning to. （读后续写·味觉描写+情感联结）",
+        "techniques": "One spoonful..., and... 以小动作开启画面 + 三项形容词递进(rich, comforting, like home) + 无意识动作(closed my eyes without meaning to)含蓄传情"
+      }
+    ],
     "section": "Extended reading",
     "sub_section": "School life in the UK",
     "original_sentence": "There were lots of options including bread and butter, chicken pie and puddings, but I still missed my mum's cooking!"
@@ -5610,12 +7812,25 @@
     "partOfSpeech": "n.",
     "translation": "橄榄球运动",
     "source": "Extended reading",
-    "definitionEn": "",
+    "definitionEn": "(1) n. a game played by two teams with an oval ball, which players kick, pass backwards or carry, trying to touch it down behind the other team's goal line\n(2) n. the sport exists in two forms — Rugby Union (15 players a side) and Rugby League (13 players a side); it takes its name from Rugby School in England, where it was first played in the 1820s",
     "uncommonMeanings": [],
     "readingExamples": [
       "The one that attracted me most was the Rugby Club."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Mud-splattered and gasping, Kevin clutched the rugby ball to his chest and charged towards the try line, the roar of the crowd pounding in his ears like a second heartbeat. （读后续写·赛场冲刺·感官描写）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Our school rugby club, which warmly welcomes beginners of all levels, meets every Friday afternoon on the playground, so come along and experience the teamwork this thrilling sport has to offer. （应用文·社团招新启事）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "What rugby teaches its young players — discipline, courage and absolute trust in one's teammates — often proves far more valuable than the final score itself. （议论文·体育育人）"
+      }
+    ],
     "wordForms": {
       "noun": null,
       "verb": null,
@@ -5624,10 +7839,65 @@
       "other": null
     },
     "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "collocations": [
+      {
+        "phrase": "play rugby",
+        "translation": "打橄榄球",
+        "example": "Tom had never played rugby before coming to the UK, but by the end of term he could hardly imagine a Friday afternoon without it. （记叙·留学生活）"
+      },
+      {
+        "phrase": "a rugby match / game",
+        "translation": "橄榄球比赛",
+        "example": "The whole school turned out to watch the final rugby match, their scarves and banners turning the cold stands into a sea of colour. （读后续写·赛场氛围·环境描写）"
+      },
+      {
+        "phrase": "a rugby club / team",
+        "translation": "橄榄球俱乐部/球队",
+        "example": "Joining the rugby club, I soon discovered, was less about winning than about learning to trust the fourteen people running beside you. （记叙·社团感悟）"
+      },
+      {
+        "phrase": "a rugby player / pitch",
+        "translation": "橄榄球运动员/橄榄球场",
+        "example": "Overnight rain had turned the rugby pitch into a field of mud, yet not a single player slowed his pace. （读后续写·环境烘托）"
+      },
+      {
+        "phrase": "rugby union / rugby league",
+        "translation": "联合会式/联盟式橄榄球(两种正式形式)",
+        "example": "Most British students will happily explain the difference between rugby union and rugby league to any curious foreign visitor. （说明·文化介绍）"
+      },
+      {
+        "phrase": "rugby-tackle sb (v.)",
+        "translation": "橄榄球式飞身擒抱(某人)",
+        "example": "Without a second thought, the shop owner rugby-tackled the fleeing thief and pinned him to the pavement until the police arrived. （读后续写·见义勇为·动作描写）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "American football",
+        "translation": "美式橄榄球",
+        "example": "American football players wear helmets and heavy padding, while rugby players take the field with little more than a mouthguard. （说明·体育文化比较）",
+        "usage": "中文\"橄榄球\"涵盖两者:rugby 源于英国,防护装备少、比赛连续进行;American football 源于美国,装备厚重、按回合推进。教材语境(英国中学)指 rugby"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "应用文·社团招新",
+        "expression": "Our ... club, which welcomes beginners of all levels, meets every ... — come along and experience ...",
+        "example": "Our rugby club, which welcomes beginners of all levels, meets every Friday afternoon — come along and experience the teamwork this thrilling sport has to offer. （非限定性定语从句+祈使句呼吁,招新启事高分框架）"
+      },
+      {
+        "type": "议论文·体育育人",
+        "expression": "What ... teaches ... often proves far more valuable than ...",
+        "example": "What rugby teaches its players — grit, cooperation and grace in defeat — often proves far more valuable than any trophy. （what 主语从句+破折号三项插入,升华体育的育人价值）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "He played rugby very well.",
+        "upgraded": "On the rugby pitch he was a different boy altogether — dodging, sprinting, shrugging off tackles — as if all the words he never said in class had finally found a way out. （读后续写·人物弧光·动作描写）",
+        "techniques": "a different boy altogether 前后对比刻画 + 三个现在分词构成连贯动作链 + as if 虚拟语气深入人物内心"
+      }
+    ],
     "section": "Extended reading",
     "sub_section": "School life in the UK",
     "original_sentence": "The one that attracted me most was the Rugby Club."
@@ -5640,24 +7910,122 @@
     "partOfSpeech": "n.",
     "translation": "书法，书法艺术",
     "source": "Project",
-    "definitionEn": "",
+    "definitionEn": "(1) n. the art of producing beautiful handwriting with a brush or a special pen\n(2) n. beautiful handwriting itself, especially when displayed or collected as a work of art",
     "uncommonMeanings": [],
     "readingExamples": [
       "Chinese Calligraphy is one of the many optional courses offered to students who are interested in traditional art."
     ],
-    "posExamples": [],
+    "posExamples": [
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Grandfather's wrist hovered above the rice paper; then, in one unbroken breath, the brush swept down, and the calligraphy that bloomed beneath it seemed to hold all his eighty years of quiet patience. （读后续写·祖孙传承·细节特写）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "I am writing to invite you to the calligraphy workshop our school is holding next Sunday, where you can pick up a brush yourself and feel how each stroke carries the rhythm of Chinese culture. （应用文·邀请信）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "In an age when keyboards have all but replaced handwriting, calligraphy reminds us that writing can be not merely a tool of communication but an art of self-cultivation. （议论文·传统文化的现代价值）"
+      },
+      {
+        "partOfSpeech": "n.",
+        "sentence": "Her hand trembled as she dipped the brush in ink, but the moment it met the paper, years of calligraphy practice took over and every stroke fell exactly where it belonged. （读后续写·比赛·由紧张到从容）"
+      }
+    ],
     "wordForms": {
-      "noun": null,
+      "noun": "calligrapher (书法家)",
       "verb": null,
-      "adjective": null,
+      "adjective": "calligraphic (书法的)",
       "adverb": null,
       "other": null
     },
     "idioms": [],
-    "collocations": [],
-    "synonyms": [],
-    "advancedExpressions": [],
-    "sentenceUpgrade": [],
+    "collocations": [
+      {
+        "phrase": "Chinese calligraphy",
+        "translation": "中国书法",
+        "example": "At the international culture fair, the Chinese calligraphy booth drew the longest queue, with foreign visitors waiting patiently to have their names written in flowing ink. （应用文·活动报道）"
+      },
+      {
+        "phrase": "practise / practice calligraphy",
+        "translation": "练习书法",
+        "example": "Practising calligraphy for half an hour every evening, my grandfather says, does for the mind what jogging does for the body. （夹叙夹议·养心之道）"
+      },
+      {
+        "phrase": "a calligraphy brush",
+        "translation": "毛笔",
+        "example": "She held the calligraphy brush upright, just as Master Zhang had taught her, and let her breathing slow before attempting the first stroke. （读后续写·动作细节）"
+      },
+      {
+        "phrase": "a piece / work of calligraphy",
+        "translation": "一幅书法作品",
+        "example": "Hanging in the school hall is a piece of calligraphy donated by a retired teacher, its four bold characters reminding us daily to value truth above ease. （应用文·校园介绍）"
+      },
+      {
+        "phrase": "a calligraphy competition / contest",
+        "translation": "书法比赛",
+        "example": "To our great delight, Li Hua's entry won first prize in the province-wide calligraphy competition, bringing honour to our school. （应用文·喜报）"
+      },
+      {
+        "phrase": "a calligraphy exhibition",
+        "translation": "书法展",
+        "example": "The calligraphy exhibition to be held in the school gallery next week will display over fifty works by students and teachers alike, and everyone is warmly welcome. （应用文·通知）"
+      },
+      {
+        "phrase": "the art of calligraphy",
+        "translation": "书法艺术",
+        "example": "The art of calligraphy, far from being a mere skill of writing, trains the eye, steadies the hand and quiets the heart. （议论文·艺术修养）"
+      },
+      {
+        "phrase": "a calligraphy course / club",
+        "translation": "书法课程/书法社",
+        "example": "Signing up for the calligraphy club turned out to be the best decision of my senior year, for it gave my restless mind a place to settle. （记叙·感悟）"
+      }
+    ],
+    "synonyms": [
+      {
+        "synonym": "handwriting",
+        "translation": "笔迹,书写",
+        "example": "The teacher recognized the neat handwriting at once and knew exactly who had left the unsigned thank-you note. （读后续写·悬念细节）",
+        "usage": "指日常书写或个人笔迹,不含艺术意味;calligraphy 强调作为艺术的书法"
+      },
+      {
+        "synonym": "penmanship",
+        "translation": "书写技巧,笔法",
+        "example": "In my grandmother's day, penmanship was a subject in its own right, and pupils copied out lines until every letter stood straight. （记叙·今昔对比）",
+        "usage": "较正式、略显旧式,指(硬笔)书写的工整与技巧;calligraphy 则是用毛笔或艺术笔进行的艺术创作"
+      }
+    ],
+    "advancedExpressions": [
+      {
+        "type": "应用文·文化介绍",
+        "expression": "..., an art form dating back ... years, embodies ...",
+        "example": "Calligraphy, an art form dating back over two thousand years, embodies the harmony between hand, heart and mind that Chinese culture treasures. （同位语插入+抽象名词升格,文化介绍信的核心句）"
+      },
+      {
+        "type": "读后续写·回忆升华",
+        "expression": "It was through ... that sb came to understand ...",
+        "example": "It was through those quiet hours of calligraphy at Grandpa's desk that I came to understand what patience truly meant. （强调句+抽象领悟,适合续写结尾段）"
+      },
+      {
+        "type": "议论文·让步反驳",
+        "expression": "While some dismiss ... as ..., it is precisely ... that ...",
+        "example": "While some dismiss calligraphy as a relic of the past, it is precisely its slowness that offers a cure for our restless, screen-bound age. （让步+强调句双重结构,辩证有力）"
+      }
+    ],
+    "sentenceUpgrade": [
+      {
+        "original": "I like Chinese calligraphy.",
+        "upgraded": "What draws me to Chinese calligraphy is not merely the beauty of the strokes, but the rare stillness it demands — for the moment the brush touches paper, the noisy world quietly falls away. （夹叙夹议·兴趣描写）",
+        "techniques": "What 主语从句聚焦 + not merely...but 递进 + 破折号 for 补充说明,以画面收束"
+      },
+      {
+        "original": "Our school offers a calligraphy course.",
+        "upgraded": "Tailored for students fascinated by traditional art, the calligraphy course offered by our school provides a precious opportunity to slow down, wield the brush and converse with a tradition of two thousand years. （应用文·课程介绍）",
+        "techniques": "过去分词短语开头(Tailored for...) + 三个动词短语并列递进 + 拟人(converse with a tradition)提升格调"
+      }
+    ],
     "section": "Project",
     "sub_section": "Booklet",
     "original_sentence": "Chinese Calligraphy is one of the many optional courses offered to students who are interested in traditional art."
