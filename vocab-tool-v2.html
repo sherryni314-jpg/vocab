@@ -51,15 +51,25 @@ body {
   position: fixed; top: 0; left: var(--sidebar-w); right: 0; bottom: 0;
   background: var(--bg);
   display: flex; flex-direction: column; align-items: center; justify-content: center;
-  z-index: 200; gap: 16px;
+  z-index: 200; gap: 14px;
+  opacity: 1; transition: opacity .4s ease;
 }
+.loading-overlay.fade-out { opacity: 0; pointer-events: none; }
 .loading-spinner {
   width: 44px; height: 44px;
   border: 4px solid #e2e8f0; border-top-color: var(--primary);
   border-radius: 50%; animation: spin .7s linear infinite;
+  will-change: transform;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
 .loading-text { color: var(--text-secondary); font-size: .9rem; }
+/* 进度条：并行加载时按已完成文件数填充 */
+.loading-progress { width: 240px; max-width: 62vw; height: 6px; background: #e5e9f2; border-radius: 999px; overflow: hidden; margin-top: 2px; }
+.loading-progress-bar { height: 100%; width: 0%; border-radius: 999px; background: linear-gradient(90deg, var(--primary), #6366f1); transition: width .3s cubic-bezier(.22,.61,.36,1); }
+@media (prefers-reduced-motion: reduce) {
+  .loading-spinner { animation-duration: 1.4s; }
+  .loading-overlay { transition: none; }
+}
 .loading-sub { color: var(--text-muted); font-size: .78rem; }
 
 .load-error {
@@ -305,6 +315,20 @@ body {
 .adv-item:last-child { border-bottom: none; }
 .adv-item strong { color: var(--text); }
 
+/* ========= 课堂练习 (classPractice) ========= */
+.prac-toggle { color: #b45309; }
+.prac-toggle:hover { color: #92400e; }
+.prac-box { background: #fffbeb; border: 1px dashed #fcd34d; }
+.prac-item { padding: 7px 0; border-bottom: 1px solid #fef3c7; }
+.prac-item:last-child { border-bottom: none; }
+.prac-type { display: inline-block; font-size: .68rem; font-weight: 600; color: #92400e; background: #fef3c7; padding: 1px 8px; border-radius: 3px; margin-right: 6px; }
+.prac-q { color: var(--text); font-size: .84rem; }
+.prac-ans { display: inline-flex; align-items: baseline; gap: 5px; margin-left: 8px; cursor: pointer; user-select: none; }
+.prac-ans-label { font-size: .66rem; color: #b45309; border: 1px solid #fcd34d; border-radius: 3px; padding: 0 5px; }
+.prac-ans-text { color: #b45309; font-weight: 600; font-size: .82rem; filter: blur(5px); transition: filter .15s; }
+.prac-ans.revealed .prac-ans-text { filter: none; }
+.prac-note { display: block; font-size: .74rem; color: #92400e; margin-top: 2px; font-style: italic; }
+
 /* ========= CUSTOM VOCAB NOTES (words.json full notes) ========= */
 .note-section { margin: 16px 0; }
 .note-section-title {
@@ -465,6 +489,21 @@ body {
 .w-vocab-hints { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 12px; }
 .w-vocab-chip { font-size: .74rem; padding: 3px 10px; border-radius: 12px; background: #f1f5f9; color: #475569; border: 1px solid #e2e8f0; }
 .w-prompt-empty { text-align: center; padding: 32px 20px; color: var(--text-muted); font-size: .88rem; }
+
+/* 雅思字数 + 评分要点 */
+.w-wordcount { display: inline-flex; align-items: center; gap: 6px; margin-top: 12px; font-size: .76rem; font-weight: 600; color: #92400e; background: #fef3c7; border: 1px solid #fde68a; padding: 4px 12px; border-radius: 20px; }
+.w-score-box { margin-top: 14px; border: 1px solid #fde68a; border-radius: var(--radius-sm); overflow: hidden; }
+.w-score-head { background: #fffbeb; padding: 9px 14px; font-size: .8rem; font-weight: 700; color: #92400e; border-bottom: 1px solid #fde68a; }
+.w-score-cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+.w-score-col { padding: 12px 16px; }
+.w-score-col:first-child { border-right: 1px dashed #fde68a; }
+.w-score-col .wsc-title { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .03em; margin-bottom: 8px; }
+.w-score-col.band .wsc-title { color: #b45309; }
+.w-score-col.vs .wsc-title { color: #4f46e5; }
+.w-score-col ul { margin: 0; padding-left: 16px; }
+.w-score-col li { font-size: .78rem; line-height: 1.65; color: var(--text-secondary); margin-bottom: 6px; }
+.w-score-col li:last-child { margin-bottom: 0; }
+@media (max-width: 640px) { .w-score-cols { grid-template-columns: 1fr; } .w-score-col:first-child { border-right: none; border-bottom: 1px dashed #fde68a; } }
 
 /* ========= USAGE FOOTER ========= */
 .usage-footer {
@@ -780,8 +819,9 @@ body {
 <!-- 加载中遮罩 -->
 <div class="loading-overlay" id="loadingOverlay">
   <div class="loading-spinner"></div>
-  <div class="loading-text">正在加载数据...</div>
-  <div class="loading-sub" id="loadingDetail">连接 bx1_u1_data.json</div>
+  <div class="loading-text">正在加载词库…</div>
+  <div class="loading-progress"><div class="loading-progress-bar" id="loadingBar"></div></div>
+  <div class="loading-sub" id="loadingDetail">准备中…</div>
 </div>
 
 <!-- 加载错误遮罩 -->
@@ -855,6 +895,60 @@ const unitData = {
       label: "Unit 4 · Scientists who changed the world",
       vocabularyData: []   // 由 fetch 填充
     }
+  },
+  "选择性必修一": {
+    "Unit 1": {
+      label: "Unit 1 · Food matters",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 2": {
+      label: "Unit 2 · The universal language",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 3": {
+      label: "Unit 3 · The art of painting",
+      vocabularyData: []   // 由 fetch 填充
+    },
+    "Unit 4": {
+      label: "Unit 4 · Exploring poetry",
+      vocabularyData: []   // 由 fetch 填充
+    }
+  },
+  "选择性必修二": {
+    "Unit 1": { label: "Unit 1 · The mass media", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Sports culture", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · Fit for life", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · Living with technology", vocabularyData: [] }
+  },
+  "选择性必修三": {
+    "Unit 1": { label: "Unit 1 · Wish you were here", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Out of this world", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · Back to the past", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · Protecting our heritage sites", vocabularyData: [] }
+  },
+  "选择性必修四": {
+    "Unit 1": { label: "Unit 1 · Honesty and responsibility", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Understanding each other", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · Careers and skills", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · Never too old to learn", vocabularyData: [] }
+  },
+  "拓展创新学程一": {
+    "Unit 1": { label: "Unit 1 · Our living planet", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Working the land", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · On the move", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · Fun with science", vocabularyData: [] }
+  },
+  "拓展创新学程二": {
+    "Unit 1": { label: "Unit 1 · Beware and take care", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Building the future", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · Helping people", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · Law and order", vocabularyData: [] }
+  },
+  "拓展创新学程三": {
+    "Unit 1": { label: "Unit 1 · Managing yourself", vocabularyData: [] },
+    "Unit 2": { label: "Unit 2 · Thinking out of the box", vocabularyData: [] },
+    "Unit 3": { label: "Unit 3 · Our culture, our treasure", vocabularyData: [] },
+    "Unit 4": { label: "Unit 4 · What is life?", vocabularyData: [] }
   }
 };
 
@@ -1011,8 +1105,24 @@ const writingData = {
           type: "ielts",
           typeLabel: "雅思议论文",
           task: "Some people believe that talent is innate and cannot be taught, while others argue that any skill can be developed through practice and education. Discuss both views and give your own opinion. Give reasons and examples. (Write at least 250 words.)",
-          reference: "The age-old debate over whether talent is a gift or a product of effort continues to divide opinion. Proponents of the 'innate talent' view point to prodigies like Mozart, who composed symphonies before the age of ten, as evidence that certain abilities are hardwired. However, I believe this view overlooks the transformative power of sustained effort.\n\nThose who emphasize the role of nurture point to the '10,000-hour rule' popularized by Malcolm Gladwell, which suggests that mastery in any field requires deliberate practice over an extended period. In our textbook, the principal's message captures this perfectly: 'Put simply, potential is your natural ability that can be developed when you try hard enough.' This emphasis on development rather than fixed ability echoes the growth mindset advocated by psychologist Carol Dweck. When students rise to challenges instead of avoiding them, they create opportunities to acquire knowledge and enjoy personal growth. In time, they find themselves growing into well-rounded individuals capable of far more than they ever imagined.\n\nIn my opinion, while genetic predispositions certainly exist, the determining factor in achieving excellence is almost always hard work combined with effective guidance. The most successful individuals are rarely those with the greatest natural gifts, but those who make the most of their resources and persist when others give up. Of equal importance are qualities like curiosity, resilience, and a positive attitude — traits that can be cultivated in any student willing to make the effort.",
-          vocabHints: ["potential", "natural ability", "rise to challenges", "fully realize", "well-rounded", "in time", "make the most of", "of equal importance", "positive attitude"]
+          reference: "The question of whether exceptional ability is a gift bestowed at birth or a product of sustained effort has long divided opinion. While some maintain that genuine talent is inborn and beyond the reach of instruction, others insist that virtually any competence can be cultivated through disciplined practice and sound education. Although I recognise the influence of natural aptitude, I ultimately side with the latter position.\n\nThose who champion the idea of innate talent point to the striking ease with which certain individuals master demanding disciplines. A child who intuitively grasps musical harmony or absorbs a foreign language with little apparent struggle seems to confirm that some capacities are simply hardwired. From this perspective, no amount of coaching can transform an ordinary learner into a prodigy, because the decisive spark is inherited rather than acquired.\n\nThe opposing camp, however, argues that skill is overwhelmingly the fruit of deliberate training. Countless high achievers, from elite athletes to accomplished scientists, attribute their success not to a mysterious endowment but to years of relentless repetition, expert guidance and a willingness to learn from failure. According to this reasoning, what observers mistake for raw talent is often the invisible accumulation of thousands of hours of practice.\n\nIn my view, the second argument is considerably more persuasive. Natural predisposition may offer a head start, yet it rarely flourishes without cultivation, and history is full of celebrated figures who were initially dismissed as unremarkable. Given that structured education can extend opportunity to anyone prepared to persevere, I firmly believe that ability is developed far more than it is inherited. Talent, in essence, sets the stage, but effort writes the performance.",
+          wordCount: 274,
+          scoringNotes: {
+            band: "8",
+            bandFeatures: [
+            "Task Response(任务回应):完整回应了 discuss both views + own opinion 三个部分——引言 paraphrase 题目并亮明立场('I ultimately side with the latter position'),第二段客观陈述'天赋天生论'及其理由,第三段陈述'后天习得论'并展开,末段清晰权衡后重申立场('the second argument is considerably more persuasive')。立场全篇一致,论据是展开的推演(head start→需 cultivation→history 反例)而非要点罗列。",
+            "Coherence & Cohesion(连贯与衔接):四段结构分明,每段一个中心(引言/观点A/观点B/立场结论);衔接手段多样自然,如'Those who champion...'、'The opposing camp, however'、'According to this reasoning'、'In my view'、'Given that...',没有堆砌 Firstly/Secondly;末句用比喻'sets the stage, but effort writes the performance'呼应收尾。",
+            "Lexical Resource(词汇资源):用词精准且有地道搭配,如'a gift bestowed at birth'、'natural aptitude/predisposition'、'deliberate training'、'relentless repetition'、'the invisible accumulation of thousands of hours'、'an ordinary learner into a prodigy';高级词(inborn, endowment, cultivate, persevere)运用自然,几乎无搭配错误。",
+            "Grammatical Range & Accuracy(语法多样性与准确性):句式灵活多样——让步状语从句('Although I recognise...')、定语从句('the striking ease with which...')、分词/介词短语后置修饰、倒装式强调('what observers mistake for raw talent is...')、非谓语('a willingness to learn from failure');绝大多数句子零错误,标点规范。"
+            ],
+            vsGaokao: [
+            "字数与配比不同:雅思 Task 2 硬性要求至少 250 词、本文写到 278 词属安全区且不臃肿;高考英语作文通常仅 100 词左右,字数超纲反而不加分,评分尺度完全不同。",
+            "论据来源不同:本文用的是全球普适现象与常识(elite athletes、accomplished scientists、history is full of...),严禁出现课本原句、老师/校长的话或杜撰的人名(如 John Li);而高考作文常鼓励套用课文句型或'李华'式个人叙事,这在雅思会被判离题。",
+            "语域与人称不同:全文保持正式学术语域,无缩略(用 do not 不用 don't)、无书信体、克制第一人称,仅在表明立场时用'In my view/I firmly believe';高考作文常见书信格式、口语化表达和 Dear/Yours 落款,雅思学术写作则要求客观论证语气。",
+            "评分维度不同:雅思按四大独立维度(TR/CC/LR/GRA)分项计分,要求立场贯穿、衔接自然、词汇搭配地道、复杂句准确;高考主要看内容要点是否覆盖、语言基本通顺和卷面,并不单独考核'立场一致性'与'论据是否展开推演',本文正是围绕四维度而非'踩点'来构建的。"
+            ]
+          },
+          vocabHints: ["has long divided opinion", "a gift bestowed at birth", "natural aptitude", "deliberate training", "relentless repetition", "side with the latter position", "the decisive spark", "sets the stage, but effort writes the performance"]
         }
       ]
     },
@@ -1036,8 +1146,24 @@ const writingData = {
           type: "ielts",
           typeLabel: "雅思议论文",
           task: "Some people think that school is the most important period of a person's life, while others believe that life after school brings more valuable experiences. Discuss both views and give your opinion. (Write at least 250 words.)",
-          reference: "School years undeniably shape who we become. It is during this period that we acquire foundational knowledge, form our first meaningful friendships, and develop the learning habits that will serve us for decades. The structured environment of school provides a safe space for young people to explore their potential and rise to challenges at their own pace. In my own experience, the teachers who encouraged me and the classmates who pushed me to improve were instrumental in building my confidence.\n\nOn the other hand, life after school presents challenges of a different nature. Entering the workforce or university requires adaptability, independence, and the ability to navigate complex social dynamics. The opportunities to make a difference — to one's family, community, or country — often become more tangible after formal education ends. Furthermore, the learning that happens beyond the classroom is often more self-directed and therefore more meaningful.\n\nPersonally, I believe both periods are of equal importance. School provides the tools and the mindset, while life after school offers the canvas on which to apply them. The potential developed during school years finds its fullest expression in the years that follow. Rather than ranking these stages, we should view them as complementary chapters in a lifelong journey of growth.",
-          vocabHints: ["acquire", "potential", "rise to the challenges", "opportunity", "make a difference", "of equal importance", "personal growth", "in time"]
+          reference: "The question of which stage of life shapes us most profoundly is a perennial one. While some regard formal schooling as the defining chapter of a person's existence, others argue that the years that follow it yield richer and more meaningful lessons. Having weighed both positions, I am inclined to believe that the experiences gained after school ultimately prove more valuable.\n\nThose who champion the primacy of school do so with good reason. The classroom is where a person first acquires literacy, numeracy and the habits of disciplined thought, all of which serve as the foundation for everything that comes later. Just as a building cannot stand without solid footings, an adult cannot function without the intellectual and social groundwork laid during these formative years. Moreover, school is where children forge their earliest friendships and learn to navigate rules, competition and cooperation, thereby shaping their character at its most impressionable stage.\n\nThe opposing camp, however, contends that genuine growth begins only once the protective walls of the institution fall away. Life beyond the school gates confronts individuals with responsibilities that no lesson can fully replicate: earning a living, sustaining relationships and recovering from failure. A graduate who loses a first job, for instance, learns resilience in a way that no examination could ever teach.\n\nOn balance, although schooling is undeniably indispensable, I maintain that post-school life offers the more transformative education. The wider world demands that we apply, adapt and sometimes discard what we were taught, and it is precisely this constant testing against reality that turns knowledge into genuine wisdom.",
+          wordCount: 261,
+          scoringNotes: {
+            band: "8",
+            bandFeatures: [
+            "Task Response(任务回应):完整回应了 discuss both views + give your opinion 三个部分。引言明确点出立场(\"I am inclined to believe that the experiences gained after school ultimately prove more valuable\"),第2、3段客观陈述双方看法并各自展开一个通用论据(地基比喻论证学校打基础、丢掉第一份工作学到 resilience 的假设情景),结尾段权衡后重申并论证立场,观点全篇一致、不骑墙。",
+            "Coherence & Cohesion(连贯与衔接):四段结构一段一个中心(立场→观点A→观点B→我的结论),段落之间用 \"Those who champion...\"\"The opposing camp, however, contends...\"\"On balance...\" 这类自然的立场标记推进,而非机械堆砌 Firstly/Secondly;句内用 \"thereby\"\"Moreover\"\"for instance\" 等多样衔接,指代(these formative years / this constant testing)清晰不重复。",
+            "Lexical Resource(词汇资源):用词精准且有地道搭配与高级表达,如 \"a perennial one\"\"the defining chapter\"\"literacy, numeracy and the habits of disciplined thought\"\"solid footings / groundwork\"\"the protective walls of the institution fall away\"\"turns knowledge into genuine wisdom\";近义替换灵活(champion / contend / maintain;formative / impressionable / transformative),几乎无搭配错误。",
+            "Grammatical Range & Accuracy(语法多样性与准确性):句式多样且准确,含定语从句(where a person first acquires...)、比较状语从句(Just as a building cannot stand...)、分词状语(Having weighed both positions)、让步复合句(although schooling is undeniably indispensable, I maintain that...)以及强调结构(it is precisely this constant testing...that...),绝大多数句子零错误。"
+            ],
+            vsGaokao: [
+            "字数维度:雅思 Task 2 要求最少 250 词,本文 273 词落在 260–290 的理想区间;高考英语作文通常仅 100 词左右(读后续写/应用文),字数少且超纲/不足的评分逻辑完全不同——雅思字数不够会直接扣分。",
+            "论据来源维度:本文全部使用普适论据(地基比喻、\"丢掉第一份工作学到 resilience\" 的假设情景),严格避开 \"our textbook\"\"the principal said\"\"John Li\" 等课本/人名引用;高考作文常鼓励套用课本人物、名人名言、模板句,而雅思会把这类个人化/编造引用判为离题跑偏。",
+            "语域维度:本文为正式学术语域,无缩略(用 cannot 而非 can't)、无书信体、控制第一人称叙事,只在表明立场时用 I;高考作文允许甚至偏好书信/日记等半正式口语体,可用缩略和大量个人叙述,评分不惩罚口语化。",
+            "结构与评分维度:雅思按 4 项独立标准(TR/CC/LR/GRA)各占 25% 打分,要求立场贯穿、论点深度展开(理由+举例+推演成链),本文每段先陈述后论证再收束;高考多按\"内容要点是否覆盖 + 语言档次\"整体评分,鼓励要点罗列和亮点句堆砌,不要求单一论点像本文这样纵深展开。"
+            ]
+          },
+          vocabHints: ["a perennial question", "the defining chapter", "I am inclined to believe", "the habits of disciplined thought", "the protective walls of the institution", "On balance", "undeniably indispensable", "turns knowledge into genuine wisdom"]
         }
       ]
     },
@@ -1061,8 +1187,24 @@ const writingData = {
           type: "ielts",
           typeLabel: "雅思议论文",
           task: "Some people believe that schools should focus primarily on academic achievement, while others argue that extracurricular activities are equally important. Discuss both views and give your opinion. (Write at least 250 words.)",
-          reference: "The balance between academic study and extracurricular activities has been a subject of intense debate in education circles. On one hand, academic achievement is undeniably the foundation upon which future career prospects are built. Strong grades open doors to prestigious universities, and a solid command of core subjects like mathematics, science, and language equips students with the essential tools for navigating an increasingly competitive world.\n\nOn the other hand, extracurricular activities cultivate qualities that textbooks alone cannot teach. A student who joins a debating club learns to think critically and express ideas under pressure. A member of a sports team develops teamwork, discipline, and resilience. These are precisely the skills that employers value most in the modern workplace. The path before a well-rounded student leads to a world full of possibilities — a world where academic knowledge and practical experience complement rather than compete with each other.\n\nIn my view, the two are not mutually exclusive but of equal importance. Schools should create an environment where students can fully realize their academic potential while also making the most of the growth opportunities outside the classroom. After all, the goal of education is not merely to fill young minds with facts, but to nurture individuals who can make a difference to their community and the world at large.",
-          vocabHints: ["well-rounded", "fully realize", "make the most of", "make a difference", "of equal importance", "opportunity", "potential", "path", "technique"]
+          reference: "There is an ongoing debate about whether schools ought to concentrate mainly on academic performance or place equal weight on activities beyond the classroom, such as sport, music and clubs. While I acknowledge the value of strong academic results, I firmly believe that extracurricular pursuits deserve comparable importance in a well-rounded education.\n\nThose who champion academic achievement argue that a school's core mission is to equip young people with knowledge and intellectual skills. From this perspective, examinations and qualifications act as gateways to higher education and rewarding careers, so anything that diverts time from studying is a distraction. A teenager who devotes long hours to mathematics and science, rather than to hobbies, is likely to secure a university place and, ultimately, greater financial security. Given how fiercely competitive the modern job market has become, this emphasis on measurable results is understandable.\n\nAdvocates of extracurricular activities, on the other hand, contend that personal development matters just as much as grades. Team sports, debating and volunteering cultivate qualities that examinations rarely assess, including leadership, cooperation and resilience. A student who captains a football team, for instance, learns to motivate others and cope with pressure, skills that prove invaluable in adult life. Employers increasingly value such attributes, precisely because they cannot be measured by a certificate alone.\n\nIn my view, the two priorities are not mutually exclusive but complementary. An education fixated solely on grades risks producing capable yet one-dimensional individuals, whereas activities outside lessons nurture the emotional and social maturity that academic study overlooks. Schools should therefore treat both as essential, since genuine success depends on developing the whole person, not merely a high-achieving mind.",
+          wordCount: 273,
+          scoringNotes: {
+            band: "8",
+            bandFeatures: [
+            "Task Response(任务回应):四段结构完整回应了 discuss both views + give your opinion 的每一部分——第2段客观陈述'学术优先'方(so anything that diverts time from studying is a distraction),第3段陈述'课外活动'方,第4段用 the two priorities are not mutually exclusive but complementary 明确亮出并论证权衡立场;引言即用 I firmly believe 点明 thesis,立场全篇一致。每个论点都有'理由+展开举例+推演'(如 A student who captains a football team... learns to motivate others),而非要点罗列。",
+            "Coherence & Cohesion(连贯与衔接):每段一个中心,段落间用对照衔接自然过渡(Those who champion... / Advocates..., on the other hand / In my view),没有堆砌 Firstly/Secondly;句内逻辑词多样精准(so, given how, precisely because, whereas, therefore, since),指代与信息推进流畅。",
+            "Lexical Resource(词汇):搭配地道且精准——champion academic achievement, gateways to higher education, fiercely competitive job market, cultivate qualities, one-dimensional individuals, emotional and social maturity;近义替换丰富(extracurricular pursuits / activities beyond the classroom / hobbies),几乎无用词错误,学术语域统一。",
+            "Grammatical Range & Accuracy(语法):句式多样且准确——定语从句(qualities that examinations rarely assess)、插入语举例(A student who captains a football team, for instance, learns...)、对比复合句(An education fixated solely on grades risks..., whereas activities... nurture...)、not... but... 结构;绝大多数句子零错误,标点与主谓一致稳定。"
+            ],
+            vsGaokao: [
+            "字数与'精简'要求不同:雅思 Task 2 硬性≥250 词,本文 276 词落在 260–290 的黄金区间——写太长反而稀释密度、易出错;高考英语作文通常仅要求 80–120 词,考的是'写够、写对',而雅思考的是'在有限篇幅内充分展开论证'。",
+            "论据来源不同:本文全部使用普适性论据(全球就业市场竞争、球队队长的假设情景、雇主的普遍偏好),【绝对没有】出现课本原句、老师姓名、校长发言等个人化引用;高考常鼓励'联系课文/身边人事',但在雅思中这类引用会被判为离题、不学术,直接压分。",
+            "语域(register)不同:全文正式学术体,不用缩略(用 do not 而非 don't)、不用书信寒暄、不过度第一人称叙事,仅在表明立场处用 In my view / I firmly believe;高考作文常含书信/演讲体套话(Dear..., I'm writing to...、As we all know),那些在雅思里会拉低正式度评分。",
+            "评分维度不同:雅思按 TR / CC / LR / GRA 四个独立维度打分,要求'立场贯穿、衔接多样、搭配地道、复杂句准确'四项均衡达标(本文四段各司其职即为对应设计);高考则以'内容要点是否覆盖+语言档次'整体评分,更看重要点齐全和亮点句,不像雅思那样对'论证展开深度'和'跑题即扣'如此严格。"
+            ]
+          },
+          vocabHints: ["place equal weight on", "a well-rounded education", "champion academic achievement", "gateways to higher education", "not mutually exclusive but complementary", "capable yet one-dimensional individuals", "developing the whole person", "cope with pressure"]
         }
       ]
     },
@@ -1086,8 +1228,24 @@ const writingData = {
           type: "ielts",
           typeLabel: "雅思议论文",
           task: "Moving to a new school or city can be a challenging experience for young people. What are the main difficulties they face, and what can schools and parents do to help them adapt? (Write at least 250 words.)",
-          reference: "Transitioning to a new school or city is one of the most challenging experiences a young person can face. The difficulties are multifaceted: the loss of familiar social circles, the pressure of navigating an unfamiliar academic environment, and the anxiety of forging new friendships from scratch. When I read about John Li's experience in our textbook, I was struck by how vividly he captured this sense of dislocation. There was not as much homework as he was used to, yet it was still challenging — a reminder that adaptation is about more than just academic demands.\n\nTo help students through this period, both schools and parents have crucial roles to play. Schools should establish mentorship programs and orientation activities that give newcomers a chance to connect with peers and teachers in informal settings. Teachers, who are often the first adults to notice a student struggling, should make a conscious effort to offer encouragement and practical guidance. Parents, meanwhile, should maintain open lines of communication, validating their child's feelings while helping them see the opportunities that come with the change.\n\nThe path ahead may be full of challenges, but with the right support system, young people can not only survive transitions but thrive through them. In time, they will find themselves growing into more resilient, empathetic, and well-rounded individuals.",
-          vocabHints: ["challenging", "as...as I was used to", "in time", "find oneself doing", "well-rounded", "rise to the challenges", "the path before you", "make a difference", "positive attitude"]
+          reference: "Relocating to an unfamiliar school or city is often a demanding transition for adolescents. This essay will examine the principal obstacles they encounter and outline the practical measures that both schools and parents can take to ease their adjustment.\n\nThe most immediate challenge is social isolation. Having left behind established friendships, newcomers frequently struggle to break into existing peer groups, and this sense of not belonging can breed loneliness and anxiety. A second difficulty is academic disruption, since different institutions follow distinct curricula and teaching styles. A student who was thriving in one environment may suddenly find the pace unfamiliar or the material misaligned with what they previously covered, which can erode their confidence and motivation.\n\nSchools and parents can address these problems in complementary ways. To counter social isolation, schools might implement structured buddy systems that pair each arrival with a welcoming classmate, alongside clubs and group activities that create natural opportunities for friendship. Parents, meanwhile, can encourage their children to participate and can nurture connections outside the classroom, perhaps through community sports or hobbies. As for academic difficulties, teachers can conduct early assessments to identify gaps and offer targeted support, while parents can maintain close communication with staff and provide a stable, reassuring atmosphere at home so that setbacks are treated as temporary rather than defining.\n\nIn conclusion, the chief hurdles for young people who move are forming new friendships and coping with unfamiliar academic demands. Through coordinated effort, schools can foster inclusion and learning support while parents supply emotional stability. With such backing, most adolescents will ultimately adapt and even flourish in their new surroundings.",
+          wordCount: 268,
+          scoringNotes: {
+            band: "8",
+            bandFeatures: [
+            "Task Response(任务回应):完整回应了题目的两个部分——先集中论证两个困难(social isolation 与 academic disruption),再在对策段用 To counter social isolation... / As for academic difficulties... 与之一一对应,做到\"困难—对策\"精准挂钩;每个论点都有理由加推演(如 this sense of not belonging can breed loneliness and anxiety),不是要点罗列。",
+            "Coherence & Cohesion(连贯与衔接):四段结构各司其职,每段一个中心;衔接手段自然多样,如 The most immediate challenge / A second difficulty / meanwhile / As for / In conclusion,并用 complementary ways 提前预告对策与困难呼应,避免了 Firstly/Secondly 的机械堆砌。",
+            "Lexical Resource(词汇资源):用词精准且有地道搭配,如 demanding transition、break into existing peer groups、erode their confidence、structured buddy systems、targeted support、foster inclusion、flourish in their new surroundings,高级词与主题话题词自然融入,几乎无用词错误。",
+            "Grammatical Range & Accuracy(语法广度与准确度):复杂句式灵活准确,含现在分词状语(Having left behind established friendships...)、定语从句(A student who was thriving...)、目的状语从句(so that setbacks are treated as...)以及 while 引导的对比复合句,绝大多数句子零错误。"
+            ],
+            vsGaokao: [
+            "字数标准不同:雅思 Task 2 要求\"至少 250 词\",本文控制在 274 词这一 band 8 理想区间(既够展开又不冗长);高考英语作文通常仅要求 80–120 词左右,篇幅和论证深度远低于雅思。",
+            "论据来源不同:本文全部使用普适性论据(social isolation、curricula 差异、buddy systems、community sports 等全球通用现象与假设情景),严禁出现\"课本里说\"\"李华\"\"校长说\"这类个人化/课本化引用;而高考作文常围绕虚拟人物李华、课堂情景展开,这在雅思会被判离题跑偏。",
+            "语域不同:本文全程正式学术语域,无口语缩略(do not/cannot 而非 don't),不用书信体和过度第一人称叙事;高考作文常为书信/通知/记叙,允许 Dear...、I'm writing to... 等半正式或口语表达。",
+            "评分维度不同:雅思按 Task Response、Coherence & Cohesion、Lexical Resource、Grammatical Range & Accuracy 四项独立打分并平均,强调论证充分与句式多样;高考则以内容要点是否覆盖 + 语言档次整体评分为主,缺乏对\"立场贯穿\"\"论点推演\"这类独立维度的严格考查。"
+            ]
+          },
+          vocabHints: ["a demanding transition", "the principal obstacles", "break into existing peer groups", "structured buddy systems", "erode their confidence and motivation", "targeted support", "foster inclusion", "flourish in their new surroundings"]
         }
       ]
     }
@@ -1177,7 +1335,10 @@ function collectSearchableParts(v) {
   // synonyms: word only
   (Array.isArray(v.synonyms) ? v.synonyms : []).forEach(s => {
     if (typeof s === 'string') parts.push(s);
-    else if (s && typeof s === 'object' && s.word) parts.push(s.word);
+    else if (s && typeof s === 'object') {
+      if (s.synonym) parts.push(s.synonym);
+      else if (s.word) parts.push(s.word);
+    }
   });
 
   // uncommonMeanings: meaning/translation only
@@ -1256,8 +1417,14 @@ function renderVocabCards() {
   const q = document.getElementById('topbarSearchInput')?.value?.trim().toLowerCase() || '';
   console.log('[renderVocabCards] q=', q, 'currentFilter=', currentFilter);
   if (q) {
-    const primaryList = list.filter(v => getSearchableTextPrimary(v).includes(q));
-    list = primaryList.length > 0 ? primaryList : list.filter(v => getSearchableText(v).includes(q));
+    // 三级：词条匹配优先，其次释义/主字段，最后含 definitionEn 回退
+    const wordList = list.filter(v => (v.word || '').toLowerCase().includes(q));
+    if (wordList.length > 0) {
+      list = wordList;
+    } else {
+      const primaryList = list.filter(v => getSearchableTextPrimary(v).includes(q));
+      list = primaryList.length > 0 ? primaryList : list.filter(v => getSearchableText(v).includes(q));
+    }
   }
   info.innerHTML = q ? `找到 <strong>${list.length}</strong> 个结果` : `共 <strong>${list.length}</strong> 个词条`;
   if (list.length === 0) { tpl.innerHTML = ''; noRes.classList.remove('hidden'); return; }
@@ -1284,6 +1451,9 @@ function performGlobalSearch(query) {
   globalSearchResults = [];
 
   try {
+    // 三级匹配：① 词条本身(headword) ② 释义/词形等主字段 ③ 含 definitionEn 的回退
+    // 只要有词条命中，就只显示词条匹配——避免搜 effort 时命中别处词形/释义里出现的 effort
+    const wordMatches = [];
     const primaryMatches = [];
     const fullMatches = [];
     for (const [textbook, units] of Object.entries(unitData)) {
@@ -1292,25 +1462,27 @@ function performGlobalSearch(query) {
         if (!Array.isArray(vocabList)) continue;
         vocabList.forEach(v => {
           if (!v || typeof v !== 'object') return;
-          const primary = getSearchableTextPrimary(v);
-          const full = getSearchableText(v);
           const base = {
             ...v,
             textbook: textbook,
             unit: unitName,
             unitLabel: unitInfo.label || unitName
           };
-          if (primary.includes(query)) {
+          if ((v.word || '').toLowerCase().includes(query)) {
+            wordMatches.push(base);
+          } else if (getSearchableTextPrimary(v).includes(query)) {
             primaryMatches.push(base);
-          } else if (full.includes(query)) {
+          } else if (getSearchableText(v).includes(query)) {
             fullMatches.push({ ...base, _fallbackMatch: true });
           }
         });
       }
     }
-    globalSearchResults = primaryMatches.length > 0 ? primaryMatches : fullMatches;
-    if (fullMatches.length > 0 && primaryMatches.length > 0) {
-      console.log('[global search] primary matches:', primaryMatches.length, ', fallback ignored:', fullMatches.length);
+    globalSearchResults = wordMatches.length > 0 ? wordMatches
+                        : primaryMatches.length > 0 ? primaryMatches
+                        : fullMatches;
+    if (wordMatches.length > 0 && (primaryMatches.length > 0 || fullMatches.length > 0)) {
+      console.log('[global search] 词条匹配:', wordMatches.length, ', 释义/回退已忽略:', primaryMatches.length + fullMatches.length);
     }
   } catch (err) {
     console.error('[performGlobalSearch] search loop error:', err);
@@ -1610,6 +1782,9 @@ function buildVocabCard(v) {
 
   // ---- 课文原句 ----
   const readEx = Array.isArray(v.readingExamples) ? v.readingExamples.filter(s=>s&&s.trim()!=='') : [];
+  if (readEx.length === 0 && typeof v.original_sentence === 'string' && v.original_sentence.trim() !== '') {
+    readEx.push(v.original_sentence.trim());
+  }
   let readingHtml = '';
   if (readEx.length>0) {
     readingHtml = '<div class="reading-block"><div class="sec-title">📖 课文原句</div>';
@@ -1650,6 +1825,22 @@ function buildVocabCard(v) {
       collocHtml += `<span class="colloc-chip" title="${escapeHtml(c.example||'')}">${escapeHtml(c.phrase)} — ${escapeHtml(c.translation)}</span>`;
     });
     collocHtml += '</div>';
+  }
+
+  // ---- 课堂练习 (classPractice) ----
+  let pracHtml = '';
+  const prac = Array.isArray(v.classPractice) ? v.classPractice.filter(p=>p&&p.question) : [];
+  if (prac.length>0) {
+    const puid = 'prac_'+v.word.replace(/[^a-z]/gi,'');
+    pracHtml += `<button class="adv-toggle prac-toggle" onclick="toggleAdv(this,'${puid}')"><span class="arr">▶</span> 📚 课堂练习（${prac.length}题 · 点「答案」显示）</button>`;
+    pracHtml += `<div class="adv-box prac-box" id="${puid}">`;
+    prac.forEach((p,i)=>{
+      pracHtml += `<div class="prac-item"><span class="prac-type">${escapeHtml(p.type||'练习')}</span><span class="prac-q">${i+1}) ${escapeHtml(p.question)}</span>`;
+      pracHtml += `<span class="prac-ans" onclick="this.classList.toggle('revealed')"><span class="prac-ans-label">答案</span><span class="prac-ans-text">${escapeHtml(p.answer||'')}</span></span>`;
+      if (p.note) pracHtml += `<span class="prac-note">💡 ${escapeHtml(p.note)}</span>`;
+      pracHtml += `</div>`;
+    });
+    pracHtml += '</div>';
   }
 
   // ---- 句型升级 + 同义替换 + 高级表达 (全部合入展开栏) ----
@@ -1716,6 +1907,7 @@ function buildVocabCard(v) {
         ${exHtml}
         ${idiomHtml}
         ${collocHtml}
+        ${pracHtml}
         ${advHtml}
       </div>
     </div>`;
@@ -1857,6 +2049,25 @@ function renderWritingPrompts(prompts, subId) {
     const vocabHtml = (p.vocabHints || []).length
       ? `<div class="w-vocab-hints">${p.vocabHints.map(v => `<span class="w-vocab-chip">${escapeHtml(v)}</span>`).join('')}</div>`
       : '';
+    const wcHtml = p.wordCount
+      ? `<div class="w-wordcount">📝 ${p.wordCount} words · 雅思 Task 2 要求 ≥250 词</div>`
+      : '';
+    const sn = p.scoringNotes;
+    const scoreHtml = (sn && (sn.bandFeatures || sn.vsGaokao))
+      ? `<div class="w-score-box">
+          <div class="w-score-head">🎯 评分要点${sn.band ? `（Band ${escapeHtml(sn.band)}）` : ''} · 雅思 vs 高考</div>
+          <div class="w-score-cols">
+            <div class="w-score-col band">
+              <div class="wsc-title">本文为何达 Band 8</div>
+              <ul>${(sn.bandFeatures || []).map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>
+            </div>
+            <div class="w-score-col vs">
+              <div class="wsc-title">雅思 ≠ 高考（评分差异）</div>
+              <ul>${(sn.vsGaokao || []).map(x => `<li>${escapeHtml(x)}</li>`).join('')}</ul>
+            </div>
+          </div>
+        </div>`
+      : '';
     html += `
       <div class="w-prompt-card">
         <div class="w-prompt-header">
@@ -1870,6 +2081,8 @@ function renderWritingPrompts(prompts, subId) {
           </button>
           <div class="w-ref-body" id="${uid}">
             <div style="white-space:pre-line;">${escapeHtml(p.reference)}</div>
+            ${wcHtml}
+            ${scoreHtml}
             ${vocabHtml}
           </div>
         </div>
@@ -2181,7 +2394,10 @@ async function loadData() {
   const main = document.getElementById('mainContent');
   const detail = document.getElementById('loadingDetail');
 
+  const bar = document.getElementById('loadingBar');
   overlay.style.display = 'flex';
+  overlay.classList.remove('fade-out');
+  if (bar) bar.style.width = '0%';
   errOverlay.classList.remove('show');
   main.style.display = 'none';
 
@@ -2189,48 +2405,63 @@ async function loadData() {
   const dataFiles = {
     "必修一": { "Unit 1": "bx1_u1_data.json", "Unit 2": "bx1_u2_data.json", "Unit 3": "bx1_u3_data.json", "Unit 4": "bx1_u4_data.json" },
     "必修二": { "Unit 1": "bx2_u1_data.json", "Unit 2": "bx2_u2_data.json", "Unit 3": "bx2_u3_data.json", "Unit 4": "bx2_u4_data.json" },
-    "必修三": { "Unit 1": "bx3_u1_data.json", "Unit 2": "bx3_u2_data.json", "Unit 3": "bx3_u3_data.json", "Unit 4": "bx3_u4_data.json" }
+    "必修三": { "Unit 1": "bx3_u1_data.json", "Unit 2": "bx3_u2_data.json", "Unit 3": "bx3_u3_data.json", "Unit 4": "bx3_u4_data.json" },
+    "选择性必修一": { "Unit 1": "xb1_u1_data.json", "Unit 2": "xb1_u2_data.json", "Unit 3": "xb1_u3_data.json", "Unit 4": "xb1_u4_data.json" },
+    "选择性必修二": { "Unit 1": "xb2_u1_data.json", "Unit 2": "xb2_u2_data.json", "Unit 3": "xb2_u3_data.json", "Unit 4": "xb2_u4_data.json" },
+    "选择性必修三": { "Unit 1": "xb3_u1_data.json", "Unit 2": "xb3_u2_data.json", "Unit 3": "xb3_u3_data.json", "Unit 4": "xb3_u4_data.json" },
+    "选择性必修四": { "Unit 1": "xb4_u1_data.json", "Unit 2": "xb4_u2_data.json", "Unit 3": "xb4_u3_data.json", "Unit 4": "xb4_u4_data.json" },
+    "拓展创新学程一": { "Unit 1": "cx1_u1_data.json", "Unit 2": "cx1_u2_data.json", "Unit 3": "cx1_u3_data.json", "Unit 4": "cx1_u4_data.json" },
+    "拓展创新学程二": { "Unit 1": "cx2_u1_data.json", "Unit 2": "cx2_u2_data.json", "Unit 3": "cx2_u3_data.json", "Unit 4": "cx2_u4_data.json" },
+    "拓展创新学程三": { "Unit 1": "cx3_u1_data.json", "Unit 2": "cx3_u2_data.json", "Unit 3": "cx3_u3_data.json", "Unit 4": "cx3_u4_data.json" }
   };
 
-  let loadedCount = 0;
-  let errorOccurred = false;
+  // 展平成任务列表，并行加载（原来是 16 个文件串行 await，共 ~11MB，很慢）
+  const jobs = [];
+  for (const [textbook, units] of Object.entries(dataFiles))
+    for (const [unitName, fileName] of Object.entries(units))
+      jobs.push({ textbook, unitName, fileName });
 
-  for (const [textbook, units] of Object.entries(dataFiles)) {
-    for (const [unitName, fileName] of Object.entries(units)) {
-      detail.textContent = `正在加载 ${fileName}...`;
-      try {
-        const resp = await fetch(fileName);
-        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-        const data = await resp.json();
-        if (unitData[textbook] && unitData[textbook][unitName]) {
-          unitData[textbook][unitName].vocabularyData = data;
-          // 同步每个词条的 textbook/unit 字段（如果 JSON 中未设置）
-          data.forEach(v => {
-            if (!v.textbook) v.textbook = textbook;
-            if (!v.unit) v.unit = unitName;
-          });
-        }
-        loadedCount++;
-        detail.textContent = `已加载 ${loadedCount} 个数据文件`;
-      } catch (err) {
-        console.error(`加载 ${fileName} 失败:`, err);
-        errorOccurred = true;
-        break;
+  const total = jobs.length;
+  let done = 0, okCount = 0;
+  detail.textContent = `并行加载 ${total} 个词库…`;
+
+  await Promise.all(jobs.map(async (job) => {
+    try {
+      const resp = await fetch(job.fileName);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const data = await resp.json();
+      if (unitData[job.textbook] && unitData[job.textbook][job.unitName]) {
+        unitData[job.textbook][job.unitName].vocabularyData = data;
+        // 同步每个词条的 textbook/unit 字段（如果 JSON 中未设置）
+        data.forEach(v => {
+          if (!v.textbook) v.textbook = job.textbook;
+          if (!v.unit) v.unit = job.unitName;
+        });
       }
+      okCount++;
+    } catch (err) {
+      console.error(`加载 ${job.fileName} 失败:`, err);
+    } finally {
+      done++;
+      if (bar) bar.style.width = Math.round(done / total * 100) + '%';
+      detail.textContent = `已加载 ${done}/${total} 个词库`;
     }
-    if (errorOccurred) break;
-  }
+  }));
 
-  if (errorOccurred || loadedCount === 0) {
-    overlay.style.display = 'none';
+  // 全部失败才报错；部分失败则加载可用的部分并在控制台留痕
+  if (okCount === 0) {
+    overlay.classList.add('fade-out');
+    setTimeout(() => { overlay.style.display = 'none'; }, 400);
     errOverlay.classList.add('show');
     window._dataLoaded = false;
     return;
   }
 
-  // 加载成功
+  // 加载成功：进度拉满后平滑淡出遮罩
   window._dataLoaded = true;
-  overlay.style.display = 'none';
+  if (bar) bar.style.width = '100%';
+  overlay.classList.add('fade-out');
+  setTimeout(() => { overlay.style.display = 'none'; }, 400);
   main.style.display = '';
   rebuildTextbookMeta();
   populateTextbookSelect();
